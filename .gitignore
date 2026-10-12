@@ -22,8 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Product image library (1.8GB / 1000+ images synced from Google Drive)
-# Kept locally in public/images/products to keep git push fast & within GitHub repo limits
-public/images/products/
-!public/images/products/.gitkeep

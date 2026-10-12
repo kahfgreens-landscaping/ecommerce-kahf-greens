@@ -1,0 +1,5 @@
+# Kahf Greens - Product Images Directory
+Product images are synchronized locally from Google Drive:
+`G:\My Drive\ALKAHF LANDSCAPING\ECommerce\Images`
+
+Run `node scripts/generate-image-map.cjs` after adding images to re-index the catalog image map.
