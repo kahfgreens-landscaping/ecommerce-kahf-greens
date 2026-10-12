@@ -1,0 +1,5101 @@
+{
+  "categories": [
+    {
+      "name": "Desch Pots",
+      "slug": "desch-pots",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Bio",
+      "slug": "idel-bio",
+      "productCount": 4
+    },
+    {
+      "name": "Idel Cilindro",
+      "slug": "idel-cilindro",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Classic Round",
+      "slug": "idel-classic-round",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Classic Square 28",
+      "slug": "idel-classic-square-28",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Classic Square 30 SWS",
+      "slug": "idel-classic-square-30-sws",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Classic Windowbox",
+      "slug": "idel-classic-windowbox",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Pback",
+      "slug": "idel-pback",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Dante",
+      "slug": "idel-dante",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Ducale",
+      "slug": "idel-ducale",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Etrusco",
+      "slug": "idel-etrusco",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Grow With Italia",
+      "slug": "idel-grow-with-italia",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Hang Etrusco",
+      "slug": "idel-hang-etrusco",
+      "productCount": 1
+    },
+    {
+      "name": "Idel High Square Living",
+      "slug": "idel-high-square-living",
+      "productCount": 1
+    },
+    {
+      "name": "Idel High Square Living SWS",
+      "slug": "idel-high-square-living-sws",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Hydrus",
+      "slug": "idel-hydrus",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Italia",
+      "slug": "idel-italia",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Jenny",
+      "slug": "idel-jenny",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Kit Elba",
+      "slug": "idel-kit-elba",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Kit Lipari",
+      "slug": "idel-kit-lipari",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Kit Versilia",
+      "slug": "idel-kit-versilia",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Lipari +S",
+      "slug": "idel-lipari-s",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Living High Round",
+      "slug": "idel-living-high-round",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Marinella",
+      "slug": "idel-marinella",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Mosaic Curve 13",
+      "slug": "idel-mosaic-curve-13",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Mosaic Curve 40",
+      "slug": "idel-mosaic-curve-40",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Mosaic Curve 55",
+      "slug": "idel-mosaic-curve-55",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Mosaic Curve High 90",
+      "slug": "idel-mosaic-curve-high-90",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Mosaic Flowerbox",
+      "slug": "idel-mosaic-flowerbox",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Mosaic Quadro 17",
+      "slug": "idel-mosaic-quadro-17",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Quadro 37",
+      "slug": "idel-quadro-37",
+      "productCount": 2
+    },
+    {
+      "name": "Idel Round Living",
+      "slug": "idel-round-living",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Smart Flowerbox",
+      "slug": "idel-smart-flowerbox",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Square Living",
+      "slug": "idel-square-living",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Terme",
+      "slug": "idel-terme",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Twin Set",
+      "slug": "idel-twin-set",
+      "productCount": 2
+    },
+    {
+      "name": "Idel Versilia 60",
+      "slug": "idel-versilia-60",
+      "productCount": 1
+    },
+    {
+      "name": "Idel Volterra",
+      "slug": "idel-volterra",
+      "productCount": 1
+    },
+    {
+      "name": "PB Cassetta Luna",
+      "slug": "pb-cassetta-luna",
+      "productCount": 1
+    },
+    {
+      "name": "PB Maxi Flowerox",
+      "slug": "pb-maxi-flowerox",
+      "productCount": 1
+    },
+    {
+      "name": "Pottery Pots",
+      "slug": "pottery-pots",
+      "productCount": 5
+    }
+  ],
+  "products": [
+    {
+      "id": "desch-emma",
+      "name": "Desch EMMA",
+      "slug": "desch-emma",
+      "category": "Desch Pots",
+      "categorySlug": "desch-pots",
+      "variants": [
+        {
+          "sku": "DESCHP-DESCHE-27-BRICKS",
+          "originalName": "Desch EMMA",
+          "size": "27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "27 cm",
+          "color": "Brick Stone",
+          "quantity": 53,
+          "price": 3.45,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "DESCHP-DESCHE-27-DARKPU",
+          "originalName": "Desch EMMA",
+          "size": "27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "27 cm",
+          "color": "Dark Purple",
+          "quantity": 14,
+          "price": 3.45,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "DESCHP-DESCHE-27-TERRAC",
+          "originalName": "Desch EMMA",
+          "size": "27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "27 cm",
+          "color": "Terracotta",
+          "quantity": 22,
+          "price": 3.45,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "DESCHP-DESCHE-27-WHITE",
+          "originalName": "Desch EMMA",
+          "size": "27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "27 cm",
+          "color": "White",
+          "quantity": 7,
+          "price": 3.45,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 3.45,
+      "maxPrice": 3.45,
+      "totalQuantity": 96,
+      "inStock": true,
+      "colors": [
+        "Brick Stone",
+        "Dark Purple",
+        "Terracotta",
+        "White"
+      ],
+      "sizes": [
+        "27 cm"
+      ]
+    },
+    {
+      "id": "idel-bio-compost-italia-saucer-4-5l",
+      "name": "Idel BIO-COMPOST ITALIA + SAUCER 4.5L",
+      "slug": "idel-bio-compost-italia-saucer-4-5l",
+      "category": "Idel Bio",
+      "categorySlug": "idel-bio",
+      "variants": [
+        {
+          "sku": "IDELBI-IDELBI-2145L-LIGHTT",
+          "originalName": "Idel BIO-COMPOST ITALIA + SAUCER 4.5L",
+          "size": "21",
+          "sizeUnit": "cm",
+          "capacity": "4.5L",
+          "sizeLabel": "4.5L (21 cm)",
+          "color": "Light Terracotta",
+          "quantity": 29,
+          "price": 6.45,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 6.45,
+      "maxPrice": 6.45,
+      "totalQuantity": 29,
+      "inStock": true,
+      "colors": [
+        "Light Terracotta"
+      ],
+      "sizes": [
+        "4.5L (21 cm)"
+      ]
+    },
+    {
+      "id": "idel-bio-compost-lipari-s",
+      "name": "Idel BIO-COMPOST LIPARI+S",
+      "slug": "idel-bio-compost-lipari-s",
+      "category": "Idel Bio",
+      "categorySlug": "idel-bio",
+      "variants": [
+        {
+          "sku": "IDELBI-IDELBI-275-LIGHTT",
+          "originalName": "Idel BIO-COMPOST LIPARI+S",
+          "size": "27.5",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "27.5 cm",
+          "color": "Light Terracotta",
+          "quantity": 15,
+          "price": 8,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 8,
+      "maxPrice": 8,
+      "totalQuantity": 15,
+      "inStock": true,
+      "colors": [
+        "Light Terracotta"
+      ],
+      "sizes": [
+        "27.5 cm"
+      ]
+    },
+    {
+      "id": "idel-bio-compost-living-flowerbox-s",
+      "name": "Idel BIO-COMPOST LIVING FLOWERBOX+S",
+      "slug": "idel-bio-compost-living-flowerbox-s",
+      "category": "Idel Bio",
+      "categorySlug": "idel-bio",
+      "variants": [
+        {
+          "sku": "IDELBI-IDELBI-30-LIGHTT",
+          "originalName": "Idel BIO-COMPOST LIVING FLOWERBOX+S",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "30 cm",
+          "color": "Light Terracotta",
+          "quantity": 60,
+          "price": 13,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 13,
+      "maxPrice": 13,
+      "totalQuantity": 60,
+      "inStock": true,
+      "colors": [
+        "Light Terracotta"
+      ],
+      "sizes": [
+        "30 cm"
+      ]
+    },
+    {
+      "id": "idel-bio-compost-tirreno-mini-saucer-2-5l",
+      "name": "Idel BIO-COMPOST TIRRENO MINI + SAUCER 2.5L",
+      "slug": "idel-bio-compost-tirreno-mini-saucer-2-5l",
+      "category": "Idel Bio",
+      "categorySlug": "idel-bio",
+      "variants": [
+        {
+          "sku": "IDELBI-IDELBI-2525L-LIGHTT",
+          "originalName": "Idel BIO-COMPOST TIRRENO MINI + SAUCER 2.5L",
+          "size": "25",
+          "sizeUnit": "cm",
+          "capacity": "2.5L",
+          "sizeLabel": "2.5L (25 cm)",
+          "color": "Light Terracotta",
+          "quantity": 127,
+          "price": 3.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 3.5,
+      "maxPrice": 3.5,
+      "totalQuantity": 127,
+      "inStock": true,
+      "colors": [
+        "Light Terracotta"
+      ],
+      "sizes": [
+        "2.5L (25 cm)"
+      ]
+    },
+    {
+      "id": "idel-cilindro-liscio",
+      "name": "Idel CILINDRO LISCIO",
+      "slug": "idel-cilindro-liscio",
+      "category": "Idel Cilindro",
+      "categorySlug": "idel-cilindro",
+      "variants": [
+        {
+          "sku": "IDELCI-IDELCI-40X30-IMPRUN",
+          "originalName": "Idel CILINDRO LISCIO",
+          "size": "40X30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40X30 cm",
+          "color": "Impruneta",
+          "quantity": 4,
+          "price": 60,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCI-IDELCI-40X30-TERRAC",
+          "originalName": "Idel CILINDRO LISCIO",
+          "size": "40X30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40X30 cm",
+          "color": "Terracotta",
+          "quantity": 4,
+          "price": 60,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCI-IDELCI-60X45-IMPRUN",
+          "originalName": "Idel CILINDRO LISCIO",
+          "size": "60X45",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "60X45 cm",
+          "color": "Impruneta",
+          "quantity": 3,
+          "price": 120,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCI-IDELCI-60X45-TERRAC",
+          "originalName": "Idel CILINDRO LISCIO",
+          "size": "60X45",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "60X45 cm",
+          "color": "Terracotta",
+          "quantity": 5,
+          "price": 120,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 60,
+      "maxPrice": 120,
+      "totalQuantity": 16,
+      "inStock": true,
+      "colors": [
+        "Impruneta",
+        "Terracotta"
+      ],
+      "sizes": [
+        "40X30 cm",
+        "60X45 cm"
+      ]
+    },
+    {
+      "id": "idel-classic-matte-round",
+      "name": "Idel CLASSIC MATTE ROUND",
+      "slug": "idel-classic-matte-round",
+      "category": "Idel Classic Round",
+      "categorySlug": "idel-classic-round",
+      "variants": [
+        {
+          "sku": "IDELCL-IDELCL-27-ANTHRA",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "27 cm",
+          "color": "Anthracite",
+          "quantity": 68,
+          "price": 8,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-27-ASHSKY",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "27 cm",
+          "color": "Ash Sky Blue",
+          "quantity": 61,
+          "price": 8,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-27-PISTAC",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "27 cm",
+          "color": "Pistachio",
+          "quantity": 65,
+          "price": 8,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-27-PURPLE",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "27 cm",
+          "color": "Purple",
+          "quantity": 73,
+          "price": 8,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-27-TAUPE",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "27 cm",
+          "color": "Taupe",
+          "quantity": 46,
+          "price": 8,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-27-WHITE",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "27 cm",
+          "color": "White",
+          "quantity": 84,
+          "price": 8,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-32-ANTHRA",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "32",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "32 cm",
+          "color": "Anthracite",
+          "quantity": 18,
+          "price": 13.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-32-ASHSKY",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "32",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "32 cm",
+          "color": "Ash Sky",
+          "quantity": 23,
+          "price": 13.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-32-PISTAC",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "32",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "32 cm",
+          "color": "Pistachio",
+          "quantity": 25,
+          "price": 13.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-32-PURPLE",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "32",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "32 cm",
+          "color": "Purple",
+          "quantity": 13,
+          "price": 13.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-32-WHITE",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "32",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "32 cm",
+          "color": "White",
+          "quantity": 22,
+          "price": 13.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-45-ANTHRA",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "45",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "45 cm",
+          "color": "Anthracite",
+          "quantity": 7,
+          "price": 35,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-45-ASH",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "45",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "45 cm",
+          "color": "Ash",
+          "quantity": 15,
+          "price": 35,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-45-PISTAC",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "45",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "45 cm",
+          "color": "Pistachio",
+          "quantity": 2,
+          "price": 35,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-45-TAUPE",
+          "originalName": "Idel CLASSIC MATTE ROUND",
+          "size": "45",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "45 cm",
+          "color": "Taupe",
+          "quantity": 13,
+          "price": 35,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 8,
+      "maxPrice": 35,
+      "totalQuantity": 535,
+      "inStock": true,
+      "colors": [
+        "Anthracite",
+        "Ash Sky Blue",
+        "Pistachio",
+        "Purple",
+        "Taupe",
+        "White",
+        "Ash Sky",
+        "Ash"
+      ],
+      "sizes": [
+        "27 cm",
+        "32 cm",
+        "45 cm"
+      ]
+    },
+    {
+      "id": "idel-classic-matte-square",
+      "name": "Idel CLASSIC MATTE SQUARE",
+      "slug": "idel-classic-matte-square",
+      "category": "Idel Classic Square 28",
+      "categorySlug": "idel-classic-square-28",
+      "variants": [
+        {
+          "sku": "IDELCL-IDELCL-28-ASHSKY",
+          "originalName": "Idel CLASSIC MATTE SQUARE",
+          "size": "28",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "28 cm",
+          "color": "Ash Sky Blue",
+          "quantity": 12,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-28-PISTAC",
+          "originalName": "Idel CLASSIC MATTE SQUARE",
+          "size": "28",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "28 cm",
+          "color": "Pistachio",
+          "quantity": 18,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-28-POWDER",
+          "originalName": "Idel CLASSIC MATTE SQUARE",
+          "size": "28",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "28 cm",
+          "color": "Powder",
+          "quantity": 12,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-28-PURPLE",
+          "originalName": "Idel CLASSIC MATTE SQUARE",
+          "size": "28",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "28 cm",
+          "color": "Purple",
+          "quantity": 9,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-28-SABBIA",
+          "originalName": "Idel CLASSIC MATTE SQUARE",
+          "size": "28",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "28 cm",
+          "color": "Sabbia",
+          "quantity": 17,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-28-TAUPE",
+          "originalName": "Idel CLASSIC MATTE SQUARE",
+          "size": "28",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "28 cm",
+          "color": "Taupe",
+          "quantity": 22,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-28-WHITE",
+          "originalName": "Idel CLASSIC MATTE SQUARE",
+          "size": "28",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "28 cm",
+          "color": "White",
+          "quantity": 25,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 15,
+      "maxPrice": 15,
+      "totalQuantity": 115,
+      "inStock": true,
+      "colors": [
+        "Ash Sky Blue",
+        "Pistachio",
+        "Powder",
+        "Purple",
+        "Sabbia",
+        "Taupe",
+        "White"
+      ],
+      "sizes": [
+        "28 cm"
+      ]
+    },
+    {
+      "id": "idel-classic-square-high-sws",
+      "name": "Idel CLASSIC SQUARE HIGH SWS",
+      "slug": "idel-classic-square-high-sws",
+      "category": "Idel Classic Square 30 SWS",
+      "categorySlug": "idel-classic-square-30-sws",
+      "variants": [
+        {
+          "sku": "IDELCL-IDELCL-30-ANTHRA",
+          "originalName": "Idel CLASSIC SQUARE HIGH SWS",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "30 cm",
+          "color": "Anthracite",
+          "quantity": 10,
+          "price": 26,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-30-PISTAC",
+          "originalName": "Idel CLASSIC SQUARE HIGH SWS",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "30 cm",
+          "color": "Pistachio",
+          "quantity": 18,
+          "price": 26,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-30-POWDER",
+          "originalName": "Idel CLASSIC SQUARE HIGH SWS",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "30 cm",
+          "color": "Powder",
+          "quantity": 9,
+          "price": 26,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-30-SABBIA",
+          "originalName": "Idel CLASSIC SQUARE HIGH SWS",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "30 cm",
+          "color": "Sabbia",
+          "quantity": 19,
+          "price": 26,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-30-TAUPE",
+          "originalName": "Idel CLASSIC SQUARE HIGH SWS",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "30 cm",
+          "color": "Taupe",
+          "quantity": 13,
+          "price": 26,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-30-WHITE",
+          "originalName": "Idel CLASSIC SQUARE HIGH SWS",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "30 cm",
+          "color": "White",
+          "quantity": 16,
+          "price": 26,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 26,
+      "maxPrice": 26,
+      "totalQuantity": 85,
+      "inStock": true,
+      "colors": [
+        "Anthracite",
+        "Pistachio",
+        "Powder",
+        "Sabbia",
+        "Taupe",
+        "White"
+      ],
+      "sizes": [
+        "30 cm"
+      ]
+    },
+    {
+      "id": "idel-classic-windowbox-sws",
+      "name": "Idel CLASSIC WINDOWBOX SWS",
+      "slug": "idel-classic-windowbox-sws",
+      "category": "Idel Classic Windowbox",
+      "categorySlug": "idel-classic-windowbox",
+      "variants": [
+        {
+          "sku": "IDELCL-IDELCL-50-ASHSKY",
+          "originalName": "Idel CLASSIC WINDOWBOX SWS",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Ash Sky Blue",
+          "quantity": 16,
+          "price": 19,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-50-POWDER",
+          "originalName": "Idel CLASSIC WINDOWBOX SWS",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Powder",
+          "quantity": 20,
+          "price": 19,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-50-SABBIA",
+          "originalName": "Idel CLASSIC WINDOWBOX SWS",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Sabbia",
+          "quantity": 8,
+          "price": 19,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-50-TAUPE",
+          "originalName": "Idel CLASSIC WINDOWBOX SWS",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Taupe",
+          "quantity": 14,
+          "price": 19,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-50-PISTAC",
+          "originalName": "Idel CLASSIC WINDOWBOX SWS",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Pistachio",
+          "quantity": 14,
+          "price": 19,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELCL-IDELCL-50-PURPLE",
+          "originalName": "Idel CLASSIC WINDOWBOX SWS",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Purple",
+          "quantity": 50,
+          "price": 19,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 19,
+      "maxPrice": 19,
+      "totalQuantity": 122,
+      "inStock": true,
+      "colors": [
+        "Ash Sky Blue",
+        "Powder",
+        "Sabbia",
+        "Taupe",
+        "Pistachio",
+        "Purple"
+      ],
+      "sizes": [
+        "50 cm"
+      ]
+    },
+    {
+      "id": "idel-cl-matte-pback-box-sws",
+      "name": "Idel CL MATTE PBACK BOX SWS",
+      "slug": "idel-cl-matte-pback-box-sws",
+      "category": "Idel Pback",
+      "categorySlug": "idel-pback",
+      "variants": [
+        {
+          "sku": "IDELPB-IDELCL-30-ANTHRA",
+          "originalName": "Idel CL MATTE PBACK BOX SWS",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "30 cm",
+          "color": "Anthracite",
+          "quantity": 14,
+          "price": 33,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELPB-IDELCL-30-CLAYRE",
+          "originalName": "Idel CL MATTE PBACK BOX SWS",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "30 cm",
+          "color": "Clay Resnova",
+          "quantity": 5,
+          "price": 33,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELPB-IDELCL-30-SAGE",
+          "originalName": "Idel CL MATTE PBACK BOX SWS",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "30 cm",
+          "color": "Sage",
+          "quantity": 5,
+          "price": 33,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELPB-IDELCL-30-WHITE",
+          "originalName": "Idel CL MATTE PBACK BOX SWS",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "30 cm",
+          "color": "White",
+          "quantity": 10,
+          "price": 33,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELPB-IDELCL-58-ANTHRA",
+          "originalName": "Idel CL MATTE PBACK BOX SWS",
+          "size": "58",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "58 cm",
+          "color": "Anthracite",
+          "quantity": 13,
+          "price": 33,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELPB-IDELCL-58-ROCKRE",
+          "originalName": "Idel CL MATTE PBACK BOX SWS",
+          "size": "58",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "58 cm",
+          "color": "Rock Res Nova",
+          "quantity": 2,
+          "price": 33,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELPB-IDELCL-58-WHITE",
+          "originalName": "Idel CL MATTE PBACK BOX SWS",
+          "size": "58",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "58 cm",
+          "color": "White",
+          "quantity": 6,
+          "price": 33,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 33,
+      "maxPrice": 33,
+      "totalQuantity": 55,
+      "inStock": true,
+      "colors": [
+        "Anthracite",
+        "Clay Resnova",
+        "Sage",
+        "White",
+        "Rock Res Nova"
+      ],
+      "sizes": [
+        "30 cm",
+        "58 cm"
+      ]
+    },
+    {
+      "id": "idel-dante",
+      "name": "Idel DANTE",
+      "slug": "idel-dante",
+      "category": "Idel Dante",
+      "categorySlug": "idel-dante",
+      "variants": [
+        {
+          "sku": "IDELDA-IDELDA-1007L-LILAC",
+          "originalName": "Idel DANTE 0.7L",
+          "size": "10",
+          "sizeUnit": "cm",
+          "capacity": "0.7L",
+          "sizeLabel": "0.7L (10 cm)",
+          "color": "Lilac",
+          "quantity": 20,
+          "price": 2,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1007L-ORANGE",
+          "originalName": "Idel DANTE 0.7L",
+          "size": "10",
+          "sizeUnit": "cm",
+          "capacity": "0.7L",
+          "sizeLabel": "0.7L (10 cm)",
+          "color": "Orange",
+          "quantity": 7,
+          "price": 2,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1007L-PISTAC",
+          "originalName": "Idel DANTE 0.7L",
+          "size": "10",
+          "sizeUnit": "cm",
+          "capacity": "0.7L",
+          "sizeLabel": "0.7L (10 cm)",
+          "color": "Pistachio",
+          "quantity": 4,
+          "price": 2,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1007L-SABBIA",
+          "originalName": "Idel DANTE 0.7L",
+          "size": "10",
+          "sizeUnit": "cm",
+          "capacity": "0.7L",
+          "sizeLabel": "0.7L (10 cm)",
+          "color": "Sabbia",
+          "quantity": 19,
+          "price": 2,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1007L-TRANSP",
+          "originalName": "Idel DANTE 0.7L",
+          "size": "10",
+          "sizeUnit": "cm",
+          "capacity": "0.7L",
+          "sizeLabel": "0.7L (10 cm)",
+          "color": "Transparent/Lime",
+          "quantity": 27,
+          "price": 2,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1007L-TRANSP",
+          "originalName": "Idel DANTE 0.7L",
+          "size": "10",
+          "sizeUnit": "cm",
+          "capacity": "0.7L",
+          "sizeLabel": "0.7L (10 cm)",
+          "color": "Transparent/Pink",
+          "quantity": 27,
+          "price": 2,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1007L-TRANSP",
+          "originalName": "Idel DANTE 0.7L",
+          "size": "10",
+          "sizeUnit": "cm",
+          "capacity": "0.7L",
+          "sizeLabel": "0.7L (10 cm)",
+          "color": "Transparent/Violet",
+          "quantity": 31,
+          "price": 2,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1007L-TRANSP",
+          "originalName": "Idel DANTE 0.7L",
+          "size": "10",
+          "sizeUnit": "cm",
+          "capacity": "0.7L",
+          "sizeLabel": "0.7L (10 cm)",
+          "color": "Transparent/White",
+          "quantity": 21,
+          "price": 2,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1007L-WHITE",
+          "originalName": "Idel DANTE 0.7L",
+          "size": "10",
+          "sizeUnit": "cm",
+          "capacity": "0.7L",
+          "sizeLabel": "0.7L (10 cm)",
+          "color": "White",
+          "quantity": 12,
+          "price": 2,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1725L-LILAC",
+          "originalName": "Idel DANTE 2.5L",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": "2.5L",
+          "sizeLabel": "2.5L (17 cm)",
+          "color": "Lilac",
+          "quantity": 31,
+          "price": 7.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1725L-PISTAC",
+          "originalName": "Idel DANTE 2.5L",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": "2.5L",
+          "sizeLabel": "2.5L (17 cm)",
+          "color": "Pistachio",
+          "quantity": 28,
+          "price": 7.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1725L-SABBIA",
+          "originalName": "Idel DANTE 2.5L",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": "2.5L",
+          "sizeLabel": "2.5L (17 cm)",
+          "color": "Sabbia",
+          "quantity": 24,
+          "price": 7.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1725L-TRANSP",
+          "originalName": "Idel DANTE 2.5L",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": "2.5L",
+          "sizeLabel": "2.5L (17 cm)",
+          "color": "Transparent/Lime",
+          "quantity": 41,
+          "price": 7.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1725L-TRANSP",
+          "originalName": "Idel DANTE 2.5L",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": "2.5L",
+          "sizeLabel": "2.5L (17 cm)",
+          "color": "Transparent/Pink",
+          "quantity": 33,
+          "price": 7.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1725L-TRANSP",
+          "originalName": "Idel DANTE 2.5L",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": "2.5L",
+          "sizeLabel": "2.5L (17 cm)",
+          "color": "Transparent/Violet",
+          "quantity": 34,
+          "price": 7.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1725L-TRANSP",
+          "originalName": "Idel DANTE 2.5L",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": "2.5L",
+          "sizeLabel": "2.5L (17 cm)",
+          "color": "Transparent/White",
+          "quantity": 21,
+          "price": 7.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDA-IDELDA-1725L-WHITE",
+          "originalName": "Idel DANTE 2.5L",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": "2.5L",
+          "sizeLabel": "2.5L (17 cm)",
+          "color": "White",
+          "quantity": 30,
+          "price": 7.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 2,
+      "maxPrice": 7.5,
+      "totalQuantity": 410,
+      "inStock": true,
+      "colors": [
+        "Lilac",
+        "Orange",
+        "Pistachio",
+        "Sabbia",
+        "Transparent/Lime",
+        "Transparent/Pink",
+        "Transparent/Violet",
+        "Transparent/White",
+        "White"
+      ],
+      "sizes": [
+        "0.7L (10 cm)",
+        "2.5L (17 cm)"
+      ]
+    },
+    {
+      "id": "idel-ducale-lt60",
+      "name": "Idel DUCALE LT60",
+      "slug": "idel-ducale-lt60",
+      "category": "Idel Ducale",
+      "categorySlug": "idel-ducale",
+      "variants": [
+        {
+          "sku": "IDELDU-IDELDU-80X37X-ASHSKY",
+          "originalName": "Idel DUCALE LT60",
+          "size": "80X37X32",
+          "sizeUnit": "cm",
+          "capacity": "60L",
+          "sizeLabel": "60L (80X37X32 cm)",
+          "color": "Ash Sky Blue",
+          "quantity": 5,
+          "price": 60,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDU-IDELDU-80X37X-PISTAC",
+          "originalName": "Idel DUCALE LT60",
+          "size": "80X37X32",
+          "sizeUnit": "cm",
+          "capacity": "60L",
+          "sizeLabel": "60L (80X37X32 cm)",
+          "color": "Pistachio",
+          "quantity": 5,
+          "price": 60,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDU-IDELDU-80X37X-POWDER",
+          "originalName": "Idel DUCALE LT60",
+          "size": "80X37X32",
+          "sizeUnit": "cm",
+          "capacity": "60L",
+          "sizeLabel": "60L (80X37X32 cm)",
+          "color": "Powder",
+          "quantity": 5,
+          "price": 60,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELDU-IDELDU-80X37X-SABBIA",
+          "originalName": "Idel DUCALE LT60",
+          "size": "80X37X32",
+          "sizeUnit": "cm",
+          "capacity": "60L",
+          "sizeLabel": "60L (80X37X32 cm)",
+          "color": "Sabbia",
+          "quantity": 4,
+          "price": 60,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 60,
+      "maxPrice": 60,
+      "totalQuantity": 19,
+      "inStock": true,
+      "colors": [
+        "Ash Sky Blue",
+        "Pistachio",
+        "Powder",
+        "Sabbia"
+      ],
+      "sizes": [
+        "60L (80X37X32 cm)"
+      ]
+    },
+    {
+      "id": "idel-etrusco",
+      "name": "Idel ETRUSCO",
+      "slug": "idel-etrusco",
+      "category": "Idel Etrusco",
+      "categorySlug": "idel-etrusco",
+      "variants": [
+        {
+          "sku": "IDELET-IDELET-30X271-ANTHRA",
+          "originalName": "Idel ETRUSCO 15L",
+          "size": "30X27",
+          "sizeUnit": "cm",
+          "capacity": "15L",
+          "sizeLabel": "15L (30X27 cm)",
+          "color": "Anthracite",
+          "quantity": 9,
+          "price": 10,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-30X271-TAUPE",
+          "originalName": "Idel ETRUSCO 15L",
+          "size": "30X27",
+          "sizeUnit": "cm",
+          "capacity": "15L",
+          "sizeLabel": "15L (30X27 cm)",
+          "color": "Taupe",
+          "quantity": 13,
+          "price": 10,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-30X271-TERRAC",
+          "originalName": "Idel ETRUSCO 15L",
+          "size": "30X27",
+          "sizeUnit": "cm",
+          "capacity": "15L",
+          "sizeLabel": "15L (30X27 cm)",
+          "color": "Terracotta",
+          "quantity": 9,
+          "price": 10,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-4-ANTHRA",
+          "originalName": "Idel ETRUSCO",
+          "size": "4",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4 L",
+          "color": "Anthracite",
+          "quantity": 73,
+          "price": 3.25,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-4-ASHSKY",
+          "originalName": "Idel ETRUSCO",
+          "size": "4",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4 L",
+          "color": "Ash Sky Blue",
+          "quantity": 41,
+          "price": 3.25,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-4-LIME",
+          "originalName": "Idel ETRUSCO",
+          "size": "4",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4 L",
+          "color": "Lime",
+          "quantity": 104,
+          "price": 3.25,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-4-PISTAC",
+          "originalName": "Idel ETRUSCO",
+          "size": "4",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4 L",
+          "color": "Pistachio",
+          "quantity": 75,
+          "price": 3.25,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-4-POWDER",
+          "originalName": "Idel ETRUSCO",
+          "size": "4",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4 L",
+          "color": "Powder",
+          "quantity": 48,
+          "price": 3.25,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-4-TERRAC",
+          "originalName": "Idel ETRUSCO",
+          "size": "4",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4 L",
+          "color": "Terracotta",
+          "quantity": 69,
+          "price": 3.25,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-4-WHITE",
+          "originalName": "Idel ETRUSCO",
+          "size": "4",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4 L",
+          "color": "White",
+          "quantity": 78,
+          "price": 3.25,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-75-ANTHRA",
+          "originalName": "Idel ETRUSCO",
+          "size": "7.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "7.5 L",
+          "color": "Anthracite",
+          "quantity": 44,
+          "price": 5.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-75-ASHSKY",
+          "originalName": "Idel ETRUSCO",
+          "size": "7.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "7.5 L",
+          "color": "Ash Sky Blue",
+          "quantity": 46,
+          "price": 5.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-75-LIME",
+          "originalName": "Idel ETRUSCO",
+          "size": "7.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "7.5 L",
+          "color": "Lime",
+          "quantity": 63,
+          "price": 5.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-75-PISTAC",
+          "originalName": "Idel ETRUSCO",
+          "size": "7.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "7.5 L",
+          "color": "Pistachio",
+          "quantity": 66,
+          "price": 5.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-75-POWDER",
+          "originalName": "Idel ETRUSCO",
+          "size": "7.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "7.5 L",
+          "color": "Powder",
+          "quantity": 40,
+          "price": 5.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-75-TERRAC",
+          "originalName": "Idel ETRUSCO",
+          "size": "7.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "7.5 L",
+          "color": "Terracotta",
+          "quantity": 64,
+          "price": 5.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELET-IDELET-75-WHITE",
+          "originalName": "Idel ETRUSCO",
+          "size": "7.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "7.5 L",
+          "color": "White",
+          "quantity": 46,
+          "price": 5.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 3.25,
+      "maxPrice": 10,
+      "totalQuantity": 888,
+      "inStock": true,
+      "colors": [
+        "Anthracite",
+        "Taupe",
+        "Terracotta",
+        "Ash Sky Blue",
+        "Lime",
+        "Pistachio",
+        "Powder",
+        "White"
+      ],
+      "sizes": [
+        "15L (30X27 cm)",
+        "4 L",
+        "7.5 L"
+      ]
+    },
+    {
+      "id": "idel-grow-with-italia",
+      "name": "Idel GROW WITH ITALIA",
+      "slug": "idel-grow-with-italia",
+      "category": "Idel Grow With Italia",
+      "categorySlug": "idel-grow-with-italia",
+      "variants": [
+        {
+          "sku": "IDELGR-IDELGR-28-LILAC",
+          "originalName": "Idel GROW WITH ITALIA",
+          "size": "28",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "28 cm",
+          "color": "Lilac",
+          "quantity": 48,
+          "price": 8,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELGR-IDELGR-28-LIME",
+          "originalName": "Idel GROW WITH ITALIA",
+          "size": "28",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "28 cm",
+          "color": "Lime",
+          "quantity": 51,
+          "price": 8,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELGR-IDELGR-28-RED",
+          "originalName": "Idel GROW WITH ITALIA",
+          "size": "28",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "28 cm",
+          "color": "Red",
+          "quantity": 18,
+          "price": 8,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 8,
+      "maxPrice": 8,
+      "totalQuantity": 117,
+      "inStock": true,
+      "colors": [
+        "Lilac",
+        "Lime",
+        "Red"
+      ],
+      "sizes": [
+        "28 cm"
+      ]
+    },
+    {
+      "id": "idel-hang-etrusco-3-2l",
+      "name": "Idel HANG ETRUSCO 3.2L",
+      "slug": "idel-hang-etrusco-3-2l",
+      "category": "Idel Hang Etrusco",
+      "categorySlug": "idel-hang-etrusco",
+      "variants": [
+        {
+          "sku": "IDELHA-IDELHA-2032L-ANTHRA",
+          "originalName": "Idel HANG ETRUSCO 3.2L",
+          "size": "20",
+          "sizeUnit": "cm",
+          "capacity": "3.2L",
+          "sizeLabel": "3.2L (20 cm)",
+          "color": "Anthracite",
+          "quantity": 42,
+          "price": 18,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHA-IDELHA-2032L-ASHSKY",
+          "originalName": "Idel HANG ETRUSCO 3.2L",
+          "size": "20",
+          "sizeUnit": "cm",
+          "capacity": "3.2L",
+          "sizeLabel": "3.2L (20 cm)",
+          "color": "Ash Sky Blue",
+          "quantity": 41,
+          "price": 18,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHA-IDELHA-2032L-FUCHSI",
+          "originalName": "Idel HANG ETRUSCO 3.2L",
+          "size": "20",
+          "sizeUnit": "cm",
+          "capacity": "3.2L",
+          "sizeLabel": "3.2L (20 cm)",
+          "color": "Fuchsia",
+          "quantity": 30,
+          "price": 18,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHA-IDELHA-2032L-IVORY",
+          "originalName": "Idel HANG ETRUSCO 3.2L",
+          "size": "20",
+          "sizeUnit": "cm",
+          "capacity": "3.2L",
+          "sizeLabel": "3.2L (20 cm)",
+          "color": "Ivory",
+          "quantity": 28,
+          "price": 18,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHA-IDELHA-2032L-LIME",
+          "originalName": "Idel HANG ETRUSCO 3.2L",
+          "size": "20",
+          "sizeUnit": "cm",
+          "capacity": "3.2L",
+          "sizeLabel": "3.2L (20 cm)",
+          "color": "Lime",
+          "quantity": 31,
+          "price": 18,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHA-IDELHA-2032L-PISTAC",
+          "originalName": "Idel HANG ETRUSCO 3.2L",
+          "size": "20",
+          "sizeUnit": "cm",
+          "capacity": "3.2L",
+          "sizeLabel": "3.2L (20 cm)",
+          "color": "Pistachio",
+          "quantity": 18,
+          "price": 18,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHA-IDELHA-2032L-POWDER",
+          "originalName": "Idel HANG ETRUSCO 3.2L",
+          "size": "20",
+          "sizeUnit": "cm",
+          "capacity": "3.2L",
+          "sizeLabel": "3.2L (20 cm)",
+          "color": "Powder",
+          "quantity": 32,
+          "price": 18,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHA-IDELHA-2032L-TAUPE",
+          "originalName": "Idel HANG ETRUSCO 3.2L",
+          "size": "20",
+          "sizeUnit": "cm",
+          "capacity": "3.2L",
+          "sizeLabel": "3.2L (20 cm)",
+          "color": "Taupe",
+          "quantity": 39,
+          "price": 18,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHA-IDELHA-2032L-TERRAC",
+          "originalName": "Idel HANG ETRUSCO 3.2L",
+          "size": "20",
+          "sizeUnit": "cm",
+          "capacity": "3.2L",
+          "sizeLabel": "3.2L (20 cm)",
+          "color": "Terracotta",
+          "quantity": 20,
+          "price": 18,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 18,
+      "maxPrice": 18,
+      "totalQuantity": 281,
+      "inStock": true,
+      "colors": [
+        "Anthracite",
+        "Ash Sky Blue",
+        "Fuchsia",
+        "Ivory",
+        "Lime",
+        "Pistachio",
+        "Powder",
+        "Taupe",
+        "Terracotta"
+      ],
+      "sizes": [
+        "3.2L (20 cm)"
+      ]
+    },
+    {
+      "id": "idel-high-square-living",
+      "name": "Idel HIGH SQUARE LIVING",
+      "slug": "idel-high-square-living",
+      "category": "Idel High Square Living",
+      "categorySlug": "idel-high-square-living",
+      "variants": [
+        {
+          "sku": "IDELHI-IDELHI-15X15-BLACK",
+          "originalName": "Idel HIGH SQUARE LIVING",
+          "size": "15X15",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "15X15 cm",
+          "color": "Black",
+          "quantity": 15,
+          "price": 10,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHI-IDELHI-15X15-LIME",
+          "originalName": "Idel HIGH SQUARE LIVING",
+          "size": "15X15",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "15X15 cm",
+          "color": "Lime",
+          "quantity": 17,
+          "price": 10,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHI-IDELHI-15X15-PINK",
+          "originalName": "Idel HIGH SQUARE LIVING",
+          "size": "15X15",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "15X15 cm",
+          "color": "Pink",
+          "quantity": 12,
+          "price": 10,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHI-IDELHI-15X15-TRANSP",
+          "originalName": "Idel HIGH SQUARE LIVING",
+          "size": "15X15",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "15X15 cm",
+          "color": "Transparent",
+          "quantity": 32,
+          "price": 10,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 10,
+      "maxPrice": 10,
+      "totalQuantity": 76,
+      "inStock": true,
+      "colors": [
+        "Black",
+        "Lime",
+        "Pink",
+        "Transparent"
+      ],
+      "sizes": [
+        "15X15 cm"
+      ]
+    },
+    {
+      "id": "idel-hs-living-sws",
+      "name": "Idel HS LIVING SWS",
+      "slug": "idel-hs-living-sws",
+      "category": "Idel High Square Living SWS",
+      "categorySlug": "idel-high-square-living-sws",
+      "variants": [
+        {
+          "sku": "IDELHI-IDELHS-15X15-BLACKF",
+          "originalName": "Idel HS LIVING SWS",
+          "size": "15X15",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "15X15 cm",
+          "color": "Black/Fuchsia",
+          "quantity": 23,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHI-IDELHS-15X15-BLACKL",
+          "originalName": "Idel HS LIVING SWS",
+          "size": "15X15",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "15X15 cm",
+          "color": "Black/Lime",
+          "quantity": 9,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHI-IDELHS-15X15-BLACKR",
+          "originalName": "Idel HS LIVING SWS",
+          "size": "15X15",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "15X15 cm",
+          "color": "Black/Red",
+          "quantity": 16,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHI-IDELHS-15X15-BLACKW",
+          "originalName": "Idel HS LIVING SWS",
+          "size": "15X15",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "15X15 cm",
+          "color": "Black/White",
+          "quantity": 16,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHI-IDELHS-15X15-TRANSP",
+          "originalName": "Idel HS LIVING SWS",
+          "size": "15X15",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "15X15 cm",
+          "color": "Transparent White/Transparent Lime",
+          "quantity": 4,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHI-IDELHS-15X15-TRANSP",
+          "originalName": "Idel HS LIVING SWS",
+          "size": "15X15",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "15X15 cm",
+          "color": "Transparent White/Transparent Pink",
+          "quantity": 10,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHI-IDELHS-15X15-TRANSP",
+          "originalName": "Idel HS LIVING SWS",
+          "size": "15X15",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "15X15 cm",
+          "color": "Transparent White/Transparent Violet",
+          "quantity": 5,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 15,
+      "maxPrice": 15,
+      "totalQuantity": 83,
+      "inStock": true,
+      "colors": [
+        "Black/Fuchsia",
+        "Black/Lime",
+        "Black/Red",
+        "Black/White",
+        "Transparent White/Transparent Lime",
+        "Transparent White/Transparent Pink",
+        "Transparent White/Transparent Violet"
+      ],
+      "sizes": [
+        "15X15 cm"
+      ]
+    },
+    {
+      "id": "idel-hydrus",
+      "name": "Idel HYDRUS",
+      "slug": "idel-hydrus",
+      "category": "Idel Hydrus",
+      "categorySlug": "idel-hydrus",
+      "variants": [
+        {
+          "sku": "IDELHY-IDELHY-36X36X-DARKAN",
+          "originalName": "Idel HYDRUS",
+          "size": "36X36X50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "36X36X50 cm",
+          "color": "Dark Anthracite",
+          "quantity": 2,
+          "price": 80,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHY-IDELHY-36X36X-DARKGR",
+          "originalName": "Idel HYDRUS",
+          "size": "36X36X50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "36X36X50 cm",
+          "color": "Dark Grey",
+          "quantity": 3,
+          "price": 80,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELHY-IDELHY-36X36X-IMPRUN",
+          "originalName": "Idel HYDRUS",
+          "size": "36X36X50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "36X36X50 cm",
+          "color": "Impruneta",
+          "quantity": 6,
+          "price": 80,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 80,
+      "maxPrice": 80,
+      "totalQuantity": 11,
+      "inStock": true,
+      "colors": [
+        "Dark Anthracite",
+        "Dark Grey",
+        "Impruneta"
+      ],
+      "sizes": [
+        "36X36X50 cm"
+      ]
+    },
+    {
+      "id": "idel-italia",
+      "name": "Idel ITALIA",
+      "slug": "idel-italia",
+      "category": "Idel Italia",
+      "categorySlug": "idel-italia",
+      "variants": [
+        {
+          "sku": "IDELIT-IDELIT-19-NOVACA",
+          "originalName": "Idel ITALIA",
+          "size": "19",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "19 cm",
+          "color": "Nova Carbon",
+          "quantity": 21,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELIT-IDELIT-19-NOVACL",
+          "originalName": "Idel ITALIA",
+          "size": "19",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "19 cm",
+          "color": "Nova Clay",
+          "quantity": 19,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 5,
+      "maxPrice": 5,
+      "totalQuantity": 40,
+      "inStock": true,
+      "colors": [
+        "Nova Carbon",
+        "Nova Clay"
+      ],
+      "sizes": [
+        "19 cm"
+      ]
+    },
+    {
+      "id": "idel-jenny-3lt",
+      "name": "Idel JENNY 3LT",
+      "slug": "idel-jenny-3lt",
+      "category": "Idel Jenny",
+      "categorySlug": "idel-jenny",
+      "variants": [
+        {
+          "sku": "IDELJE-IDELJE-22X113-ANTHRA",
+          "originalName": "Idel JENNY 3LT",
+          "size": "22X11",
+          "sizeUnit": "cm",
+          "capacity": "3L",
+          "sizeLabel": "3L (22X11 cm)",
+          "color": "Anthracite",
+          "quantity": 19,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELJE-IDELJE-22X113-ASHSKY",
+          "originalName": "Idel JENNY 3LT",
+          "size": "22X11",
+          "sizeUnit": "cm",
+          "capacity": "3L",
+          "sizeLabel": "3L (22X11 cm)",
+          "color": "Ash Sky Blue",
+          "quantity": 23,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELJE-IDELJE-22X113-FUCHSI",
+          "originalName": "Idel JENNY 3LT",
+          "size": "22X11",
+          "sizeUnit": "cm",
+          "capacity": "3L",
+          "sizeLabel": "3L (22X11 cm)",
+          "color": "Fuchsia",
+          "quantity": 51,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELJE-IDELJE-22X113-LIME",
+          "originalName": "Idel JENNY 3LT",
+          "size": "22X11",
+          "sizeUnit": "cm",
+          "capacity": "3L",
+          "sizeLabel": "3L (22X11 cm)",
+          "color": "Lime",
+          "quantity": 28,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELJE-IDELJE-22X113-PISTAC",
+          "originalName": "Idel JENNY 3LT",
+          "size": "22X11",
+          "sizeUnit": "cm",
+          "capacity": "3L",
+          "sizeLabel": "3L (22X11 cm)",
+          "color": "Pistachio",
+          "quantity": 28,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELJE-IDELJE-22X113-POWDER",
+          "originalName": "Idel JENNY 3LT",
+          "size": "22X11",
+          "sizeUnit": "cm",
+          "capacity": "3L",
+          "sizeLabel": "3L (22X11 cm)",
+          "color": "Powder",
+          "quantity": 24,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELJE-IDELJE-22X113-PURPLE",
+          "originalName": "Idel JENNY 3LT",
+          "size": "22X11",
+          "sizeUnit": "cm",
+          "capacity": "3L",
+          "sizeLabel": "3L (22X11 cm)",
+          "color": "Purple",
+          "quantity": 34,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELJE-IDELJE-22X113-RED",
+          "originalName": "Idel JENNY 3LT",
+          "size": "22X11",
+          "sizeUnit": "cm",
+          "capacity": "3L",
+          "sizeLabel": "3L (22X11 cm)",
+          "color": "Red",
+          "quantity": 28,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELJE-IDELJE-22X113-WHITE",
+          "originalName": "Idel JENNY 3LT",
+          "size": "22X11",
+          "sizeUnit": "cm",
+          "capacity": "3L",
+          "sizeLabel": "3L (22X11 cm)",
+          "color": "White",
+          "quantity": 27,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELJE-IDELJE-22X113-YELLOW",
+          "originalName": "Idel JENNY 3LT",
+          "size": "22X11",
+          "sizeUnit": "cm",
+          "capacity": "3L",
+          "sizeLabel": "3L (22X11 cm)",
+          "color": "Yellow",
+          "quantity": 23,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 5,
+      "maxPrice": 5,
+      "totalQuantity": 285,
+      "inStock": true,
+      "colors": [
+        "Anthracite",
+        "Ash Sky Blue",
+        "Fuchsia",
+        "Lime",
+        "Pistachio",
+        "Powder",
+        "Purple",
+        "Red",
+        "White",
+        "Yellow"
+      ],
+      "sizes": [
+        "3L (22X11 cm)"
+      ]
+    },
+    {
+      "id": "idel-kit-elba",
+      "name": "Idel KIT ELBA",
+      "slug": "idel-kit-elba",
+      "category": "Idel Kit Elba",
+      "categorySlug": "idel-kit-elba",
+      "variants": [
+        {
+          "sku": "IDELKI-IDELKI-2-ANTHRA",
+          "originalName": "Idel KIT ELBA",
+          "size": "2",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "2 L",
+          "color": "Anthracite",
+          "quantity": 71,
+          "price": 4.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-2-TERRAC",
+          "originalName": "Idel KIT ELBA",
+          "size": "2",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "2 L",
+          "color": "Terracotta",
+          "quantity": 84,
+          "price": 4.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-2-WHITE",
+          "originalName": "Idel KIT ELBA",
+          "size": "2",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "2 L",
+          "color": "White",
+          "quantity": 32,
+          "price": 4.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 4.5,
+      "maxPrice": 4.5,
+      "totalQuantity": 187,
+      "inStock": true,
+      "colors": [
+        "Anthracite",
+        "Terracotta",
+        "White"
+      ],
+      "sizes": [
+        "2 L"
+      ]
+    },
+    {
+      "id": "idel-kit-lipari",
+      "name": "Idel KIT LIPARI",
+      "slug": "idel-kit-lipari",
+      "category": "Idel Kit Lipari",
+      "categorySlug": "idel-kit-lipari",
+      "variants": [
+        {
+          "sku": "IDELKI-IDELKI-3-FUCHSI",
+          "originalName": "Idel KIT LIPARI",
+          "size": "3",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "3 L",
+          "color": "Fuchsia",
+          "quantity": 47,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-3-GREEN",
+          "originalName": "Idel KIT LIPARI",
+          "size": "3",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "3 L",
+          "color": "Green",
+          "quantity": 5,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-3-LILAC",
+          "originalName": "Idel KIT LIPARI",
+          "size": "3",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "3 L",
+          "color": "Lilac",
+          "quantity": 76,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-3-LIME",
+          "originalName": "Idel KIT LIPARI",
+          "size": "3",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "3 L",
+          "color": "Lime",
+          "quantity": 124,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-3-ORANGE",
+          "originalName": "Idel KIT LIPARI",
+          "size": "3",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "3 L",
+          "color": "Orange",
+          "quantity": 4,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-3-TAUPE",
+          "originalName": "Idel KIT LIPARI",
+          "size": "3",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "3 L",
+          "color": "Taupe",
+          "quantity": 24,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-3-TERRAC",
+          "originalName": "Idel KIT LIPARI",
+          "size": "3",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "3 L",
+          "color": "Terracotta",
+          "quantity": 287,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-3-WHITE",
+          "originalName": "Idel KIT LIPARI",
+          "size": "3",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "3 L",
+          "color": "White",
+          "quantity": 203,
+          "price": 5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-6-FUCHSI",
+          "originalName": "Idel KIT LIPARI",
+          "size": "6",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "6 L",
+          "color": "Fuchsia",
+          "quantity": 99,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-6-GREEN",
+          "originalName": "Idel KIT LIPARI",
+          "size": "6",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "6 L",
+          "color": "Green",
+          "quantity": 52,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-6-LILAC",
+          "originalName": "Idel KIT LIPARI",
+          "size": "6",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "6 L",
+          "color": "Lilac",
+          "quantity": 74,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-6-LIME",
+          "originalName": "Idel KIT LIPARI",
+          "size": "6",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "6 L",
+          "color": "Lime",
+          "quantity": 59,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-6-ORANGE",
+          "originalName": "Idel KIT LIPARI",
+          "size": "6",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "6 L",
+          "color": "Orange",
+          "quantity": 10,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-6-TAUPE",
+          "originalName": "Idel KIT LIPARI",
+          "size": "6",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "6 L",
+          "color": "Taupe",
+          "quantity": 16,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-6-TERRAC",
+          "originalName": "Idel KIT LIPARI",
+          "size": "6",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "6 L",
+          "color": "Terracotta",
+          "quantity": 74,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-6-WHITE",
+          "originalName": "Idel KIT LIPARI",
+          "size": "6",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "6 L",
+          "color": "White",
+          "quantity": 8,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 5,
+      "maxPrice": 7,
+      "totalQuantity": 1162,
+      "inStock": true,
+      "colors": [
+        "Fuchsia",
+        "Green",
+        "Lilac",
+        "Lime",
+        "Orange",
+        "Taupe",
+        "Terracotta",
+        "White"
+      ],
+      "sizes": [
+        "3 L",
+        "6 L"
+      ]
+    },
+    {
+      "id": "idel-kit-versilia",
+      "name": "Idel KIT VERSILIA",
+      "slug": "idel-kit-versilia",
+      "category": "Idel Kit Versilia",
+      "categorySlug": "idel-kit-versilia",
+      "variants": [
+        {
+          "sku": "IDELKI-IDELKI-50-TAUPE",
+          "originalName": "Idel KIT VERSILIA",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Taupe",
+          "quantity": 8,
+          "price": 29,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-50-WHITE",
+          "originalName": "Idel KIT VERSILIA",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "White",
+          "quantity": 18,
+          "price": 29,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-40-FUCHSI",
+          "originalName": "Idel KIT VERSILIA",
+          "size": "40",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40 cm",
+          "color": "Fuchsia",
+          "quantity": 2,
+          "price": 22,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-50-FUCHSI",
+          "originalName": "Idel KIT VERSILIA",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Fuchsia",
+          "quantity": 4,
+          "price": 29,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-50-LILAC",
+          "originalName": "Idel KIT VERSILIA",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Lilac",
+          "quantity": 11,
+          "price": 29,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-40-LIME",
+          "originalName": "Idel KIT VERSILIA",
+          "size": "40",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40 cm",
+          "color": "Lime",
+          "quantity": 4,
+          "price": 22,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELKI-IDELKI-50-LIME",
+          "originalName": "Idel KIT VERSILIA",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Lime",
+          "quantity": 11,
+          "price": 29,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 22,
+      "maxPrice": 29,
+      "totalQuantity": 58,
+      "inStock": true,
+      "colors": [
+        "Taupe",
+        "White",
+        "Fuchsia",
+        "Lilac",
+        "Lime"
+      ],
+      "sizes": [
+        "50 cm",
+        "40 cm"
+      ]
+    },
+    {
+      "id": "idel-lipari-s",
+      "name": "Idel LIPARI+S",
+      "slug": "idel-lipari-s",
+      "category": "Idel Lipari +S",
+      "categorySlug": "idel-lipari-s",
+      "variants": [
+        {
+          "sku": "IDELLI-IDELLI-2756L-NOVACA",
+          "originalName": "Idel LIPARI+S 6L",
+          "size": "27.5",
+          "sizeUnit": "cm",
+          "capacity": "6L",
+          "sizeLabel": "6L (27.5 cm)",
+          "color": "Nova Carbon",
+          "quantity": 5,
+          "price": 5.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELLI-IDELLI-2756L-NOVACL",
+          "originalName": "Idel LIPARI+S 6L",
+          "size": "27.5",
+          "sizeUnit": "cm",
+          "capacity": "6L",
+          "sizeLabel": "6L (27.5 cm)",
+          "color": "Nova Clay",
+          "quantity": 49,
+          "price": 5.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELLI-IDELLI-2756L-NOVARO",
+          "originalName": "Idel LIPARI+S 6L",
+          "size": "27.5",
+          "sizeUnit": "cm",
+          "capacity": "6L",
+          "sizeLabel": "6L (27.5 cm)",
+          "color": "Nova Rock",
+          "quantity": 27,
+          "price": 5.5,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELLI-IDELLI-3085L-NOVACA",
+          "originalName": "Idel LIPARI+S 8.5L",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": "8.5L",
+          "sizeLabel": "8.5L (30 cm)",
+          "color": "Nova Carbon",
+          "quantity": 29,
+          "price": 13,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELLI-IDELLI-3085L-NOVACL",
+          "originalName": "Idel LIPARI+S 8.5L",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": "8.5L",
+          "sizeLabel": "8.5L (30 cm)",
+          "color": "Nova Clay",
+          "quantity": 36,
+          "price": 13,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELLI-IDELLI-3085L-NOVARO",
+          "originalName": "Idel LIPARI+S 8.5L",
+          "size": "30",
+          "sizeUnit": "cm",
+          "capacity": "8.5L",
+          "sizeLabel": "8.5L (30 cm)",
+          "color": "Nova Rock",
+          "quantity": 47,
+          "price": 13,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 5.5,
+      "maxPrice": 13,
+      "totalQuantity": 193,
+      "inStock": true,
+      "colors": [
+        "Nova Carbon",
+        "Nova Clay",
+        "Nova Rock"
+      ],
+      "sizes": [
+        "6L (27.5 cm)",
+        "8.5L (30 cm)"
+      ]
+    },
+    {
+      "id": "idel-living-high-round-inner",
+      "name": "Idel LIVING HIGH ROUND INNER",
+      "slug": "idel-living-high-round-inner",
+      "category": "Idel Living High Round",
+      "categorySlug": "idel-living-high-round",
+      "variants": [
+        {
+          "sku": "IDELLI-IDELLI-55-ASHSKY",
+          "originalName": "Idel LIVING HIGH ROUND INNER",
+          "size": "55",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "55 cm",
+          "color": "Ash Sky Blue",
+          "quantity": 5,
+          "price": 75,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELLI-IDELLI-55-RED",
+          "originalName": "Idel LIVING HIGH ROUND INNER",
+          "size": "55",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "55 cm",
+          "color": "Red",
+          "quantity": 5,
+          "price": 75,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 75,
+      "maxPrice": 75,
+      "totalQuantity": 10,
+      "inStock": true,
+      "colors": [
+        "Ash Sky Blue",
+        "Red"
+      ],
+      "sizes": [
+        "55 cm"
+      ]
+    },
+    {
+      "id": "idel-marinella",
+      "name": "Idel MARINELLA",
+      "slug": "idel-marinella",
+      "category": "Idel Marinella",
+      "categorySlug": "idel-marinella",
+      "variants": [
+        {
+          "sku": "IDELMA-IDELMA-50-NOVACA",
+          "originalName": "Idel MARINELLA",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Nova Carbon",
+          "quantity": 15,
+          "price": 45,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMA-IDELMA-50-NOVACL",
+          "originalName": "Idel MARINELLA",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Nova Clay",
+          "quantity": 27,
+          "price": 45,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMA-IDELMA-50-NOVARO",
+          "originalName": "Idel MARINELLA",
+          "size": "50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50 cm",
+          "color": "Nova Rock",
+          "quantity": 24,
+          "price": 45,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 45,
+      "maxPrice": 45,
+      "totalQuantity": 66,
+      "inStock": true,
+      "colors": [
+        "Nova Carbon",
+        "Nova Clay",
+        "Nova Rock"
+      ],
+      "sizes": [
+        "50 cm"
+      ]
+    },
+    {
+      "id": "idel-mosaic-curve",
+      "name": "Idel MOSAIC CURVE",
+      "slug": "idel-mosaic-curve",
+      "category": "Idel Mosaic Curve 13",
+      "categorySlug": "idel-mosaic-curve-13",
+      "variants": [
+        {
+          "sku": "IDELMO-IDELMO-13-BLACKB",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "13",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "13 cm",
+          "color": "Black/Black",
+          "quantity": 15,
+          "price": 9,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-13-WHITEA",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "13",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "13 cm",
+          "color": "White/Ash Sky Blue",
+          "quantity": 73,
+          "price": 9,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-13-WHITEP",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "13",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "13 cm",
+          "color": "White/Pistachio",
+          "quantity": 57,
+          "price": 9,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-13-WHITEP",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "13",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "13 cm",
+          "color": "White/Powder",
+          "quantity": 58,
+          "price": 9,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-13-WHITEP",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "13",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "13 cm",
+          "color": "White/Purple",
+          "quantity": 65,
+          "price": 9,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-13-WHITES",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "13",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "13 cm",
+          "color": "White/Sabbia",
+          "quantity": 87,
+          "price": 9,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-13-WHITET",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "13",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "13 cm",
+          "color": "White/Taupe",
+          "quantity": 53,
+          "price": 9,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-13-WHITEW",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "13",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "13 cm",
+          "color": "White/White",
+          "quantity": 20,
+          "price": 9,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 9,
+      "maxPrice": 9,
+      "totalQuantity": 428,
+      "inStock": true,
+      "colors": [
+        "Black/Black",
+        "White/Ash Sky Blue",
+        "White/Pistachio",
+        "White/Powder",
+        "White/Purple",
+        "White/Sabbia",
+        "White/Taupe",
+        "White/White"
+      ],
+      "sizes": [
+        "13 cm"
+      ]
+    },
+    {
+      "id": "idel-mosaic-curve",
+      "name": "Idel MOSAIC CURVE",
+      "slug": "idel-mosaic-curve",
+      "category": "Idel Mosaic Curve 40",
+      "categorySlug": "idel-mosaic-curve-40",
+      "variants": [
+        {
+          "sku": "IDELMO-IDELMO-40-WHITEA",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "40",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40 cm",
+          "color": "White/Ash",
+          "quantity": 5,
+          "price": 39,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-40-WHITEP",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "40",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40 cm",
+          "color": "White/Pistachio",
+          "quantity": 4,
+          "price": 39,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-40-WHITET",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "40",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40 cm",
+          "color": "White/Taupe",
+          "quantity": 2,
+          "price": 39,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 39,
+      "maxPrice": 39,
+      "totalQuantity": 11,
+      "inStock": true,
+      "colors": [
+        "White/Ash",
+        "White/Pistachio",
+        "White/Taupe"
+      ],
+      "sizes": [
+        "40 cm"
+      ]
+    },
+    {
+      "id": "idel-mosaic-curve",
+      "name": "Idel MOSAIC CURVE",
+      "slug": "idel-mosaic-curve",
+      "category": "Idel Mosaic Curve 55",
+      "categorySlug": "idel-mosaic-curve-55",
+      "variants": [
+        {
+          "sku": "IDELMO-IDELMO-55-BLACKP",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "55",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "55 cm",
+          "color": "Black/Pearl",
+          "quantity": 5,
+          "price": 95,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-55-TOTALG",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "55",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "55 cm",
+          "color": "Total Gold",
+          "quantity": 3,
+          "price": 95,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-55-TOTALR",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "55",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "55 cm",
+          "color": "Total Red",
+          "quantity": 6,
+          "price": 95,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-55-WHITEA",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "55",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "55 cm",
+          "color": "White/Ash Sky Blue",
+          "quantity": 19,
+          "price": 95,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-55-WHITEP",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "55",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "55 cm",
+          "color": "White/Pistachio",
+          "quantity": 22,
+          "price": 95,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-55-WHITET",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "55",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "55 cm",
+          "color": "White/Taupe",
+          "quantity": 14,
+          "price": 95,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-55-WHITEW",
+          "originalName": "Idel MOSAIC CURVE",
+          "size": "55",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "55 cm",
+          "color": "White/White",
+          "quantity": 7,
+          "price": 95,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 95,
+      "maxPrice": 95,
+      "totalQuantity": 76,
+      "inStock": true,
+      "colors": [
+        "Black/Pearl",
+        "Total Gold",
+        "Total Red",
+        "White/Ash Sky Blue",
+        "White/Pistachio",
+        "White/Taupe",
+        "White/White"
+      ],
+      "sizes": [
+        "55 cm"
+      ]
+    },
+    {
+      "id": "idel-mosaic-curve-high",
+      "name": "Idel MOSAIC CURVE HIGH",
+      "slug": "idel-mosaic-curve-high",
+      "category": "Idel Mosaic Curve High 90",
+      "categorySlug": "idel-mosaic-curve-high-90",
+      "variants": [
+        {
+          "sku": "IDELMO-IDELMO-90-ANTHRA",
+          "originalName": "Idel MOSAIC CURVE HIGH",
+          "size": "90",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "90 cm",
+          "color": "Anthracite",
+          "quantity": 5,
+          "price": 300,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 300,
+      "maxPrice": 300,
+      "totalQuantity": 5,
+      "inStock": true,
+      "colors": [
+        "Anthracite"
+      ],
+      "sizes": [
+        "90 cm"
+      ]
+    },
+    {
+      "id": "idel-mosaic-flowerbox",
+      "name": "Idel MOSAIC FLOWERBOX",
+      "slug": "idel-mosaic-flowerbox",
+      "category": "Idel Mosaic Flowerbox",
+      "categorySlug": "idel-mosaic-flowerbox",
+      "variants": [
+        {
+          "sku": "IDELMO-IDELMO-40-WHITEA",
+          "originalName": "Idel MOSAIC FLOWERBOX",
+          "size": "40",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40 cm",
+          "color": "White/Ash Sky Blue",
+          "quantity": 69,
+          "price": 32,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-40-WHITEP",
+          "originalName": "Idel MOSAIC FLOWERBOX",
+          "size": "40",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40 cm",
+          "color": "White/Pistachio",
+          "quantity": 78,
+          "price": 32,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-40-WHITEP",
+          "originalName": "Idel MOSAIC FLOWERBOX",
+          "size": "40",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40 cm",
+          "color": "White/Powder",
+          "quantity": 81,
+          "price": 32,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-40-WHITEP",
+          "originalName": "Idel MOSAIC FLOWERBOX",
+          "size": "40",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40 cm",
+          "color": "White/Purple",
+          "quantity": 83,
+          "price": 32,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-40-WHITES",
+          "originalName": "Idel MOSAIC FLOWERBOX",
+          "size": "40",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40 cm",
+          "color": "White/Sabbia",
+          "quantity": 89,
+          "price": 32,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-40-WHITET",
+          "originalName": "Idel MOSAIC FLOWERBOX",
+          "size": "40",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40 cm",
+          "color": "White/Taupe",
+          "quantity": 80,
+          "price": 32,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 32,
+      "maxPrice": 32,
+      "totalQuantity": 480,
+      "inStock": true,
+      "colors": [
+        "White/Ash Sky Blue",
+        "White/Pistachio",
+        "White/Powder",
+        "White/Purple",
+        "White/Sabbia",
+        "White/Taupe"
+      ],
+      "sizes": [
+        "40 cm"
+      ]
+    },
+    {
+      "id": "idel-mosaic-quadro",
+      "name": "Idel MOSAIC QUADRO",
+      "slug": "idel-mosaic-quadro",
+      "category": "Idel Mosaic Quadro 17",
+      "categorySlug": "idel-mosaic-quadro-17",
+      "variants": [
+        {
+          "sku": "IDELMO-IDELMO-17-WHITEA",
+          "originalName": "Idel MOSAIC QUADRO",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "17 cm",
+          "color": "White/Ash Sky Blue",
+          "quantity": 35,
+          "price": 17,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-17-WHITEP",
+          "originalName": "Idel MOSAIC QUADRO",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "17 cm",
+          "color": "White/Pistachio",
+          "quantity": 89,
+          "price": 17,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-17-WHITEP",
+          "originalName": "Idel MOSAIC QUADRO",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "17 cm",
+          "color": "White/Powder",
+          "quantity": 83,
+          "price": 17,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-17-WHITEP",
+          "originalName": "Idel MOSAIC QUADRO",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "17 cm",
+          "color": "White/Purple",
+          "quantity": 65,
+          "price": 17,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-17-WHITES",
+          "originalName": "Idel MOSAIC QUADRO",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "17 cm",
+          "color": "White/Sabbia",
+          "quantity": 105,
+          "price": 17,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-17-WHITET",
+          "originalName": "Idel MOSAIC QUADRO",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "17 cm",
+          "color": "White/Taupe",
+          "quantity": 90,
+          "price": 17,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELMO-IDELMO-17-WHITET",
+          "originalName": "Idel MOSAIC QUADRO",
+          "size": "17",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "17 cm",
+          "color": "White/Terracotta",
+          "quantity": 4,
+          "price": 17,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 17,
+      "maxPrice": 17,
+      "totalQuantity": 471,
+      "inStock": true,
+      "colors": [
+        "White/Ash Sky Blue",
+        "White/Pistachio",
+        "White/Powder",
+        "White/Purple",
+        "White/Sabbia",
+        "White/Taupe",
+        "White/Terracotta"
+      ],
+      "sizes": [
+        "17 cm"
+      ]
+    },
+    {
+      "id": "idel-quadro-lt20",
+      "name": "Idel QUADRO LT20",
+      "slug": "idel-quadro-lt20",
+      "category": "Idel Quadro 37",
+      "categorySlug": "idel-quadro-37",
+      "variants": [
+        {
+          "sku": "IDELQU-IDELQU-37X37X-TERRAC",
+          "originalName": "Idel QUADRO LT20",
+          "size": "37X37X32",
+          "sizeUnit": "cm",
+          "capacity": "20L",
+          "sizeLabel": "20L (37X37X32 cm)",
+          "color": "Terracotta",
+          "quantity": 28,
+          "price": 21,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 21,
+      "maxPrice": 21,
+      "totalQuantity": 28,
+      "inStock": true,
+      "colors": [
+        "Terracotta"
+      ],
+      "sizes": [
+        "20L (37X37X32 cm)"
+      ]
+    },
+    {
+      "id": "idel-quadro-saucer",
+      "name": "Idel QUADRO SAUCER",
+      "slug": "idel-quadro-saucer",
+      "category": "Idel Quadro 37",
+      "categorySlug": "idel-quadro-37",
+      "variants": [
+        {
+          "sku": "IDELQU-IDELQU-37X37-TERRAC",
+          "originalName": "Idel QUADRO SAUCER",
+          "size": "37X37",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "37X37 cm",
+          "color": "Terracotta",
+          "quantity": 30,
+          "price": 8,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 8,
+      "maxPrice": 8,
+      "totalQuantity": 30,
+      "inStock": true,
+      "colors": [
+        "Terracotta"
+      ],
+      "sizes": [
+        "37X37 cm"
+      ]
+    },
+    {
+      "id": "idel-round-living",
+      "name": "Idel ROUND LIVING",
+      "slug": "idel-round-living",
+      "category": "Idel Round Living",
+      "categorySlug": "idel-round-living",
+      "variants": [
+        {
+          "sku": "IDELRO-IDELRO-2-ANTHRA",
+          "originalName": "Idel ROUND LIVING",
+          "size": "2",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "2 L",
+          "color": "Anthracite",
+          "quantity": 9,
+          "price": 4,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-2-FUCHSI",
+          "originalName": "Idel ROUND LIVING",
+          "size": "2",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "2 L",
+          "color": "Fuchsia",
+          "quantity": 49,
+          "price": 4,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-2-LILAC",
+          "originalName": "Idel ROUND LIVING",
+          "size": "2",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "2 L",
+          "color": "Lilac",
+          "quantity": 36,
+          "price": 4,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-2-LIME",
+          "originalName": "Idel ROUND LIVING",
+          "size": "2",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "2 L",
+          "color": "Lime",
+          "quantity": 54,
+          "price": 4,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-2-PISTAC",
+          "originalName": "Idel ROUND LIVING",
+          "size": "2",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "2 L",
+          "color": "Pistachio",
+          "quantity": 3,
+          "price": 4,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-2-POWDER",
+          "originalName": "Idel ROUND LIVING",
+          "size": "2",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "2 L",
+          "color": "Powder",
+          "quantity": 5,
+          "price": 4,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-2-PURPLE",
+          "originalName": "Idel ROUND LIVING",
+          "size": "2",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "2 L",
+          "color": "Purple",
+          "quantity": 26,
+          "price": 4,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-2-RED",
+          "originalName": "Idel ROUND LIVING",
+          "size": "2",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "2 L",
+          "color": "Red",
+          "quantity": 10,
+          "price": 4,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-2-WHITE",
+          "originalName": "Idel ROUND LIVING",
+          "size": "2",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "2 L",
+          "color": "White",
+          "quantity": 7,
+          "price": 4,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-45-ANTHRA",
+          "originalName": "Idel ROUND LIVING",
+          "size": "4.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4.5 L",
+          "color": "Anthracite",
+          "quantity": 16,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-45-FUCHSI",
+          "originalName": "Idel ROUND LIVING",
+          "size": "4.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4.5 L",
+          "color": "Fuchsia",
+          "quantity": 33,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-45-LILAC",
+          "originalName": "Idel ROUND LIVING",
+          "size": "4.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4.5 L",
+          "color": "Lilac",
+          "quantity": 34,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-45-LIME",
+          "originalName": "Idel ROUND LIVING",
+          "size": "4.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4.5 L",
+          "color": "Lime",
+          "quantity": 42,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-45-PISTAC",
+          "originalName": "Idel ROUND LIVING",
+          "size": "4.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4.5 L",
+          "color": "Pistachio",
+          "quantity": 3,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-45-PURPLE",
+          "originalName": "Idel ROUND LIVING",
+          "size": "4.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4.5 L",
+          "color": "Purple",
+          "quantity": 14,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-45-RED",
+          "originalName": "Idel ROUND LIVING",
+          "size": "4.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4.5 L",
+          "color": "Red",
+          "quantity": 29,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELRO-IDELRO-45-WHITE",
+          "originalName": "Idel ROUND LIVING",
+          "size": "4.5",
+          "sizeUnit": "L",
+          "capacity": null,
+          "sizeLabel": "4.5 L",
+          "color": "White",
+          "quantity": 4,
+          "price": 7,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 4,
+      "maxPrice": 7,
+      "totalQuantity": 374,
+      "inStock": true,
+      "colors": [
+        "Anthracite",
+        "Fuchsia",
+        "Lilac",
+        "Lime",
+        "Pistachio",
+        "Powder",
+        "Purple",
+        "Red",
+        "White"
+      ],
+      "sizes": [
+        "2 L",
+        "4.5 L"
+      ]
+    },
+    {
+      "id": "idel-smart-flowerbox-w-sws",
+      "name": "Idel SMART FLOWERBOX+W SWS",
+      "slug": "idel-smart-flowerbox-w-sws",
+      "category": "Idel Smart Flowerbox",
+      "categorySlug": "idel-smart-flowerbox",
+      "variants": [
+        {
+          "sku": "IDELSM-IDELSM-85-PISTAC",
+          "originalName": "Idel SMART FLOWERBOX+W SWS",
+          "size": "85",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "85 cm",
+          "color": "Pistachio",
+          "quantity": 6,
+          "price": 99,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELSM-IDELSM-85-SABBIA",
+          "originalName": "Idel SMART FLOWERBOX+W SWS",
+          "size": "85",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "85 cm",
+          "color": "Sabbia",
+          "quantity": 3,
+          "price": 99,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELSM-IDELSM-85-WHITE",
+          "originalName": "Idel SMART FLOWERBOX+W SWS",
+          "size": "85",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "85 cm",
+          "color": "White",
+          "quantity": 6,
+          "price": 99,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 99,
+      "maxPrice": 99,
+      "totalQuantity": 15,
+      "inStock": true,
+      "colors": [
+        "Pistachio",
+        "Sabbia",
+        "White"
+      ],
+      "sizes": [
+        "85 cm"
+      ]
+    },
+    {
+      "id": "idel-square-living",
+      "name": "Idel SQUARE LIVING",
+      "slug": "idel-square-living",
+      "category": "Idel Square Living",
+      "categorySlug": "idel-square-living",
+      "variants": [
+        {
+          "sku": "IDELSQ-IDELSQ-18X18-LIME",
+          "originalName": "Idel SQUARE LIVING",
+          "size": "18X18",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "18X18 cm",
+          "color": "Lime",
+          "quantity": 27,
+          "price": 6,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELSQ-IDELSQ-18X18-RED",
+          "originalName": "Idel SQUARE LIVING",
+          "size": "18X18",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "18X18 cm",
+          "color": "Red",
+          "quantity": 18,
+          "price": 6,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELSQ-IDELSQ-18X18-WHITE",
+          "originalName": "Idel SQUARE LIVING",
+          "size": "18X18",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "18X18 cm",
+          "color": "White",
+          "quantity": 14,
+          "price": 6,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 6,
+      "maxPrice": 6,
+      "totalQuantity": 59,
+      "inStock": true,
+      "colors": [
+        "Lime",
+        "Red",
+        "White"
+      ],
+      "sizes": [
+        "18X18 cm"
+      ]
+    },
+    {
+      "id": "idel-terme",
+      "name": "Idel TERME",
+      "slug": "idel-terme",
+      "category": "Idel Terme",
+      "categorySlug": "idel-terme",
+      "variants": [
+        {
+          "sku": "IDELTE-IDELTE-24-TERRAC",
+          "originalName": "Idel TERME",
+          "size": "24",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "24 cm",
+          "color": "Terracotta",
+          "quantity": 6,
+          "price": null,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELTE-IDELTE-27-TERRAC",
+          "originalName": "Idel TERME",
+          "size": "27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "27 cm",
+          "color": "Terracotta",
+          "quantity": 47,
+          "price": 6,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 6,
+      "maxPrice": 6,
+      "totalQuantity": 53,
+      "inStock": true,
+      "colors": [
+        "Terracotta"
+      ],
+      "sizes": [
+        "24 cm",
+        "27 cm"
+      ]
+    },
+    {
+      "id": "idel-twin-set-classic-pot",
+      "name": "Idel TWIN SET CLASSIC POT",
+      "slug": "idel-twin-set-classic-pot",
+      "category": "Idel Twin Set",
+      "categorySlug": "idel-twin-set",
+      "variants": [
+        {
+          "sku": "IDELTW-IDELTW-14-LIME",
+          "originalName": "Idel TWIN SET CLASSIC POT",
+          "size": "14",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "14 cm",
+          "color": "Lime",
+          "quantity": 3,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELTW-IDELTW-14-RED",
+          "originalName": "Idel TWIN SET CLASSIC POT",
+          "size": "14",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "14 cm",
+          "color": "Red",
+          "quantity": 3,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELTW-IDELTW-14-WHITE",
+          "originalName": "Idel TWIN SET CLASSIC POT",
+          "size": "14",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "14 cm",
+          "color": "White",
+          "quantity": 5,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 15,
+      "maxPrice": 15,
+      "totalQuantity": 11,
+      "inStock": true,
+      "colors": [
+        "Lime",
+        "Red",
+        "White"
+      ],
+      "sizes": [
+        "14 cm"
+      ]
+    },
+    {
+      "id": "idel-twin-set-round-living",
+      "name": "Idel TWIN SET ROUND LIVING",
+      "slug": "idel-twin-set-round-living",
+      "category": "Idel Twin Set",
+      "categorySlug": "idel-twin-set",
+      "variants": [
+        {
+          "sku": "IDELTW-IDELTW-14X2-ANTHRA",
+          "originalName": "Idel TWIN SET ROUND LIVING",
+          "size": "14X2",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "14X2 cm",
+          "color": "Anthracite",
+          "quantity": 34,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELTW-IDELTW-14X2-FUCHSI",
+          "originalName": "Idel TWIN SET ROUND LIVING",
+          "size": "14X2",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "14X2 cm",
+          "color": "Fuchsia",
+          "quantity": 55,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELTW-IDELTW-14X2-LIME",
+          "originalName": "Idel TWIN SET ROUND LIVING",
+          "size": "14X2",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "14X2 cm",
+          "color": "Lime",
+          "quantity": 43,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELTW-IDELTW-14X2-RED",
+          "originalName": "Idel TWIN SET ROUND LIVING",
+          "size": "14X2",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "14X2 cm",
+          "color": "Red",
+          "quantity": 35,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELTW-IDELTW-14X2-WHITE",
+          "originalName": "Idel TWIN SET ROUND LIVING",
+          "size": "14X2",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "14X2 cm",
+          "color": "White",
+          "quantity": 66,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 15,
+      "maxPrice": 15,
+      "totalQuantity": 233,
+      "inStock": true,
+      "colors": [
+        "Anthracite",
+        "Fuchsia",
+        "Lime",
+        "Red",
+        "White"
+      ],
+      "sizes": [
+        "14X2 cm"
+      ]
+    },
+    {
+      "id": "idel-versilia",
+      "name": "Idel VERSILIA",
+      "slug": "idel-versilia",
+      "category": "Idel Versilia 60",
+      "categorySlug": "idel-versilia-60",
+      "variants": [
+        {
+          "sku": "IDELVE-IDELVE-60-FUCHSI",
+          "originalName": "Idel VERSILIA",
+          "size": "60",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "60 cm",
+          "color": "Fuchsia",
+          "quantity": 88,
+          "price": 13,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVE-IDELVE-60-LILAC",
+          "originalName": "Idel VERSILIA",
+          "size": "60",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "60 cm",
+          "color": "Lilac",
+          "quantity": 68,
+          "price": 13,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVE-IDELVE-60-LIME",
+          "originalName": "Idel VERSILIA",
+          "size": "60",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "60 cm",
+          "color": "Lime",
+          "quantity": 64,
+          "price": 13,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVE-IDELVE-60-TAUPE",
+          "originalName": "Idel VERSILIA",
+          "size": "60",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "60 cm",
+          "color": "Taupe",
+          "quantity": 18,
+          "price": 13,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVE-IDELVE-60-TERRAC",
+          "originalName": "Idel VERSILIA",
+          "size": "60",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "60 cm",
+          "color": "Terracotta",
+          "quantity": 12,
+          "price": 13,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 13,
+      "maxPrice": 13,
+      "totalQuantity": 250,
+      "inStock": true,
+      "colors": [
+        "Fuchsia",
+        "Lilac",
+        "Lime",
+        "Taupe",
+        "Terracotta"
+      ],
+      "sizes": [
+        "60 cm"
+      ]
+    },
+    {
+      "id": "idel-volterra",
+      "name": "Idel VOLTERRA",
+      "slug": "idel-volterra",
+      "category": "Idel Volterra",
+      "categorySlug": "idel-volterra",
+      "variants": [
+        {
+          "sku": "IDELVO-IDELVO-45X25X-FUCHSI",
+          "originalName": "Idel VOLTERRA LT14",
+          "size": "45X25X21",
+          "sizeUnit": "cm",
+          "capacity": "14L",
+          "sizeLabel": "14L (45X25X21 cm)",
+          "color": "Fuchsia",
+          "quantity": 15,
+          "price": 12,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVO-IDELVO-45X25X-GREEN",
+          "originalName": "Idel VOLTERRA LT14",
+          "size": "45X25X21",
+          "sizeUnit": "cm",
+          "capacity": "14L",
+          "sizeLabel": "14L (45X25X21 cm)",
+          "color": "Green",
+          "quantity": 3,
+          "price": 12,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVO-IDELVO-45X25X-LILAC",
+          "originalName": "Idel VOLTERRA LT14",
+          "size": "45X25X21",
+          "sizeUnit": "cm",
+          "capacity": "14L",
+          "sizeLabel": "14L (45X25X21 cm)",
+          "color": "Lilac",
+          "quantity": 2,
+          "price": 12,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVO-IDELVO-45X25X-LIME",
+          "originalName": "Idel VOLTERRA LT14",
+          "size": "45X25X21",
+          "sizeUnit": "cm",
+          "capacity": "14L",
+          "sizeLabel": "14L (45X25X21 cm)",
+          "color": "Lime",
+          "quantity": 20,
+          "price": 12,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVO-IDELVO-45X25X-ORANGE",
+          "originalName": "Idel VOLTERRA LT14",
+          "size": "45X25X21",
+          "sizeUnit": "cm",
+          "capacity": "14L",
+          "sizeLabel": "14L (45X25X21 cm)",
+          "color": "Orange",
+          "quantity": 58,
+          "price": 12,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVO-IDELVO-45X25X-WHITE",
+          "originalName": "Idel VOLTERRA LT14",
+          "size": "45X25X21",
+          "sizeUnit": "cm",
+          "capacity": "14L",
+          "sizeLabel": "14L (45X25X21 cm)",
+          "color": "White",
+          "quantity": 5,
+          "price": 12,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVO-IDELVO-55X25X-FUCHSI",
+          "originalName": "Idel VOLTERRA LT17",
+          "size": "55X25X21",
+          "sizeUnit": "cm",
+          "capacity": "17L",
+          "sizeLabel": "17L (55X25X21 cm)",
+          "color": "Fuchsia",
+          "quantity": 12,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVO-IDELVO-55X25X-LILAC",
+          "originalName": "Idel VOLTERRA LT17",
+          "size": "55X25X21",
+          "sizeUnit": "cm",
+          "capacity": "17L",
+          "sizeLabel": "17L (55X25X21 cm)",
+          "color": "Lilac",
+          "quantity": 11,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVO-IDELVO-55X25X-LIME",
+          "originalName": "Idel VOLTERRA LT17",
+          "size": "55X25X21",
+          "sizeUnit": "cm",
+          "capacity": "17L",
+          "sizeLabel": "17L (55X25X21 cm)",
+          "color": "Lime",
+          "quantity": 9,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVO-IDELVO-55X25X-ORANGE",
+          "originalName": "Idel VOLTERRA LT17",
+          "size": "55X25X21",
+          "sizeUnit": "cm",
+          "capacity": "17L",
+          "sizeLabel": "17L (55X25X21 cm)",
+          "color": "Orange",
+          "quantity": 32,
+          "price": 15,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVO-IDELVO-65X25X-FUCHSI",
+          "originalName": "Idel VOLTERRA LT21",
+          "size": "65X25X21",
+          "sizeUnit": "cm",
+          "capacity": "21L",
+          "sizeLabel": "21L (65X25X21 cm)",
+          "color": "Fuchsia",
+          "quantity": 8,
+          "price": 17,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "IDELVO-IDELVO-65X25X-ORANGE",
+          "originalName": "Idel VOLTERRA LT21",
+          "size": "65X25X21",
+          "sizeUnit": "cm",
+          "capacity": "21L",
+          "sizeLabel": "21L (65X25X21 cm)",
+          "color": "Orange",
+          "quantity": 14,
+          "price": 17,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 12,
+      "maxPrice": 17,
+      "totalQuantity": 189,
+      "inStock": true,
+      "colors": [
+        "Fuchsia",
+        "Green",
+        "Lilac",
+        "Lime",
+        "Orange",
+        "White"
+      ],
+      "sizes": [
+        "14L (45X25X21 cm)",
+        "17L (55X25X21 cm)",
+        "21L (65X25X21 cm)"
+      ]
+    },
+    {
+      "id": "pb-cassetta-luna",
+      "name": "PB CASSETTA LUNA",
+      "slug": "pb-cassetta-luna",
+      "category": "PB Cassetta Luna",
+      "categorySlug": "pb-cassetta-luna",
+      "variants": [
+        {
+          "sku": "PBCASS-PBCASS-40X20X-BIANCO",
+          "originalName": "PB CASSETTA LUNA",
+          "size": "40X20X20",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40X20X20 cm",
+          "color": "Bianco",
+          "quantity": 3,
+          "price": 14,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "PBCASS-PBCASS-50X20X-BIANCO",
+          "originalName": "PB CASSETTA LUNA",
+          "size": "50X20X20",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50X20X20 cm",
+          "color": "Bianco",
+          "quantity": 9,
+          "price": 16,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "PBCASS-PBCASS-40X20X-BLUE",
+          "originalName": "PB CASSETTA LUNA",
+          "size": "40X20X20",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40X20X20 cm",
+          "color": "Blue",
+          "quantity": 9,
+          "price": 14,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "PBCASS-PBCASS-50X20X-BLUE",
+          "originalName": "PB CASSETTA LUNA",
+          "size": "50X20X20",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50X20X20 cm",
+          "color": "Blue",
+          "quantity": 10,
+          "price": 16,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "PBCASS-PBCASS-40X20X-FUCHSI",
+          "originalName": "PB CASSETTA LUNA",
+          "size": "40X20X20",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40X20X20 cm",
+          "color": "Fuchsia",
+          "quantity": 11,
+          "price": 14,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "PBCASS-PBCASS-50X20X-FUCHSI",
+          "originalName": "PB CASSETTA LUNA",
+          "size": "50X20X20",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50X20X20 cm",
+          "color": "Fuchsia",
+          "quantity": 12,
+          "price": 16,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "PBCASS-PBCASS-40X20X-LIME",
+          "originalName": "PB CASSETTA LUNA",
+          "size": "40X20X20",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "40X20X20 cm",
+          "color": "Lime",
+          "quantity": 11,
+          "price": 14,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "PBCASS-PBCASS-50X20X-LIME",
+          "originalName": "PB CASSETTA LUNA",
+          "size": "50X20X20",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50X20X20 cm",
+          "color": "Lime",
+          "quantity": 11,
+          "price": 16,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 14,
+      "maxPrice": 16,
+      "totalQuantity": 76,
+      "inStock": true,
+      "colors": [
+        "Bianco",
+        "Blue",
+        "Fuchsia",
+        "Lime"
+      ],
+      "sizes": [
+        "40X20X20 cm",
+        "50X20X20 cm"
+      ]
+    },
+    {
+      "id": "pb-maxiflowerbox-saucer-wheel",
+      "name": "PB MAXIFLOWERBOX + SAUCER + WHEEL",
+      "slug": "pb-maxiflowerbox-saucer-wheel",
+      "category": "PB Maxi Flowerox",
+      "categorySlug": "pb-maxi-flowerox",
+      "variants": [
+        {
+          "sku": "PBMAXI-PBMAXI-30MD60-TERRAC",
+          "originalName": "PB MAXIFLOWERBOX + SAUCER + WHEEL MD60",
+          "size": "30",
+          "sizeUnit": "L",
+          "capacity": "MD60",
+          "sizeLabel": "MD60 (30 L)",
+          "color": "Terracotta",
+          "quantity": 19,
+          "price": 39,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "PBMAXI-PBMAXI-50MD80-TERRAC",
+          "originalName": "PB MAXIFLOWERBOX + SAUCER + WHEEL MD80",
+          "size": "50",
+          "sizeUnit": "L",
+          "capacity": "MD80",
+          "sizeLabel": "MD80 (50 L)",
+          "color": "Terracotta",
+          "quantity": 23,
+          "price": 79,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 39,
+      "maxPrice": 79,
+      "totalQuantity": 42,
+      "inStock": true,
+      "colors": [
+        "Terracotta"
+      ],
+      "sizes": [
+        "MD60 (30 L)",
+        "MD80 (50 L)"
+      ]
+    },
+    {
+      "id": "pp-beth",
+      "name": "PP BETH",
+      "slug": "pp-beth",
+      "category": "Pottery Pots",
+      "categorySlug": "pottery-pots",
+      "variants": [
+        {
+          "sku": "POTTER-PPBETH-50X50-GOLD",
+          "originalName": "PP BETH",
+          "size": "50X50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50X50 cm",
+          "color": "Gold",
+          "quantity": 2,
+          "price": 670,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "POTTER-PPBETH-50X50-SILVER",
+          "originalName": "PP BETH",
+          "size": "50X50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50X50 cm",
+          "color": "Silver",
+          "quantity": 2,
+          "price": 670,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 670,
+      "maxPrice": 670,
+      "totalQuantity": 4,
+      "inStock": true,
+      "colors": [
+        "Gold",
+        "Silver"
+      ],
+      "sizes": [
+        "50X50 cm"
+      ]
+    },
+    {
+      "id": "pp-block",
+      "name": "PP BLOCK",
+      "slug": "pp-block",
+      "category": "Pottery Pots",
+      "categorySlug": "pottery-pots",
+      "variants": [
+        {
+          "sku": "POTTER-PPBLOC-50X50X-GOLD",
+          "originalName": "PP BLOCK",
+          "size": "50X50X50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50X50X50 cm",
+          "color": "Gold",
+          "quantity": 2,
+          "price": 995,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "POTTER-PPBLOC-50X50X-SILVER",
+          "originalName": "PP BLOCK",
+          "size": "50X50X50",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "50X50X50 cm",
+          "color": "Silver",
+          "quantity": 2,
+          "price": 995,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 995,
+      "maxPrice": 995,
+      "totalQuantity": 4,
+      "inStock": true,
+      "colors": [
+        "Gold",
+        "Silver"
+      ],
+      "sizes": [
+        "50X50X50 cm"
+      ]
+    },
+    {
+      "id": "pp-orb",
+      "name": "PP ORB",
+      "slug": "pp-orb",
+      "category": "Pottery Pots",
+      "categorySlug": "pottery-pots",
+      "variants": [
+        {
+          "sku": "POTTER-PPORB-48X43-BLACKW",
+          "originalName": "PP ORB",
+          "size": "48X43",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "48X43 cm",
+          "color": "Black Washed",
+          "quantity": 2,
+          "price": 247,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 247,
+      "maxPrice": 247,
+      "totalQuantity": 2,
+      "inStock": true,
+      "colors": [
+        "Black Washed"
+      ],
+      "sizes": [
+        "48X43 cm"
+      ]
+    },
+    {
+      "id": "pp-sunny",
+      "name": "PP SUNNY",
+      "slug": "pp-sunny",
+      "category": "Pottery Pots",
+      "categorySlug": "pottery-pots",
+      "variants": [
+        {
+          "sku": "POTTER-PPSUNN-45X27-GOLD",
+          "originalName": "PP SUNNY",
+          "size": "45X27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "45X27 cm",
+          "color": "Gold",
+          "quantity": 2,
+          "price": 463,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "POTTER-PPSUNN-45X27-ROSE",
+          "originalName": "PP SUNNY",
+          "size": "45X27",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "45X27 cm",
+          "color": "Rose",
+          "quantity": 2,
+          "price": 463,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 463,
+      "maxPrice": 463,
+      "totalQuantity": 4,
+      "inStock": true,
+      "colors": [
+        "Gold",
+        "Rose"
+      ],
+      "sizes": [
+        "45X27 cm"
+      ]
+    },
+    {
+      "id": "pp-yang",
+      "name": "PP YANG",
+      "slug": "pp-yang",
+      "category": "Pottery Pots",
+      "categorySlug": "pottery-pots",
+      "variants": [
+        {
+          "sku": "POTTER-PPYANG-35X35X-GOLD",
+          "originalName": "PP YANG",
+          "size": "35X35X100",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "35X35X100 cm",
+          "color": "Gold",
+          "quantity": 2,
+          "price": 1525,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        },
+        {
+          "sku": "POTTER-PPYANG-35X35X-SILVER",
+          "originalName": "PP YANG",
+          "size": "35X35X100",
+          "sizeUnit": "cm",
+          "capacity": null,
+          "sizeLabel": "35X35X100 cm",
+          "color": "Silver",
+          "quantity": 2,
+          "price": 1525,
+          "currency": "AED",
+          "inStock": true,
+          "soldOut": false
+        }
+      ],
+      "minPrice": 1525,
+      "maxPrice": 1525,
+      "totalQuantity": 4,
+      "inStock": true,
+      "colors": [
+        "Gold",
+        "Silver"
+      ],
+      "sizes": [
+        "35X35X100 cm"
+      ]
+    }
+  ]
+}
