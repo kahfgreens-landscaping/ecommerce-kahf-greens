@@ -58,8 +58,8 @@ export default function AdminDashboard() {
       {/* Admin Header */}
       <header className="bg-brand-dark text-white px-6 py-4 flex items-center justify-between sticky top-0 z-40 shadow-lg">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 bg-brand-gold rounded-lg flex items-center justify-center">
-            <span className="font-bold text-xs text-white">KG</span>
+          <div className="h-9 w-9 bg-white rounded-lg p-1 flex items-center justify-center shrink-0">
+            <img src="/logo.png" alt="Kahf Greens" className="h-full w-full object-contain" />
           </div>
           <div>
             <h1 className="font-bold text-sm">Kahf Greens Admin</h1>

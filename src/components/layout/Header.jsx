@@ -38,13 +38,15 @@ export default function Header() {
           <div className="flex items-center justify-between h-16 gap-4">
 
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-2 shrink-0">
-              <div className="w-9 h-9 bg-brand-dark rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">KG</span>
-              </div>
+            <Link to="/" className="flex items-center gap-2.5 shrink-0 group">
+              <img
+                src="/logo.png"
+                alt="Kahf Greens"
+                className="h-10 w-auto object-contain transition-transform group-hover:scale-103"
+              />
               <div className="hidden sm:block">
                 <span className="font-serif font-bold text-brand-dark text-lg leading-none block">Kahf Greens</span>
-                <span className="text-xs text-brand-sage">Premium Plant Pots · UAE</span>
+                <span className="text-[11px] text-brand-sage font-medium tracking-wide">Premium Plant Pots · UAE</span>
               </div>
             </Link>
 

@@ -13,11 +13,11 @@ export default function Footer() {
 
         {/* Brand */}
         <div>
-          <div className="flex items-center gap-2 mb-4">
-            <div className="w-9 h-9 bg-white rounded-full flex items-center justify-center">
-              <span className="text-brand-dark font-bold text-sm">KG</span>
+          <div className="flex items-center gap-2.5 mb-4">
+            <div className="h-10 w-10 bg-white rounded-xl p-1 flex items-center justify-center shrink-0 shadow-sm">
+              <img src="/logo.png" alt="Kahf Greens" className="h-full w-full object-contain" />
             </div>
-            <span className="font-serif font-bold text-xl">Kahf Greens</span>
+            <span className="font-serif font-bold text-xl text-white">Kahf Greens</span>
           </div>
           <p className="text-sm text-white/70 leading-relaxed mb-4">
             Premium plant pots, planters & garden containers. Supplying UAE's finest landscapes since 2004.
