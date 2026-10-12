@@ -52,10 +52,6 @@ npm run preview
 
 Accessible directly at: **`/admin`**
 
-- **Demo Credentials:**
-  - **Username:** `admin`
-  - **Password:** `kahfgreens2024`
-
 ### Admin Features:
 - 📊 **Real-time Inventory Metrics:** Total product families, variants, stock units on hand, sold-out items, and average catalog price.
 - ✏️ **Spreadsheet-style Inline Quick Edit:** Update titles and prices directly in the grid without navigating away.
