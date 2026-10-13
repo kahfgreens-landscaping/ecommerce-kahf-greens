@@ -4,7 +4,7 @@
  */
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { ShoppingCart, Heart, Search, Menu, X, ChevronDown, Phone } from 'lucide-react';
+import { ShoppingCart, Heart, Search, Menu, X, Phone } from 'lucide-react';
 import { cn } from '../../lib/utils';
 import { useCartStore } from '../../store/cartStore';
 import { useWishlistStore } from '../../store/wishlistStore';
@@ -28,66 +28,54 @@ export default function Header() {
   return (
     <>
       {/* Top announcement bar */}
-      <div className="bg-brand-dark text-white text-center text-xs py-2 px-4">
-        🌿 Free delivery across UAE on orders over <strong>AED 200</strong> &nbsp;|&nbsp;
-        WhatsApp: <a href="https://wa.me/971565096880" className="underline hover:text-brand-gold">+971 56 509 6880</a>
+      <div className="bg-[#29382e] text-white/90 text-center text-[10px] sm:text-xs tracking-[0.12em] py-2.5 px-4 uppercase">
+        Complimentary UAE delivery on orders over <strong className="text-white">AED 200</strong>
       </div>
 
-      <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border shadow-sm">
+      <header className="sticky top-0 z-50 bg-[#fcfbf8]/95 backdrop-blur-md border-b border-[#e8e4db]">
         <div className="container">
-          <div className="flex items-center justify-between h-16 gap-4">
+          <div className="relative grid grid-cols-3 items-center h-[76px] md:h-[82px]">
+            <div className="flex items-center gap-1">
+              <button
+                onClick={() => setMobileOpen(!mobileOpen)}
+                aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+                className="p-2 -ml-2 rounded-full hover:bg-[#f1eee7] md:hidden transition-colors"
+              >
+                {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+              </button>
+              <button
+                onClick={() => setSearchOpen(true)}
+                aria-label="Search products"
+                className="p-2 rounded-full hover:bg-[#f1eee7] transition-colors"
+                title="Search"
+              >
+                <Search className="w-5 h-5 text-foreground" />
+              </button>
+              <a
+                href="https://wa.me/971565096880"
+                className="hidden lg:inline text-[11px] tracking-[0.1em] uppercase text-muted-foreground hover:text-brand-dark ml-3"
+              >
+                Need help?
+              </a>
+            </div>
 
-            {/* Logo */}
-            <Link to="/" className="flex items-center gap-2.5 shrink-0 group">
+            <Link to="/" className="absolute left-1/2 -translate-x-1/2 flex items-center gap-2 shrink-0 group">
               <img
                 src="/logo.png"
                 alt="Kahf Greens"
-                className="h-10 w-auto object-contain transition-transform group-hover:scale-103"
+                className="h-11 md:h-12 w-auto object-contain transition-transform group-hover:scale-103"
               />
-              <div className="hidden sm:block">
-                <span className="font-serif font-bold text-brand-dark text-lg leading-none block">Kahf Greens</span>
-                <span className="text-[11px] text-brand-sage font-medium tracking-wide">Premium Plant Pots · UAE</span>
+              <div className="hidden sm:block text-center">
+                <span className="font-serif font-semibold text-[#29382e] text-[17px] leading-none block tracking-wide">Kahf Greens</span>
+                <span className="text-[9px] text-brand-sage font-medium tracking-[0.18em] uppercase mt-1 block">Planters · UAE</span>
               </div>
             </Link>
 
-            {/* Desktop Nav */}
-            <nav className="hidden md:flex items-center gap-1">
-              <NavLink to="/" end className={({ isActive }) => cn('px-3 py-2 rounded-lg text-sm font-medium transition-colors', isActive ? 'text-brand-dark bg-brand-light-bg' : 'text-muted-foreground hover:text-brand-dark hover:bg-brand-light-bg')}>
-                Home
-              </NavLink>
-
-              {/* Shop dropdown */}
-              <div className="relative group">
-                <button className="flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium text-muted-foreground hover:text-brand-dark hover:bg-brand-light-bg transition-colors">
-                  Shop <ChevronDown className="w-3.5 h-3.5" />
-                </button>
-                <div className="absolute top-full left-0 mt-1 w-52 bg-white rounded-xl shadow-xl border border-border py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                  {CATEGORIES.map(c => (
-                    <Link key={c.href} to={c.href} className="block px-4 py-2 text-sm text-foreground hover:bg-brand-light-bg hover:text-brand-dark">
-                      {c.label}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-
-              <NavLink to="/about" className={({ isActive }) => cn('px-3 py-2 rounded-lg text-sm font-medium transition-colors', isActive ? 'text-brand-dark bg-brand-light-bg' : 'text-muted-foreground hover:text-brand-dark hover:bg-brand-light-bg')}>
-                About
-              </NavLink>
-              <NavLink to="/contact" className={({ isActive }) => cn('px-3 py-2 rounded-lg text-sm font-medium transition-colors', isActive ? 'text-brand-dark bg-brand-light-bg' : 'text-muted-foreground hover:text-brand-dark hover:bg-brand-light-bg')}>
-                Contact
-              </NavLink>
-            </nav>
-
-            {/* Right actions */}
-            <div className="flex items-center gap-1">
-              <button onClick={() => setSearchOpen(true)} className="p-2 rounded-lg hover:bg-brand-light-bg transition-colors" title="Search">
-                <Search className="w-5 h-5 text-foreground" />
-              </button>
-
+            <div className="flex items-center justify-end gap-1">
               <Link to="/wishlist" className="relative p-2 rounded-lg hover:bg-brand-light-bg transition-colors" title="Wishlist">
                 <Heart className="w-5 h-5 text-foreground" />
                 {wishItems.length > 0 && (
-                  <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 text-white text-xs rounded-full flex items-center justify-center">
+                  <span className="absolute top-0 right-0 w-4 h-4 bg-brand-dark text-white text-[10px] rounded-full flex items-center justify-center">
                     {wishItems.length}
                   </span>
                 )}
@@ -96,28 +84,40 @@ export default function Header() {
               <button onClick={toggleCart} className="relative p-2 rounded-lg hover:bg-brand-light-bg transition-colors" title="Cart">
                 <ShoppingCart className="w-5 h-5 text-foreground" />
                 {cartCount > 0 && (
-                  <span className="absolute -top-1 -right-1 w-4 h-4 bg-brand-dark text-white text-xs rounded-full flex items-center justify-center">
+                <span className="absolute top-0 right-0 w-4 h-4 bg-brand-dark text-white text-[10px] rounded-full flex items-center justify-center">
                     {cartCount}
                   </span>
                 )}
               </button>
-
-              {/* Mobile menu toggle */}
-              <button onClick={() => setMobileOpen(!mobileOpen)} className="p-2 rounded-lg hover:bg-brand-light-bg md:hidden transition-colors">
-                {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-              </button>
             </div>
           </div>
 
+          <nav className="hidden md:flex items-center justify-center gap-9 border-t border-[#e8e4db] h-[43px]">
+            <NavLink to="/" end className={({ isActive }) => cn('text-[10px] font-medium tracking-[0.15em] uppercase transition-colors', isActive ? 'text-brand-dark' : 'text-muted-foreground hover:text-brand-dark')}>
+              Home
+            </NavLink>
+            {CATEGORIES.map(category => (
+              <NavLink key={category.href} to={category.href} className={({ isActive }) => cn('text-[10px] font-medium tracking-[0.15em] uppercase transition-colors', isActive ? 'text-brand-dark' : 'text-muted-foreground hover:text-brand-dark')}>
+                {category.label}
+              </NavLink>
+            ))}
+            <NavLink to="/about" className={({ isActive }) => cn('text-[10px] font-medium tracking-[0.15em] uppercase transition-colors', isActive ? 'text-brand-dark' : 'text-muted-foreground hover:text-brand-dark')}>
+              About
+            </NavLink>
+            <NavLink to="/contact" className={({ isActive }) => cn('text-[10px] font-medium tracking-[0.15em] uppercase transition-colors', isActive ? 'text-brand-dark' : 'text-muted-foreground hover:text-brand-dark')}>
+              Contact
+            </NavLink>
+          </nav>
+
           {/* Mobile nav */}
           {mobileOpen && (
-            <div className="md:hidden border-t border-border py-3 animate-fade-in">
-              {[{ to: '/', label: 'Home' }, { to: '/products', label: 'All Products' }, ...CATEGORIES.slice(0, 4).map(c => ({ to: c.href, label: c.label })), { to: '/about', label: 'About' }, { to: '/contact', label: 'Contact' }].map(item => (
-                <Link key={item.to} to={item.to} onClick={() => setMobileOpen(false)} className="block px-3 py-2.5 text-sm font-medium text-foreground hover:bg-brand-light-bg rounded-lg">
-                  {item.label}
+            <div className="md:hidden border-t border-[#e8e4db] py-3 animate-fade-in">
+              {[{ to: '/', label: 'Home' }, ...CATEGORIES.map(c => ({ to: c.href, label: c.label })), { to: '/about', label: 'About' }, { to: '/contact', label: 'Contact' }].map(item => (
+                <Link key={item.to} to={item.to} onClick={() => setMobileOpen(false)} className="block px-3 py-3 text-[11px] font-medium tracking-[0.12em] uppercase text-foreground hover:bg-[#f1eee7]">
+                {item.label}
                 </Link>
               ))}
-              <a href="https://wa.me/971565096880" className="flex items-center gap-2 px-3 py-2.5 text-sm font-medium text-green-700 hover:bg-green-50 rounded-lg mt-1">
+              <a href="https://wa.me/971565096880" className="flex items-center gap-2 px-3 py-3 text-[11px] font-medium tracking-[0.12em] uppercase text-green-800 hover:bg-green-50 mt-1">
                 <Phone className="w-4 h-4" /> WhatsApp Us
               </a>
             </div>

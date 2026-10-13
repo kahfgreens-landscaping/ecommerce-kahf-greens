@@ -30,45 +30,59 @@ export default function HomePage() {
   return (
     <main>
       {/* ── Hero ────────────────────────────────────────────────── */}
-      <section className="relative bg-gradient-to-br from-brand-dark via-brand-mid to-brand-light overflow-hidden">
-        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url(/images/hero-pattern.svg)', backgroundSize: '40px' }} />
-        <div className="container relative py-20 md:py-28 flex flex-col items-start gap-6">
-          <span className="badge-green text-xs font-semibold">🌿 Premier Plant Pots — UAE</span>
-          <h1 className="font-serif font-bold text-4xl md:text-6xl text-white leading-tight max-w-2xl">
-            Beautiful Pots for<br />
-            <span className="text-brand-gold">Every Space</span>
-          </h1>
-          <p className="text-white/80 text-lg max-w-xl leading-relaxed">
-            From Italian Idel luxury planters to handcrafted Pottery Pots — shop UAE's most complete collection. All prices in AED including 5% VAT.
-          </p>
-          <div className="flex flex-wrap gap-3 mt-2">
-            <Link to="/products" className="btn-gold inline-flex items-center gap-2">
-              Shop All Pots <ArrowRight className="w-4 h-4" />
-            </Link>
-            <Link to="/collections/idel" className="btn-outline border-white text-white hover:bg-white hover:text-brand-dark inline-flex items-center gap-2">
-              Idel Collection
-            </Link>
-          </div>
-
-          {/* Stats */}
-          <div className="flex flex-wrap gap-6 mt-4 text-white/90 text-sm">
-            {[['56+', 'Products'], ['269+', 'Variants'], ['AED 2–1,525', 'Price Range'], ['20+', 'Years in UAE']].map(([n, l]) => (
-              <div key={l} className="flex items-baseline gap-1.5">
-                <span className="font-bold text-xl text-brand-gold">{n}</span>
-                <span className="text-white/70">{l}</span>
+      <section className="bg-[#f3f0e8] overflow-hidden">
+        <div className="container py-8 md:py-12">
+          <div className="grid min-h-[490px] md:min-h-[570px] md:grid-cols-[0.92fr_1.08fr] bg-[#faf9f5]">
+            <div className="relative z-10 flex flex-col items-start justify-center px-7 py-12 sm:px-12 md:px-14 lg:px-20">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-brand-sage mb-5">
+                Thoughtful design · Made for the UAE
+              </span>
+              <h1 className="font-serif font-medium text-[42px] sm:text-5xl lg:text-[62px] text-[#29382e] leading-[1.08] max-w-xl">
+                Let your space<br className="hidden sm:block" /> grow beautifully.
+              </h1>
+              <p className="text-[#6e7169] text-sm sm:text-base max-w-md leading-7 mt-6">
+                Planters with presence, chosen to bring a little more nature into the way you live.
+              </p>
+              <div className="flex flex-wrap items-center gap-5 mt-8">
+                <Link to="/products" className="inline-flex items-center gap-3 bg-[#29382e] text-white px-6 py-3.5 text-[10px] font-semibold uppercase tracking-[0.16em] hover:bg-brand-mid transition-colors">
+                  Explore the collection <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link to="/collections/idel" className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[#29382e] border-b border-[#87907e] pb-1 hover:border-brand-dark">
+                  Discover Idel
+                </Link>
               </div>
-            ))}
+              <div className="flex items-center gap-6 sm:gap-9 mt-12 pt-6 border-t border-[#e7e3d9] w-full max-w-md">
+                {[['20+', 'Years in the UAE'], ['269', 'Ways to grow']].map(([number, label]) => (
+                  <div key={label}>
+                    <p className="font-serif text-2xl text-[#29382e]">{number}</p>
+                    <p className="text-[9px] uppercase tracking-[0.14em] text-muted-foreground mt-1">{label}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="relative min-h-[300px] md:min-h-full overflow-hidden bg-[#ebe6da]">
+              <img
+                src="/images/products/idel-living-high-round-55/idel-living-high-round-55__lifestyle__01.jpg"
+                alt="A sculptural planter with evergreen foliage"
+                className="absolute inset-0 w-full h-full object-contain object-center mix-blend-multiply p-4 md:p-7"
+                onError={e => { e.currentTarget.src = '/images/placeholder-pot.jpg'; }}
+              />
+              <div className="absolute bottom-5 right-5 md:bottom-8 md:right-8 bg-[#faf9f5]/90 backdrop-blur px-4 py-3">
+                <p className="text-[9px] uppercase tracking-[0.16em] text-brand-sage">Rooted in quality</p>
+                <p className="font-serif text-sm text-[#29382e] mt-1">Considered for every corner</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* ── Trust bar ───────────────────────────────────────────── */}
-      <section className="bg-white border-b border-border">
-        <div className="container py-6 grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <section className="bg-[#fcfbf8] border-b border-[#e8e4db]">
+        <div className="container py-6 md:py-8 grid grid-cols-2 lg:grid-cols-4 gap-4">
           {TRUST_ITEMS.map(({ icon: Icon, title, desc }) => (
             <div key={title} className="flex items-center gap-3">
-              <div className="w-9 h-9 bg-brand-light-bg rounded-lg flex items-center justify-center shrink-0">
-                <Icon className="w-4 h-4 text-brand-dark" />
+              <div className="w-9 h-9 bg-[#f0eee6] flex items-center justify-center shrink-0">
+                <Icon className="w-4 h-4 text-brand-dark" strokeWidth={1.5} />
               </div>
               <div>
                 <p className="text-sm font-semibold text-foreground">{title}</p>
@@ -80,33 +94,33 @@ export default function HomePage() {
       </section>
 
       {/* ── Collections ─────────────────────────────────────────── */}
-      <section className="container py-14">
+      <section className="container py-16 md:py-20">
         <div className="flex items-end justify-between mb-8">
           <div>
-            <p className="text-brand-sage text-sm font-semibold uppercase tracking-wide mb-1">Browse by Collection</p>
+            <p className="text-brand-sage text-[10px] font-semibold uppercase tracking-[0.18em] mb-2">Browse by Collection</p>
             <h2 className="section-title">Shop by Range</h2>
           </div>
           <Link to="/products" className="text-sm text-brand-dark font-medium flex items-center gap-1 hover:gap-2 transition-all">
             All Products <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-5">
           {HERO_COLLECTIONS.map(col => (
             <Link
               key={col.slug}
               to={`/collections/${col.slug}`}
-              className="relative group overflow-hidden rounded-2xl aspect-[4/3] bg-muted card-hover"
+              className="relative group overflow-hidden aspect-[4/3] bg-[#f0eee6]"
             >
               <img
                 src={col.img}
                 alt={col.name}
-                className="product-image"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
                 onError={e => { e.target.src = '/images/placeholder-pot.jpg'; }}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-              <div className="absolute bottom-4 left-4 text-white">
-                <p className="font-serif font-bold text-xl">{col.name}</p>
-                <p className="text-sm text-white/80">{col.desc}</p>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/5 to-transparent" />
+              <div className="absolute bottom-5 left-5 md:bottom-7 md:left-7 text-white">
+                <p className="font-serif text-2xl">{col.name}</p>
+                <p className="text-xs text-white/80 mt-1">{col.desc}</p>
               </div>
               <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
                 <span className="bg-white text-brand-dark text-xs font-semibold px-3 py-1 rounded-full">
@@ -119,11 +133,11 @@ export default function HomePage() {
       </section>
 
       {/* ── Featured Products ────────────────────────────────────── */}
-      <section className="bg-brand-light-bg py-14">
+      <section className="bg-[#f3f0e8] py-16 md:py-20">
         <div className="container">
           <div className="flex items-end justify-between mb-8">
             <div>
-              <p className="text-brand-sage text-sm font-semibold uppercase tracking-wide mb-1">Bestsellers</p>
+              <p className="text-brand-sage text-[10px] font-semibold uppercase tracking-[0.18em] mb-2">Bestsellers</p>
               <h2 className="section-title">Featured Products</h2>
             </div>
             <Link to="/products" className="text-sm text-brand-dark font-medium flex items-center gap-1 hover:gap-2 transition-all">

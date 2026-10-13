@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, ShoppingCart, Eye } from 'lucide-react';
-import { cn, formatPriceRange, getColorStyle } from '../../lib/utils';
+import { cn, formatPrice, formatPriceRange, getColorStyle } from '../../lib/utils';
 import { useCartStore } from '../../store/cartStore';
 import { useWishlistStore } from '../../store/wishlistStore';
 import { getProductImageForProduct, getProductImageForProductColor } from '../../data/imageMap';
@@ -9,12 +9,19 @@ import { getProductImageForProduct, getProductImageForProductColor } from '../..
 export default function ProductCard({ product, className }) {
   const [imgError, setImgError] = useState(false);
   const [selectedColor, setSelectedColor] = useState(null);
+  const [selectedSize, setSelectedSize] = useState(null);
   const { addItem, openCart } = useCartStore();
   const { toggle, isWishlisted } = useWishlistStore();
   const wishlisted = isWishlisted(product.id);
 
-  // Variant matching selected color or first variant
-  const currentVariant = (selectedColor && product.variants?.find(v => v.color === selectedColor)) || product.variants?.[0];
+  const sizeLabel = (variant) => variant.sizeLabel || `${variant.size} ${variant.sizeUnit}`;
+  const variantsForColor = selectedColor
+    ? product.variants?.filter(variant => variant.color === selectedColor)
+    : product.variants;
+  const availableSizes = [...new Set((variantsForColor || []).map(sizeLabel).filter(Boolean))];
+  const currentVariant = variantsForColor?.find(variant => sizeLabel(variant) === selectedSize)
+    || variantsForColor?.[0]
+    || product.variants?.[0];
 
   // Image updates dynamically when color is clicked
   const imageSrc = imgError 
@@ -39,22 +46,33 @@ export default function ProductCard({ product, className }) {
   const handleColorClick = (e, color) => {
     e.preventDefault();
     e.stopPropagation();
-    setSelectedColor(prev => prev === color ? null : color);
+    const nextColor = selectedColor === color ? null : color;
+    const colorSizes = nextColor
+      ? new Set(product.variants?.filter(variant => variant.color === nextColor).map(sizeLabel))
+      : new Set(product.variants?.map(sizeLabel));
+    if (selectedSize && !colorSizes.has(selectedSize)) setSelectedSize(null);
+    setSelectedColor(nextColor);
     setImgError(false);
+  };
+
+  const handleSizeClick = (e, size) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setSelectedSize(prev => prev === size ? null : size);
   };
 
   return (
     <Link
       to={`/products/${product.slug}`}
-      className={cn('group relative bg-white rounded-xl overflow-hidden border border-border card-hover flex flex-col', className)}
+      className={cn('group relative bg-transparent overflow-hidden flex flex-col', className)}
     >
       {/* Image */}
-      <div className="relative aspect-square bg-brand-light-bg overflow-hidden">
+      <div className="relative aspect-[4/5] bg-[#f0eee8] overflow-hidden">
         <img
           src={imageSrc}
           alt={`${product.name}${selectedColor ? ` - ${selectedColor}` : ''}`}
           onError={() => setImgError(true)}
-          className="product-image transition-all duration-300"
+          className="w-full h-full object-contain mix-blend-multiply transition-transform duration-500 group-hover:scale-[1.03]"
           loading="lazy"
         />
 
@@ -100,9 +118,9 @@ export default function ProductCard({ product, className }) {
       </div>
 
       {/* Info */}
-      <div className="p-4 flex flex-col gap-2 flex-1">
-        <p className="text-xs text-brand-sage font-medium uppercase tracking-wide">{product.category}</p>
-        <h3 className="font-semibold text-foreground line-clamp-2 group-hover:text-brand-dark transition-colors">
+      <div className="px-1 pt-4 pb-2 flex flex-col gap-2 flex-1">
+        <p className="text-[9px] text-brand-sage font-semibold uppercase tracking-[0.16em]">{product.category}</p>
+        <h3 className="font-serif font-semibold text-[17px] text-foreground line-clamp-2 group-hover:text-brand-dark transition-colors">
           {product.name}
         </h3>
 
@@ -133,22 +151,34 @@ export default function ProductCard({ product, className }) {
           </div>
         )}
 
-        {/* Sizes pill list */}
-        {product.sizes?.length > 0 && (
+        {/* Select a size to preview its variant price */}
+        {availableSizes.length > 0 && (
           <div className="flex flex-wrap gap-1">
-            {product.sizes.slice(0, 3).map(s => (
-              <span key={s} className="text-xs bg-muted text-muted-foreground px-2 py-0.5 rounded-full">{s}</span>
+            {availableSizes.map(size => (
+                <button
+                key={size}
+                type="button"
+                onClick={(e) => handleSizeClick(e, size)}
+                aria-pressed={selectedSize === size}
+                className={cn(
+                    'text-[10px] px-2.5 py-1 border transition-colors',
+                  selectedSize === size
+                    ? 'bg-brand-dark text-white border-brand-dark'
+                    : 'bg-muted text-muted-foreground border-transparent hover:border-brand-dark hover:text-brand-dark'
+                )}
+              >
+                {size}
+              </button>
             ))}
-            {product.sizes.length > 3 && (
-              <span className="text-xs text-muted-foreground">+{product.sizes.length - 3} sizes</span>
-            )}
           </div>
         )}
 
         {/* Price */}
         <div className="mt-auto pt-2">
-          <p className="font-bold text-brand-dark text-lg">
-            {formatPriceRange(product.minPrice, product.maxPrice)}
+          <p className="font-semibold text-brand-dark text-base">
+            {selectedSize && currentVariant
+              ? formatPrice(currentVariant.price)
+              : formatPriceRange(product.minPrice, product.maxPrice)}
           </p>
           <p className="text-xs text-muted-foreground">Incl. VAT · Free delivery on orders over AED 200</p>
         </div>
