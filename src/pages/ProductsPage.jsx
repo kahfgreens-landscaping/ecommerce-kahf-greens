@@ -131,7 +131,7 @@ export default function ProductsPage() {
             </div>
           ) : (
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
-              {filtered.map(p => <ProductCard key={p.id} product={p} />)}
+              {filtered.map(p => <ProductCard key={`${p.id}-${p.categorySlug || p.slug}`} product={p} />)}
             </div>
           )}
         </div>

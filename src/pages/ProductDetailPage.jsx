@@ -1,11 +1,11 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ShoppingCart, Heart, Share2, Check, ChevronLeft, ChevronRight, MessageCircle, Truck, Shield, Maximize2, X } from 'lucide-react';
 import catalogData from '../data/catalog.json';
 import { useCartStore } from '../store/cartStore';
 import { useWishlistStore } from '../store/wishlistStore';
 import { formatPrice, getColorStyle, cn } from '../lib/utils';
-import { getProductImages, getProductImageForColor } from '../data/imageMap';
+import { getProductImagesForProduct, getProductImageForProductColor } from '../data/imageMap';
 import ProductCard from '../components/ui/ProductCard';
 
 export default function ProductDetailPage() {
@@ -20,6 +20,8 @@ export default function ProductDetailPage() {
   const [added, setAdded]   = useState(false);
   const [isFullScreen, setIsFullScreen] = useState(false);
 
+  const images = getProductImagesForProduct(product);
+
   // Keyboard navigation for lightbox
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -30,7 +32,7 @@ export default function ProductDetailPage() {
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isFullScreen]);
+  }, [isFullScreen, images.length]);
 
   if (!product) return (
     <div className="container py-20 text-center">
@@ -39,14 +41,13 @@ export default function ProductDetailPage() {
     </div>
   );
 
-  const images = getProductImages(product.slug);
   const wishlisted = isWishlisted(product.id);
 
   // When selectedColor changes, find corresponding image in gallery and set as active
   const handleColorSelect = (color) => {
     setSelectedColor(color);
     if (!color) return;
-    const colorImg = getProductImageForColor(product.slug, color);
+    const colorImg = getProductImageForProductColor(product, color);
     if (colorImg) {
       const idx = images.indexOf(colorImg);
       if (idx !== -1) {
@@ -62,14 +63,12 @@ export default function ProductDetailPage() {
   const sizes  = [...new Set(product.variants.map(v => v.sizeLabel || `${v.size} ${v.sizeUnit}`))].filter(Boolean);
 
   // Selected variant
-  const selectedVariant = useMemo(() => {
-    return product.variants.find(v => {
+  const selectedVariant = product.variants.find(v => {
       const vSize = v.sizeLabel || `${v.size} ${v.sizeUnit}`;
       const colorMatch = !selectedColor || v.color === selectedColor;
       const sizeMatch  = !selectedSize  || vSize === selectedSize;
       return colorMatch && sizeMatch;
     }) || product.variants[0];
-  }, [selectedColor, selectedSize, product.variants]);
 
   const handleAddToCart = () => {
     addItem(product, selectedVariant, 1);
@@ -405,7 +404,7 @@ export default function ProductDetailPage() {
         <section className="mt-14">
           <h2 className="section-title mb-6">You may also like</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            {related.map(p => <ProductCard key={p.id} product={p} />)}
+            {related.map(p => <ProductCard key={`${p.id}-${p.categorySlug || p.slug}`} product={p} />)}
           </div>
         </section>
       )}

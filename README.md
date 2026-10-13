@@ -82,7 +82,8 @@ ecommerce-kahf-greens/
 │   │       └── WhatsAppFloat.jsx      ← Sticky WhatsApp UAE support button
 │   ├── data/
 │   │   ├── catalog.json               ← Master catalog generated from ecommerce.xlsx
-│   │   └── imageMap.js                ← Slug & color → image indexing engine
+│   │   ├── imageMap.js                ← Slug & color → image indexing engine
+│   │   └── colorImageResolver.js       ← Color-aware image matching and fallback ranking
 │   ├── lib/
 │   │   └── utils.js                   ← AED price formatting, 64-color swatch styles, helpers
 │   ├── pages/
@@ -105,7 +106,8 @@ ecommerce-kahf-greens/
 │   └── index.css                      ← Tailwind base, brand tokens & utility classes
 ├── scripts/
 │   ├── parse-excel-full.cjs           ← Excel (.xlsx) inventory parser & catalog compiler
-│   └── generate-image-map.cjs         ← Curated image mapper with photo scoring
+│   ├── generate-image-map.cjs         ← Curated image mapper with photo scoring
+│   └── standardize-product-images.cjs  ← Detects labels and normalizes product image names
 └── vite.config.js
 ```
 
@@ -113,13 +115,24 @@ ecommerce-kahf-greens/
 
 ## 🔄 Catalog & Image Automation Scripts
 
-Whenever new products or images are added from Google Drive:
+Product images use `{product-folder}__{color-or-asset-type}__{sequence}.{ext}` names, for example
+`idel-mosaic-curve-13__white-purple__01.jpg`. Variant colors are matched against the catalog; when a
+filename has no recognized color, the local image analyzer assigns a dominant-color label. Collages,
+technical diagrams, logos, and lifestyle images use descriptive asset-type labels.
+
+Preview a naming pass first. Add new files to their product folder, review the dry-run output, then apply:
 
 ```bash
-# 1. Compile fresh catalog from ecommerce.xlsx
+# Preview normalized names (does not change files)
+node scripts/standardize-product-images.cjs
+
+# Rename all product images and regenerate the image map
+node scripts/standardize-product-images.cjs --apply
+
+# Compile a fresh catalog from ecommerce.xlsx when inventory data changes
 node scripts/parse-excel-full.cjs
 
-# 2. Re-index and rank the product photo library
+# Re-index and rank the product photo library after manual asset changes
 node scripts/generate-image-map.cjs
 ```
 

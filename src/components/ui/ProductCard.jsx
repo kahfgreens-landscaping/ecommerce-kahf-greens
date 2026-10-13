@@ -4,7 +4,7 @@ import { Heart, ShoppingCart, Eye } from 'lucide-react';
 import { cn, formatPriceRange, getColorStyle } from '../../lib/utils';
 import { useCartStore } from '../../store/cartStore';
 import { useWishlistStore } from '../../store/wishlistStore';
-import { getProductImage, getProductImageForColor } from '../../data/imageMap';
+import { getProductImageForProduct, getProductImageForProductColor } from '../../data/imageMap';
 
 export default function ProductCard({ product, className }) {
   const [imgError, setImgError] = useState(false);
@@ -19,7 +19,9 @@ export default function ProductCard({ product, className }) {
   // Image updates dynamically when color is clicked
   const imageSrc = imgError 
     ? '/images/placeholder-pot.jpg' 
-    : (selectedColor ? getProductImageForColor(product.slug, selectedColor) : getProductImage(product.slug));
+    : (selectedColor
+      ? getProductImageForProductColor(product, selectedColor)
+      : getProductImageForProduct(product));
 
   const handleAddToCart = (e) => {
     e.preventDefault();

@@ -8,9 +8,9 @@ import ProductCard from '../components/ui/ProductCard';
 import catalogData from '../data/catalog.json';
 
 const HERO_COLLECTIONS = [
-  { name: 'Idel Collection', slug: 'idel', desc: 'Italian-crafted premium planters', img: '/images/products/idel-classic-matte-round/Matte-Round-2.png' },
-  { name: 'Pottery Pots', slug: 'pottery-pots', desc: 'Handfinished luxury finishes', img: '/images/products/pottery-pots/1._BETH_Gold_1.jpg' },
-  { name: 'Desch Pots', slug: 'desch-pots', desc: 'Commercial growing & nursery containers', img: '/images/products/idel-bio-compost/Pots_with_Plants-1.png' },
+  { name: 'Idel Collection', slug: 'idel', desc: 'Italian-crafted premium planters', img: '/images/products/idel-classic-matte-round/idel-classic-matte-round__yellow__02.png' },
+  { name: 'Pottery Pots', slug: 'pottery-pots', desc: 'Handfinished luxury finishes', img: '/images/products/pottery-pots/pottery-pots__beth-gold__01.jpg' },
+  { name: 'Desch Pots', slug: 'desch-pots', desc: 'Commercial growing & nursery containers', img: '/images/products/idel-bio-compost/idel-bio-compost__lifestyle__01.png' },
 ];
 
 const TRUST_ITEMS = [
@@ -132,7 +132,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {FEATURED.map(product => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard key={`${product.id}-${product.categorySlug || product.slug}`} product={product} />
             ))}
           </div>
         </div>

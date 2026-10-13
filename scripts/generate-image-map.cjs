@@ -13,48 +13,48 @@ const IMAGE_EXTS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.gif']);
 
 // Curated best-view main photos (lifestyle, pot with plant, clean full catalog renders)
 const CURATED_MAIN_PHOTOS = {
-  'idel-dante': 'Pots_with_Plants_1.png',
-  'idel-classic-matte-round': 'Matte-Round-2.png',
-  'idel-classic-matte-square': 'IDeL_Classic_Matte_Square_28cm_Plant_Pot_Anthracite_1.jpg',
-  'idel-classic-windowbox-sws-50cm': 'IDeL_Classic_Windowbox_50cm_Plant_Pot_White_1.jpg',
-  'idel-cilindro-liscio': 'Cilindro-Liscio-1.png',
-  'idel-ducale': 'Pots_with_Plants_-Ash_Sky_Blue.png',
-  'idel-etrusco': 'IDeL_Etrusco_24cm_4L_Plant_Pot_Anthracite_1.png',
-  'idel-grow-with-italia': 'Pots_with_Plants-Lilac.png',
-  'idel-hang-etrusco': 'Hang-Etrusco-2.png',
-  'idel-high-square-living': 'High-Square-Living-2.png',
-  'idel-high-square-living-sws': 'High-Square-Living-SWS-2.png',
-  'idel-hydrus': 'Hydrus-2.png',
-  'idel-italia': 'Pots_with_Plants-Nova_Carbon.png',
-  'idel-jenny': 'IDeL_Jenny_22cm_3L_Plant_Pot_Anthracite_1.jpg',
-  'idel-kit-campana': 'Kit-Campana-2.png',
-  'idel-kit-elba': 'Elba-1.png',
-  'idel-kit-lipari': 'IDeL_Kit_Lipari_21.5_3L_Hanging_Plant_Pot_White_1.jpg',
-  'idel-kit-tirreno': 'Kit-Tirreno-1.png',
-  'idel-kit-versilia': 'IDeL_Kit_Versilia_40cm_Hanging_Plant_Pot_White_1.png',
-  'idel-liparis': 'Lipari-1.png',
-  'idel-living-high-round-55': 'IDeL_Living_High_Round_55cm_Plant_Pot_Anthracite_1.png',
-  'idel-marinella': 'Pots_with_Plants-Nova_Carbon.png',
-  'idel-mosaic-curve-13': 'IDeL_Mosaic_Curve_High_13cm_Plant_Pot_White_1.jpg',
-  'idel-mosaic-curve-40': 'IDeL_Mosaic_Curve_High_40cm_Plant_Pot_White_1.jpg',
-  'idel-mosaic-curve-55': 'IDeL_Mosaic_Curve_55cm_Black-Gold_1.jpg',
-  'idel-mosaic-curve-90': 'IDeL_Mosaic_Curve_High_90cm_Plant_Pot_Anthracite_1.jpg',
-  'idel-mosaic-flowerbox': 'Flowerbox40-2.png',
-  'idel-mosaic-quadro-17cm': 'IDeL_Mosaic_Quadro_17cm_Plant_Pot_Ash_Sky_Blue_1.jpg',
-  'idel-pback': 'cassette-PBack-new.png',
-  'idel-round-living': 'IDeL_Round_Living_16cm_2L_Plant_Pot_Anthracite_1.jpg',
-  'idel-smart-flowerbox': 'IDeL_Smart_Flowerbox_85cm_Plant_Pot_White_1.png',
-  'idel-square-high-sws': 'Classic-high-square-SWS-2.png',
-  'idel-square-living': 'IDeL_Square_Living_18cm_Plant_Pot_White_1.jpg',
-  'idel-twin-set-round-living': 'IDeL_Twin_Classic_14cm_1.7L_Plant_Pot_White_1.jpg',
-  'idel-versilia': 'IDeL_Versilia_60cm_Plant_Pot_White_1.png',
-  'idel-volterra': 'IDeL_Volterra_45cm_Plant_Pot_White_1.png',
-  'teku-hanging-pot': 'Terracotta_-_Set_of_3_-_MAIN.png',
-  'coir-pot': '1-Main_Image.png',
-  'coir-hanging-basket': 'Coir_Hanging_Basket_25cm_Half_Sphere_Black_and_White_Metal_1.png',
-  'coir-hanging-pot': 'Coir_Orchid_Hanging_15cm_Black_Frame_and_White_Chain_1.png',
-  'coir-wall-basket': '2set-1.png',
-  'quadro-37': 'Quadro_37_Terracotta.png',
+  'idel-dante': 'idel-dante__lifestyle__01.png',
+  'idel-classic-matte-round': 'idel-classic-matte-round__yellow__02.png',
+  'idel-classic-matte-square': 'idel-classic-matte-square__anthracite__01.jpg',
+  'idel-classic-windowbox-sws-50cm': 'idel-classic-windowbox-sws-50cm__white__01.jpg',
+  'idel-cilindro-liscio': 'idel-cilindro-liscio__brown__01.png',
+  'idel-ducale': 'idel-ducale__lifestyle-ash-sky-blue__01.png',
+  'idel-etrusco': 'idel-etrusco__anthracite__01.png',
+  'idel-grow-with-italia': 'idel-grow-with-italia__lifestyle-lilac__01.png',
+  'idel-hang-etrusco': 'idel-hang-etrusco__gray__01.png',
+  'idel-high-square-living': 'idel-high-square-living__gray__01.png',
+  'idel-high-square-living-sws': 'idel-high-square-living-sws__pink__01.png',
+  'idel-hydrus': 'idel-hydrus__brown__01.png',
+  'idel-italia': 'idel-italia__lifestyle-nova-carbon__01.png',
+  'idel-jenny': 'idel-jenny__anthracite__01.jpg',
+  'idel-kit-campana': 'idel-kit-campana__gray__01.png',
+  'idel-kit-elba': 'idel-kit-elba__yellow__01.png',
+  'idel-kit-lipari': 'idel-kit-lipari__white__01.jpg',
+  'idel-kit-tirreno': 'idel-kit-tirreno__gray__01.png',
+  'idel-kit-versilia': 'idel-kit-versilia__white__01.png',
+  'idel-liparis': 'idel-liparis__green__01.png',
+  'idel-living-high-round-55': 'idel-living-high-round-55__anthracite__01.png',
+  'idel-marinella': 'idel-marinella__lifestyle-nova-carbon__01.png',
+  'idel-mosaic-curve-13': 'idel-mosaic-curve-13__white__01.jpg',
+  'idel-mosaic-curve-40': 'idel-mosaic-curve-40__white__01.jpg',
+  'idel-mosaic-curve-55': 'idel-mosaic-curve-55__black-gold__01.jpg',
+  'idel-mosaic-curve-90': 'idel-mosaic-curve-90__anthracite__01.jpg',
+  'idel-mosaic-flowerbox': 'idel-mosaic-flowerbox__gray__07.png',
+  'idel-mosaic-quadro-17cm': 'idel-mosaic-quadro-17cm__ash-sky-blue__01.jpg',
+  'idel-pback': 'idel-pback__green__01.png',
+  'idel-round-living': 'idel-round-living__anthracite__01.jpg',
+  'idel-smart-flowerbox': 'idel-smart-flowerbox__white__02.png',
+  'idel-square-high-sws': 'idel-square-high-sws__gray__01.png',
+  'idel-square-living': 'idel-square-living__white__01.jpg',
+  'idel-twin-set-round-living': 'idel-twin-set-round-living__white__01.jpg',
+  'idel-versilia': 'idel-versilia__white__01.png',
+  'idel-volterra': 'idel-volterra__white__01.png',
+  'teku-hanging-pot': 'teku-hanging-pot__terracotta__01.png',
+  'coir-pot': 'coir-pot__green__01.png',
+  'coir-hanging-basket': 'coir-hanging-basket__black-white__01.png',
+  'coir-hanging-pot': 'coir-hanging-pot__accessory-black-white__01.png',
+  'coir-wall-basket': 'coir-wall-basket__brown__04.png',
+  'quadro-37': 'quadro-37__terracotta__01.png',
 };
 
 // Visual quality / suitability score
@@ -109,16 +109,16 @@ if (fs.existsSync(PRODUCTS_DIR)) {
 
 // Custom aliases for Pottery Pots individual items & special slugs
 const ppImages = map['pottery-pots'] || [];
-const bethGold = ppImages.filter(i => i.includes('BETH_Gold'));
-const bethSilver = ppImages.filter(i => i.includes('BETH_Silver'));
-const blockGold = ppImages.filter(i => i.includes('BLOCK_Gold'));
-const blockSilver = ppImages.filter(i => i.includes('BLOCK_Silver'));
-const orbBlack = ppImages.filter(i => i.includes('ORB_Black'));
-const orbChoc = ppImages.filter(i => i.includes('ORB_Chocolate'));
-const sunnyGold = ppImages.filter(i => i.includes('SUNNY_Gold'));
-const sunnyRose = ppImages.filter(i => i.includes('SUNNY_Rose'));
-const yangGold = ppImages.filter(i => i.includes('YANG_Gold'));
-const yangSilver = ppImages.filter(i => i.includes('YANG_Silver'));
+const bethGold = ppImages.filter(i => i.includes('__beth-gold__'));
+const bethSilver = ppImages.filter(i => i.includes('__beth-silver__'));
+const blockGold = ppImages.filter(i => i.includes('__block-gold__'));
+const blockSilver = ppImages.filter(i => i.includes('__block-silver__'));
+const orbBlack = ppImages.filter(i => i.includes('__orb-black__'));
+const orbChoc = ppImages.filter(i => i.includes('__orb-chocolate__'));
+const sunnyGold = ppImages.filter(i => i.includes('__sunny-gold__'));
+const sunnyRose = ppImages.filter(i => i.includes('__sunny-rose__'));
+const yangGold = ppImages.filter(i => i.includes('__yang-gold__'));
+const yangSilver = ppImages.filter(i => i.includes('__yang-silver__'));
 
 if (ppImages.length > 0) {
   map['pp-beth'] = [...bethGold, ...bethSilver, ...ppImages];
@@ -151,6 +151,8 @@ const lines = [
   '// AUTO-GENERATED by scripts/generate-image-map.cjs — do not edit manually',
   '// Run: node scripts/generate-image-map.cjs',
   '',
+  "import { resolveProductImageForColor } from './colorImageResolver.js';",
+  '',
   'const BASE = \'/images/products\';',
   '',
   'export const productImageMap = {',
@@ -170,9 +172,35 @@ const lines = [
   '  return [\'/images/placeholder-pot.jpg\'];',
   '}',
   '',
+  '/** Get images for a catalog product, preferring its exact category folder. */',
+  'export function getProductImagesForProduct(product) {',
+  '  if (!product) return [\'/images/placeholder-pot.jpg\'];',
+  '  const candidates = [product.categorySlug, product.slug, product.id]',
+  '    .filter(Boolean)',
+  '    .map(value => String(value).toLowerCase().trim());',
+  '  const key = candidates.find(candidate => productImageMap[candidate]?.length > 0);',
+  '  return key ? productImageMap[key] : getProductImages(product.slug || product.id);',
+  '}',
+  '',
   '/** Get primary (first/main suitable) image */',
   'export function getProductImage(slug) {',
   '  return getProductImages(slug)[0];',
+  '}',
+  '',
+  '/** Get the primary image for a catalog product. */',
+  'export function getProductImageForProduct(product) {',
+  '  return getProductImagesForProduct(product)[0] || \'/images/placeholder-pot.jpg\';',
+  '}',
+  '',
+  '/** Get image matching a specific color for a product */',
+  'export function getProductImageForColor(slug, color) {',
+  '  if (!slug) return \'/images/placeholder-pot.jpg\';',
+  '  return resolveProductImageForColor(getProductImages(slug), color);',
+  '}',
+  '',
+  '/** Get the image for a selected color using the catalog product\'s exact image folder. */',
+  'export function getProductImageForProductColor(product, color) {',
+  '  return resolveProductImageForColor(getProductImagesForProduct(product), color);',
   '}',
 ];
 

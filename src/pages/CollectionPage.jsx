@@ -36,7 +36,7 @@ export default function CollectionPage() {
         <p className="text-muted-foreground mt-1">{products.length} products</p>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-        {products.map(p => <ProductCard key={p.id} product={p} />)}
+        {products.map(p => <ProductCard key={`${p.id}-${p.categorySlug || p.slug}`} product={p} />)}
       </div>
       {products.length === 0 && (
         <p className="text-center py-16 text-muted-foreground">No products in this collection yet.</p>
