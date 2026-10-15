@@ -128,7 +128,7 @@ export default function BlogsPage() {
     <main className="bg-[#fcfbf8]">
       <section className="relative isolate overflow-hidden bg-[#29382e] text-white">
         <img
-          src="/images/blogs/journal-hero-background.jpg"
+          src="/images/blogs/journal-hero-background.webp"
           alt=""
           aria-hidden="true"
           className="absolute inset-0 -z-20 h-full w-full object-cover object-center"

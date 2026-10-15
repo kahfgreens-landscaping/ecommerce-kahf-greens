@@ -42,7 +42,7 @@ export const BLOG_ARTICLES = [
     date: 'Oct 04, 2026',
     author: 'Zaid Al-Mansoor',
     authorRole: 'Horticultural Consultant',
-    featuredImage: '/images/blogs/fibreglass-planters-uae-gardens.jpg',
+    featuredImage: '/images/blogs/fibreglass-planters-uae-gardens.webp',
     summary: 'From Dubai luxury villas to high-rise Abu Dhabi balconies, explore why landscape architects insist on fibreglass planters.',
     tags: ['Design', 'Materials', 'UAE Gardens', 'Balcony'],
     content: `
@@ -94,7 +94,7 @@ export const BLOG_ARTICLES = [
     date: 'Sep 18, 2026',
     author: 'Elena Rostova',
     authorRole: 'Eco-Design Director',
-    featuredImage: '/images/blogs/sustainable-gardening.jpg',
+    featuredImage: '/images/blogs/sustainable-gardening.webp',
     summary: 'Learn how pot material choices, organic soil amendments, and water retention can lower your gardening footprint in the desert.',
     tags: ['Sustainability', 'Care', 'UAE Weather'],
     content: `
@@ -117,7 +117,7 @@ export const BLOG_ARTICLES = [
     date: 'Sep 09, 2026',
     author: 'Zaid Al-Mansoor',
     authorRole: 'Landscape Architect',
-    featuredImage: '/images/blogs/minimalist-planters-uae-balconies.jpg',
+    featuredImage: '/images/blogs/minimalist-planters-uae-balconies.webp',
     summary: 'Transform compact urban balconies into botanical retreats with these architectural planter silhouettes.',
     tags: ['Design', 'Balcony', 'Guides'],
     content: `
