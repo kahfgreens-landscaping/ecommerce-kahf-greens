@@ -107,12 +107,15 @@ export default function Header() {
             <NavLink to="/contact" className={({ isActive }) => cn('text-[10px] font-medium tracking-[0.15em] uppercase transition-colors', isActive ? 'text-brand-dark' : 'text-muted-foreground hover:text-brand-dark')}>
               Contact
             </NavLink>
+            <NavLink to="/blogs" className={({ isActive }) => cn('text-[10px] font-medium tracking-[0.15em] uppercase transition-colors', isActive ? 'text-brand-dark' : 'text-muted-foreground hover:text-brand-dark')}>
+              Journal
+            </NavLink>
           </nav>
 
           {/* Mobile nav */}
           {mobileOpen && (
             <div className="md:hidden border-t border-[#e8e4db] py-3 animate-fade-in">
-              {[{ to: '/', label: 'Home' }, ...CATEGORIES.map(c => ({ to: c.href, label: c.label })), { to: '/about', label: 'About' }, { to: '/contact', label: 'Contact' }].map(item => (
+              {[{ to: '/', label: 'Home' }, ...CATEGORIES.map(c => ({ to: c.href, label: c.label })), { to: '/about', label: 'About' }, { to: '/contact', label: 'Contact' }, { to: '/blogs', label: 'Journal & News' }].map(item => (
                 <Link key={item.to} to={item.to} onClick={() => setMobileOpen(false)} className="block px-3 py-3 text-[11px] font-medium tracking-[0.12em] uppercase text-foreground hover:bg-[#f1eee7]">
                 {item.label}
                 </Link>

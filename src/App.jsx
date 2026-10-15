@@ -14,6 +14,7 @@ const ProductDetailPage= lazy(() => import('./pages/ProductDetailPage'));
 const CollectionPage   = lazy(() => import('./pages/CollectionPage'));
 const WishlistPage     = lazy(() => import('./pages/WishlistPage'));
 const ContactPage      = lazy(() => import('./pages/ContactPage'));
+const BlogsPage        = lazy(() => import('./pages/BlogsPage'));
 const AdminPage        = lazy(() => import('./pages/admin/AdminPage'));
 
 function PageLoader() {
@@ -55,6 +56,7 @@ export default function App() {
       <Route path="/collections/:slug" element={<StoreLayout><CollectionPage /></StoreLayout>} />
       <Route path="/wishlist" element={<StoreLayout><WishlistPage /></StoreLayout>} />
       <Route path="/contact" element={<StoreLayout><ContactPage /></StoreLayout>} />
+      <Route path="/blogs" element={<StoreLayout><BlogsPage /></StoreLayout>} />
 
       {/* Placeholder pages */}
       <Route path="/about" element={<StoreLayout><PlaceholderPage title="About Kahf Greens" /></StoreLayout>} />

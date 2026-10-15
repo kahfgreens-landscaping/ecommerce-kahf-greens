@@ -58,6 +58,7 @@ export default function Footer() {
             {[
               { to: '/about', label: 'About Kahf Greens' },
               { to: '/contact', label: 'Contact Us' },
+              { to: '/blogs', label: 'Blogs & News' },
               { to: '/faq', label: 'FAQ' },
               { to: '/delivery', label: 'Delivery Information' },
               { to: '/b2b', label: 'B2B / Wholesale' },
