@@ -145,3 +145,5 @@ node scripts/generate-image-map.cjs
 - **Phone:** +971 4 224 0733
 - **WhatsApp:** +971 56 509 6880
 - **Email:** shop@kahfgreens.ae
+- **Developed By:** [Qaisar](https://github.com/Kaiserabbas/)
+
