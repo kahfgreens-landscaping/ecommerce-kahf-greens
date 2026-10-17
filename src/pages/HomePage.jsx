@@ -2,15 +2,33 @@
  * pages/HomePage.jsx
  * Main storefront landing page
  */
+import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Star, Truck, Shield, Leaf } from 'lucide-react';
+import { ArrowRight, Star, Truck, Shield, Leaf, Sparkles } from 'lucide-react';
 import ProductCard from '../components/ui/ProductCard';
 import catalogData from '../data/catalog.json';
+import { FEATURED_TABS, getCategoryBySlug } from '../data/categories';
+import { cn } from '../lib/utils';
 
 const HERO_COLLECTIONS = [
-  { name: 'Idel Collection', slug: 'idel', desc: 'Italian-crafted premium planters', img: '/images/products/idel-mosaic-curve-55/idel-mosaic-curve-55__gray__01.jpg' },
-  { name: 'Pottery Pots', slug: 'pottery-pots', desc: 'Handfinished luxury finishes', img: '/images/products/pottery-pots/pottery-pots__beth-gold__04.png' },
-  { name: 'Desch Pots', slug: 'desch-pots', desc: 'Commercial growing & nursery containers', img: '/images/products/desch-emma/desch-emma__terracotta__01.jpg' },
+  {
+    name: 'Mosaic Collection',
+    slug: 'mosaic',
+    desc: 'Italian-crafted architectural planters with faceted geometric lines',
+    img: '/images/products/idel-mosaic-curve-55/idel-mosaic-curve-55__gray__01.jpg',
+  },
+  {
+    name: 'Pottery Pots',
+    slug: 'pottery-pots',
+    desc: 'Handfinished luxury planters featuring Dutch design & metallic finishes',
+    img: '/images/products/pottery-pots/pottery-pots__beth-gold__04.png',
+  },
+  {
+    name: 'Balcony & Windowbox',
+    slug: 'balcony',
+    desc: 'Railing flowerboxes & compact planters made for UAE terraces & villas',
+    img: '/images/products/idel-mosaic-flowerbox/idel-mosaic-flowerbox__white__01.jpg',
+  },
 ];
 
 const TRUST_ITEMS = [
@@ -20,13 +38,22 @@ const TRUST_ITEMS = [
   { icon: Star,      title: 'Premium Quality',      desc: '20+ years of UAE landscaping excellence' },
 ];
 
-// Featured: pick highest-qty products from key categories
-const FEATURED = catalogData.products
-  .filter(p => p.inStock && p.minPrice)
-  .sort((a, b) => b.totalQuantity - a.totalQuantity)
-  .slice(0, 12);
-
 export default function HomePage() {
+  const [activeTabId, setActiveTabId] = useState('mosaic');
+
+  const currentTab = useMemo(() => {
+    return FEATURED_TABS.find(t => t.id === activeTabId) || FEATURED_TABS[0];
+  }, [activeTabId]);
+
+  const featuredProducts = useMemo(() => {
+    const categoryConfig = getCategoryBySlug(activeTabId);
+    if (!categoryConfig) return catalogData.products.slice(0, 8);
+
+    const matches = catalogData.products.filter(categoryConfig.filter);
+    // Sort by quantity or featured status
+    return matches.sort((a, b) => b.totalQuantity - a.totalQuantity).slice(0, 8);
+  }, [activeTabId]);
+
   return (
     <main>
       {/* ── Hero ────────────────────────────────────────────────── */}
@@ -47,8 +74,8 @@ export default function HomePage() {
                 <Link to="/products" className="inline-flex items-center gap-3 bg-[#29382e] text-white px-6 py-3.5 text-[10px] font-semibold uppercase tracking-[0.16em] hover:bg-brand-mid transition-colors">
                   Explore the collection <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link to="/collections/idel" className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[#29382e] border-b border-[#87907e] pb-1 hover:border-brand-dark">
-                  Discover Idel
+                <Link to="/collections/mosaic" className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[#29382e] border-b border-[#87907e] pb-1 hover:border-brand-dark">
+                  Discover Mosaic
                 </Link>
               </div>
               <div className="flex items-center gap-6 sm:gap-9 mt-12 pt-6 border-t border-[#e7e3d9] w-full max-w-md">
@@ -62,7 +89,7 @@ export default function HomePage() {
             </div>
             <div className="relative min-h-[300px] md:min-h-full overflow-hidden bg-[#ebe6da]">
               <img
-                src="/images/products/idel-mosaic-curve-55/idel-mosaic-curve-55__yellow__01.jpg"
+                src="/images/products/idel-mosaic-curve-55/idel-mosaic-curve-55__technical__06.png"
                 alt="A sculptural planter with evergreen foliage"
                 className="absolute inset-0 w-full h-full object-cover object-center mix-blend-multiply"
                 onError={e => { e.currentTarget.src = '/images/placeholder-pot.jpg'; }}
@@ -90,6 +117,71 @@ export default function HomePage() {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* ── Featured Section with Mosaic, Rectangular, Square, Balcony Tabs ── */}
+      <section className="bg-[#f3f0e8] py-16 md:py-20">
+        <div className="container">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+            <div>
+              <span className="text-brand-sage text-[10px] font-semibold uppercase tracking-[0.18em] mb-2 flex items-center gap-1.5">
+                <Sparkles className="w-3.5 h-3.5 text-brand-gold" />
+                Featured Categories
+              </span>
+              <h2 className="section-title">Explore by Style & Shape</h2>
+              <p className="text-sm text-muted-foreground mt-1 max-w-lg">
+                Discover our signature Italian-made Mosaic pots, rectangular flowerboxes, modern cubes, and railing planters.
+              </p>
+            </div>
+
+            <Link
+              to={`/collections/${currentTab.slug}`}
+              className="text-xs sm:text-sm text-brand-dark font-medium flex items-center gap-1.5 hover:gap-2.5 transition-all w-fit"
+            >
+              <span>Explore all {currentTab.label}</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+
+          {/* Interactive Category Tabs: Mosaic, Rectangular, Square, Balcony */}
+          <div className="flex items-center gap-2 mb-8 overflow-x-auto pb-2 scrollbar-none">
+            {FEATURED_TABS.map(tab => {
+              const isActive = activeTabId === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTabId(tab.id)}
+                  type="button"
+                  className={cn(
+                    'px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-[0.12em] transition-all cursor-pointer shrink-0 border',
+                    isActive
+                      ? 'bg-brand-dark text-white border-brand-dark shadow-sm'
+                      : 'bg-white/80 text-muted-foreground border-[#e4dfd3] hover:bg-white hover:text-foreground'
+                  )}
+                >
+                  {tab.label}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Tab products grid */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 animate-fade-in">
+            {featuredProducts.map(product => (
+              <ProductCard key={`${product.id}-${product.categorySlug || product.slug}`} product={product} />
+            ))}
+          </div>
+
+          <div className="mt-10 text-center">
+            <Link
+              to={`/collections/${currentTab.slug}`}
+              className="btn-outline inline-flex items-center gap-2 text-xs uppercase tracking-wider py-3 px-6"
+            >
+              <span>View Full {currentTab.label} Collection ({featuredProducts.length}+ pots)</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -129,26 +221,6 @@ export default function HomePage() {
               </div>
             </Link>
           ))}
-        </div>
-      </section>
-
-      {/* ── Featured Products ────────────────────────────────────── */}
-      <section className="bg-[#f3f0e8] py-16 md:py-20">
-        <div className="container">
-          <div className="flex items-end justify-between mb-8">
-            <div>
-              <p className="text-brand-sage text-[10px] font-semibold uppercase tracking-[0.18em] mb-2">Bestsellers</p>
-              <h2 className="section-title">Featured Products</h2>
-            </div>
-            <Link to="/products" className="text-sm text-brand-dark font-medium flex items-center gap-1 hover:gap-2 transition-all">
-              View All <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {FEATURED.map(product => (
-              <ProductCard key={`${product.id}-${product.categorySlug || product.slug}`} product={product} />
-            ))}
-          </div>
         </div>
       </section>
 
