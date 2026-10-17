@@ -103,19 +103,19 @@ export const SQUARE_IDS = new Set([
 ]);
 
 // 7. Hanging Pots (suspended planters with straps/hangers)
-// Includes Idel Kit Lipari; Idel Hydrus & Hang Etrusco removed as instructed
+// Includes Idel Kit Lipari and Kit Elba
 export const HANGING_IDS = new Set([
+  'idel-kit-elba',
   'idel-kit-lipari',
 ]);
 
 // 8. Pot Kits & Sets (complete coordinated sets with saucers and brackets)
-// Includes Idel Hang Etrusco as instructed
+// Includes Idel Hang Etrusco, Kit Elba, Kit Lipari, Kit Versilia, Twin Set Round Living
 export const KITS_IDS = new Set([
   'idel-hang-etrusco-3-2l',
   'idel-kit-elba',
   'idel-kit-lipari',
   'idel-kit-versilia',
-  'idel-twin-set-classic-pot',
   'idel-twin-set-round-living',
 ]);
 

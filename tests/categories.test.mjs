@@ -72,13 +72,20 @@ test('PP YANG and Idel HYDRUS are in Square', () => {
   assert.ok(!HANGING_IDS.has('idel-hydrus'), 'Idel HYDRUS must NOT be in Hanging');
 });
 
-test('Idel Kit Lipari is in Hanging', () => {
+test('Idel Kit Lipari and Kit Elba are in Hanging', () => {
   assert.ok(HANGING_IDS.has('idel-kit-lipari'), 'idel-kit-lipari must be in Hanging');
+  assert.ok(HANGING_IDS.has('idel-kit-elba'), 'idel-kit-elba must be in Hanging');
 });
 
 test('Idel HANG ETRUSCO is in Pot Kits and sets and NOT in Hanging', () => {
   assert.ok(KITS_IDS.has('idel-hang-etrusco-3-2l'), 'idel-hang-etrusco-3-2l must be in Kits');
   assert.ok(!HANGING_IDS.has('idel-hang-etrusco-3-2l'), 'idel-hang-etrusco-3-2l must NOT be in Hanging');
+});
+
+test('Idel TWIN SET CLASSIC POT is removed from Kits & Sets, Kit Elba remains in Kits', () => {
+  assert.ok(!KITS_IDS.has('idel-twin-set-classic-pot'), 'idel-twin-set-classic-pot must NOT be in Kits & Sets');
+  assert.ok(KITS_IDS.has('idel-kit-elba'), 'idel-kit-elba must be in Kits & Sets');
+  assert.ok(ROUND_IDS.has('idel-twin-set-classic-pot'), 'idel-twin-set-classic-pot must remain in Round');
 });
 
 test('Featured tabs (Mosaic, Rectangular, Square, Balcony) match requested categories', () => {
