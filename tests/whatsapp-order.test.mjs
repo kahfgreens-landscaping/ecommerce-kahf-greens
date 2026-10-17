@@ -87,6 +87,20 @@ test('formatWhatsAppCartMessage formats complete order with colors and quantitie
   assert.ok(message.includes('▫ *Subtotal:* AED 340.00'));
   assert.ok(message.includes('Complimentary (Free UAE Delivery)'));
   assert.ok(message.includes('▫ *TOTAL PAYABLE:* *AED 340.00*'));
+
+  // Delivery charges & location note
+  assert.ok(message.toLowerCase().includes('for delivery charges, please ask and share your location'));
+});
+
+test('formatWhatsAppCartMessage includes delivery charges and location note when customer is empty', () => {
+  const message = formatWhatsAppCartMessage({
+    items: [{ product: { name: 'Idel Mosaic Curve 13' }, variant: { color: 'White', price: 45 }, quantity: 1 }],
+    customer: null,
+    subtotal: 45,
+    deliveryFee: 20,
+    total: 65,
+  });
+  assert.ok(message.toLowerCase().includes('for delivery charges, please ask and share your location'));
 });
 
 test('getWhatsAppOrderUrl generates valid URL with encoded message', () => {

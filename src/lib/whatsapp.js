@@ -136,6 +136,7 @@ export function formatWhatsAppCartMessage({
     if (customer.emirate) custLines.push(`▫ *Emirate:* ${customer.emirate}`);
     if (customer.address) custLines.push(`▫ *Delivery Address:* ${customer.address}`);
     if (customer.notes) custLines.push(`▫ *Special Instructions:* ${customer.notes}`);
+    custLines.push('▫ *Delivery Note:* For delivery charges, please ask and share your location.');
     customerSection = custLines.join('\n');
   } else {
     customerSection = [
@@ -143,6 +144,7 @@ export function formatWhatsAppCartMessage({
       '────────────────────────',
       '▫ Direct cart inquiry submitted via website.',
       '▫ Awaiting confirmation of delivery location.',
+      '▫ *For delivery charges, please ask and share your location.*',
     ].join('\n');
   }
 
@@ -182,6 +184,7 @@ export function formatWhatsAppCartMessage({
     '━━━━━━━━━━━━━━━━━━━━━━━━',
     '🌿 *Kahf Greens* — Premium Planters & Containers · UAE',
     '🌐 www.kahfgreens.ae | 📞 +971 4 224 0733',
+    '📍 *For Delivery Charges, please ask and share your location.*',
     '💬 *Please confirm item availability and delivery schedule.*',
   ].join('\n');
 }

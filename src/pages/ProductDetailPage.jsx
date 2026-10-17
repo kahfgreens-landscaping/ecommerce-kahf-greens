@@ -373,6 +373,7 @@ export default function ProductDetailPage() {
               selectedVariant?.sku ? `▫ *SKU:* \`${selectedVariant.sku}\`` : null,
               `▫ *Price:* ${formatPrice(selectedVariant?.price)}`,
               '━━━━━━━━━━━━━━━━━━━━━━━━',
+              '📍 *For Delivery Charges, please ask and share your location.*',
               '💬 *Please confirm item availability and delivery options. Thank you!*',
             ].filter(Boolean).join('\n');
 
