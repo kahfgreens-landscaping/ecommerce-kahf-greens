@@ -89,7 +89,7 @@ export default function HomePage() {
             </div>
             <div className="relative min-h-[300px] md:min-h-full overflow-hidden bg-[#ebe6da]">
               <img
-                src="/images/products/idel-mosaic-curve-55/idel-mosaic-curve-55__technical__06.png"
+                src="/images/products/idel-mosaic-curve-55/idel-mosaic-curve-55__yellow__01.jpg"
                 alt="A sculptural planter with evergreen foliage"
                 className="absolute inset-0 w-full h-full object-cover object-center mix-blend-multiply"
                 onError={e => { e.currentTarget.src = '/images/placeholder-pot.jpg'; }}
