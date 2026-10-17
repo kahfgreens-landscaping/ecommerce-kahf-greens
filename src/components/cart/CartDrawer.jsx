@@ -86,7 +86,14 @@ export default function CartDrawer() {
                       )}
                     </div>
 
-                    <p className="font-bold text-brand-dark mt-1 text-sm">{formatPrice(variant.price)}</p>
+                    <div className="flex items-baseline gap-2 mt-1">
+                      <p className="font-bold text-brand-dark text-sm">{formatPrice(variant.price)}</p>
+                      {variant.originalPrice && (
+                        <span className="text-xs text-muted-foreground line-through">
+                          {formatPrice(variant.originalPrice)}
+                        </span>
+                      )}
+                    </div>
 
                     <div className="flex items-center gap-2 mt-2">
                       <button onClick={() => updateQuantity(variant.sku, quantity - 1)} className="w-6 h-6 flex items-center justify-center border border-border rounded hover:bg-muted" aria-label="Decrease quantity">

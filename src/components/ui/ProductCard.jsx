@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, ShoppingCart, Eye } from 'lucide-react';
-import { cn, formatPrice, formatPriceRange, getColorStyle } from '../../lib/utils';
+import { cn, formatPrice, formatPriceRange, getColorStyle, getDiscountPercent, calculateOriginalPrice } from '../../lib/utils';
 import { useCartStore } from '../../store/cartStore';
 import { useWishlistStore } from '../../store/wishlistStore';
 import { getProductImageForProduct, getProductImageForProductColor } from '../../data/imageMap';
@@ -14,6 +14,10 @@ export default function ProductCard({ product, className }) {
   const { toggle, isWishlisted } = useWishlistStore();
   const wishlisted = isWishlisted(product.id);
 
+  const discountPct = product.discountPercent || getDiscountPercent(product.id);
+  const originalMin = product.originalMinPrice ?? calculateOriginalPrice(product.minPrice, discountPct);
+  const originalMax = product.originalMaxPrice ?? calculateOriginalPrice(product.maxPrice, discountPct);
+
   const sizeLabel = (variant) => variant.sizeLabel || `${variant.size} ${variant.sizeUnit}`;
   const variantsForColor = selectedColor
     ? product.variants?.filter(variant => variant.color === selectedColor)
@@ -22,6 +26,7 @@ export default function ProductCard({ product, className }) {
   const currentVariant = variantsForColor?.find(variant => sizeLabel(variant) === selectedSize)
     || variantsForColor?.[0]
     || product.variants?.[0];
+  const currentOriginalPrice = currentVariant?.originalPrice ?? calculateOriginalPrice(currentVariant?.price, discountPct);
 
   // Image updates dynamically when color is clicked
   const imageSrc = imgError 
@@ -77,7 +82,12 @@ export default function ProductCard({ product, className }) {
         />
 
         {/* Badges */}
-        <div className="absolute top-2 left-2 flex flex-col gap-1">
+        <div className="absolute top-2 left-2 flex flex-col gap-1 z-10">
+          {discountPct && (
+            <span className="text-[10px] bg-red-600 text-white font-bold px-2 py-0.5 rounded shadow-xs tracking-wider">
+              {discountPct}% OFF
+            </span>
+          )}
           {!product.inStock && (
             <span className="badge-red">Sold Out</span>
           )}
@@ -175,12 +185,22 @@ export default function ProductCard({ product, className }) {
 
         {/* Price */}
         <div className="mt-auto pt-2">
-          <p className="font-semibold text-brand-dark text-base">
-            {selectedSize && currentVariant
-              ? formatPrice(currentVariant.price)
-              : formatPriceRange(product.minPrice, product.maxPrice)}
-          </p>
-          <p className="text-xs text-muted-foreground">Incl. VAT · Free delivery on orders over AED 200</p>
+          <div className="flex items-baseline gap-2 flex-wrap">
+            <span className="font-bold text-brand-dark text-base">
+              {selectedSize && currentVariant
+                ? formatPrice(currentVariant.price)
+                : formatPriceRange(product.minPrice, product.maxPrice)}
+            </span>
+            <span className="text-xs text-muted-foreground line-through decoration-muted-foreground/80 font-normal">
+              {selectedSize && currentVariant
+                ? formatPrice(currentOriginalPrice)
+                : formatPriceRange(originalMin, originalMax)}
+            </span>
+            <span className="text-[10px] font-semibold text-red-700 bg-red-50 px-1.5 py-0.5 rounded border border-red-200">
+              {discountPct}% OFF
+            </span>
+          </div>
+          <p className="text-xs text-muted-foreground mt-0.5">Incl. VAT · Free delivery on orders over AED 200</p>
         </div>
       </div>
     </Link>

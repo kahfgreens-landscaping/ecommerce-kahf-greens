@@ -76,10 +76,21 @@ export default function SearchModal({ open, onClose }) {
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="font-medium text-sm truncate">{product.name}</p>
-                    <p className="text-xs text-muted-foreground">{product.category}</p>
-                    <p className="text-sm font-bold text-brand-dark mt-0.5">
-                      {formatPriceRange(product.minPrice, product.maxPrice)}
-                    </p>
+                    <div className="flex items-baseline gap-2 mt-0.5 flex-wrap">
+                      <span className="text-sm font-bold text-brand-dark">
+                        {formatPriceRange(product.minPrice, product.maxPrice)}
+                      </span>
+                      {product.originalMinPrice && (
+                        <span className="text-xs text-muted-foreground line-through">
+                          {formatPriceRange(product.originalMinPrice, product.originalMaxPrice)}
+                        </span>
+                      )}
+                      {product.discountPercent && (
+                        <span className="text-[10px] font-semibold text-red-600">
+                          {product.discountPercent}% OFF
+                        </span>
+                      )}
+                    </div>
                   </div>
                   <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-brand-dark transition-colors shrink-0" />
                 </Link>

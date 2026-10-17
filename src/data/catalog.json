@@ -226,7 +226,9 @@
           "price": 3.45,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 8
         },
         {
           "sku": "DESCHP-DESCHE-27-DARKPU",
@@ -240,7 +242,9 @@
           "price": 3.45,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 8
         },
         {
           "sku": "DESCHP-DESCHE-27-TERRAC",
@@ -254,7 +258,9 @@
           "price": 3.45,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 8
         },
         {
           "sku": "DESCHP-DESCHE-27-WHITE",
@@ -268,7 +274,9 @@
           "price": 3.45,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 8
         }
       ],
       "minPrice": 3.45,
@@ -283,7 +291,10 @@
       ],
       "sizes": [
         "27 cm"
-      ]
+      ],
+      "discountPercent": 58,
+      "originalMinPrice": 8,
+      "originalMaxPrice": 8
     },
     {
       "id": "idel-bio-compost-italia-saucer-4-5l",
@@ -304,7 +315,9 @@
           "price": 6.45,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 56,
+          "originalPrice": 15
         }
       ],
       "minPrice": 6.45,
@@ -316,7 +329,10 @@
       ],
       "sizes": [
         "4.5L (21 cm)"
-      ]
+      ],
+      "discountPercent": 56,
+      "originalMinPrice": 15,
+      "originalMaxPrice": 15
     },
     {
       "id": "idel-bio-compost-lipari-s",
@@ -337,7 +353,9 @@
           "price": 8,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 48,
+          "originalPrice": 15
         }
       ],
       "minPrice": 8,
@@ -349,7 +367,10 @@
       ],
       "sizes": [
         "27.5 cm"
-      ]
+      ],
+      "discountPercent": 48,
+      "originalMinPrice": 15,
+      "originalMaxPrice": 15
     },
     {
       "id": "idel-bio-compost-living-flowerbox-s",
@@ -370,7 +391,9 @@
           "price": 13,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 54,
+          "originalPrice": 28
         }
       ],
       "minPrice": 13,
@@ -382,7 +405,10 @@
       ],
       "sizes": [
         "30 cm"
-      ]
+      ],
+      "discountPercent": 54,
+      "originalMinPrice": 28,
+      "originalMaxPrice": 28
     },
     {
       "id": "idel-bio-compost-tirreno-mini-saucer-2-5l",
@@ -403,7 +429,9 @@
           "price": 3.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 6
         }
       ],
       "minPrice": 3.5,
@@ -415,7 +443,10 @@
       ],
       "sizes": [
         "2.5L (25 cm)"
-      ]
+      ],
+      "discountPercent": 40,
+      "originalMinPrice": 6,
+      "originalMaxPrice": 6
     },
     {
       "id": "idel-cilindro-liscio",
@@ -436,7 +467,9 @@
           "price": 60,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 100
         },
         {
           "sku": "IDELCI-IDELCI-40X30-TERRAC",
@@ -450,7 +483,9 @@
           "price": 60,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 100
         },
         {
           "sku": "IDELCI-IDELCI-60X45-IMPRUN",
@@ -464,7 +499,9 @@
           "price": 120,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 200
         },
         {
           "sku": "IDELCI-IDELCI-60X45-TERRAC",
@@ -478,7 +515,9 @@
           "price": 120,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 200
         }
       ],
       "minPrice": 60,
@@ -492,7 +531,10 @@
       "sizes": [
         "40X30 cm",
         "60X45 cm"
-      ]
+      ],
+      "discountPercent": 40,
+      "originalMinPrice": 100,
+      "originalMaxPrice": 200
     },
     {
       "id": "idel-classic-matte-round",
@@ -513,7 +555,9 @@
           "price": 8,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 14
         },
         {
           "sku": "IDELCL-IDELCL-27-ASHSKY",
@@ -527,7 +571,9 @@
           "price": 8,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 14
         },
         {
           "sku": "IDELCL-IDELCL-27-PISTAC",
@@ -541,7 +587,9 @@
           "price": 8,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 14
         },
         {
           "sku": "IDELCL-IDELCL-27-PURPLE",
@@ -555,7 +603,9 @@
           "price": 8,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 14
         },
         {
           "sku": "IDELCL-IDELCL-27-TAUPE",
@@ -569,7 +619,9 @@
           "price": 8,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 14
         },
         {
           "sku": "IDELCL-IDELCL-27-WHITE",
@@ -583,7 +635,9 @@
           "price": 8,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 14
         },
         {
           "sku": "IDELCL-IDELCL-32-ANTHRA",
@@ -597,7 +651,9 @@
           "price": 13.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 23
         },
         {
           "sku": "IDELCL-IDELCL-32-ASHSKY",
@@ -611,7 +667,9 @@
           "price": 13.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 23
         },
         {
           "sku": "IDELCL-IDELCL-32-PISTAC",
@@ -625,7 +683,9 @@
           "price": 13.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 23
         },
         {
           "sku": "IDELCL-IDELCL-32-PURPLE",
@@ -639,7 +699,9 @@
           "price": 13.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 23
         },
         {
           "sku": "IDELCL-IDELCL-32-WHITE",
@@ -653,7 +715,9 @@
           "price": 13.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 23
         },
         {
           "sku": "IDELCL-IDELCL-45-ANTHRA",
@@ -667,7 +731,9 @@
           "price": 35,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 59
         },
         {
           "sku": "IDELCL-IDELCL-45-ASH",
@@ -681,7 +747,9 @@
           "price": 35,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 59
         },
         {
           "sku": "IDELCL-IDELCL-45-PISTAC",
@@ -695,7 +763,9 @@
           "price": 35,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 59
         },
         {
           "sku": "IDELCL-IDELCL-45-TAUPE",
@@ -709,7 +779,9 @@
           "price": 35,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 59
         }
       ],
       "minPrice": 8,
@@ -730,7 +802,10 @@
         "27 cm",
         "32 cm",
         "45 cm"
-      ]
+      ],
+      "discountPercent": 41,
+      "originalMinPrice": 14,
+      "originalMaxPrice": 59
     },
     {
       "id": "idel-classic-matte-square",
@@ -751,7 +826,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         },
         {
           "sku": "IDELCL-IDELCL-28-PISTAC",
@@ -765,7 +842,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         },
         {
           "sku": "IDELCL-IDELCL-28-POWDER",
@@ -779,7 +858,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         },
         {
           "sku": "IDELCL-IDELCL-28-PURPLE",
@@ -793,7 +874,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         },
         {
           "sku": "IDELCL-IDELCL-28-SABBIA",
@@ -807,7 +890,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         },
         {
           "sku": "IDELCL-IDELCL-28-TAUPE",
@@ -821,7 +906,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         },
         {
           "sku": "IDELCL-IDELCL-28-WHITE",
@@ -835,7 +922,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         }
       ],
       "minPrice": 15,
@@ -853,7 +942,10 @@
       ],
       "sizes": [
         "28 cm"
-      ]
+      ],
+      "discountPercent": 51,
+      "originalMinPrice": 31,
+      "originalMaxPrice": 31
     },
     {
       "id": "idel-classic-square-high-sws",
@@ -874,7 +966,9 @@
           "price": 26,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 42,
+          "originalPrice": 45
         },
         {
           "sku": "IDELCL-IDELCL-30-PISTAC",
@@ -888,7 +982,9 @@
           "price": 26,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 42,
+          "originalPrice": 45
         },
         {
           "sku": "IDELCL-IDELCL-30-POWDER",
@@ -902,7 +998,9 @@
           "price": 26,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 42,
+          "originalPrice": 45
         },
         {
           "sku": "IDELCL-IDELCL-30-SABBIA",
@@ -916,7 +1014,9 @@
           "price": 26,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 42,
+          "originalPrice": 45
         },
         {
           "sku": "IDELCL-IDELCL-30-TAUPE",
@@ -930,7 +1030,9 @@
           "price": 26,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 42,
+          "originalPrice": 45
         },
         {
           "sku": "IDELCL-IDELCL-30-WHITE",
@@ -944,7 +1046,9 @@
           "price": 26,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 42,
+          "originalPrice": 45
         }
       ],
       "minPrice": 26,
@@ -961,7 +1065,10 @@
       ],
       "sizes": [
         "30 cm"
-      ]
+      ],
+      "discountPercent": 42,
+      "originalMinPrice": 45,
+      "originalMaxPrice": 45
     },
     {
       "id": "idel-classic-windowbox-sws",
@@ -982,7 +1089,9 @@
           "price": 19,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 36
         },
         {
           "sku": "IDELCL-IDELCL-50-POWDER",
@@ -996,7 +1105,9 @@
           "price": 19,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 36
         },
         {
           "sku": "IDELCL-IDELCL-50-SABBIA",
@@ -1010,7 +1121,9 @@
           "price": 19,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 36
         },
         {
           "sku": "IDELCL-IDELCL-50-TAUPE",
@@ -1024,7 +1137,9 @@
           "price": 19,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 36
         },
         {
           "sku": "IDELCL-IDELCL-50-PISTAC",
@@ -1038,7 +1153,9 @@
           "price": 19,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 36
         },
         {
           "sku": "IDELCL-IDELCL-50-PURPLE",
@@ -1052,7 +1169,9 @@
           "price": 19,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 36
         }
       ],
       "minPrice": 19,
@@ -1069,7 +1188,10 @@
       ],
       "sizes": [
         "50 cm"
-      ]
+      ],
+      "discountPercent": 47,
+      "originalMinPrice": 36,
+      "originalMaxPrice": 36
     },
     {
       "id": "idel-cl-matte-pback-box-sws",
@@ -1090,7 +1212,9 @@
           "price": 33,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 79
         },
         {
           "sku": "IDELPB-IDELCL-30-CLAYRE",
@@ -1104,7 +1228,9 @@
           "price": 33,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 79
         },
         {
           "sku": "IDELPB-IDELCL-30-SAGE",
@@ -1118,7 +1244,9 @@
           "price": 33,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 79
         },
         {
           "sku": "IDELPB-IDELCL-30-WHITE",
@@ -1132,7 +1260,9 @@
           "price": 33,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 79
         },
         {
           "sku": "IDELPB-IDELCL-58-ANTHRA",
@@ -1146,7 +1276,9 @@
           "price": 33,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 79
         },
         {
           "sku": "IDELPB-IDELCL-58-ROCKRE",
@@ -1160,7 +1292,9 @@
           "price": 33,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 79
         },
         {
           "sku": "IDELPB-IDELCL-58-WHITE",
@@ -1174,7 +1308,9 @@
           "price": 33,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 79
         }
       ],
       "minPrice": 33,
@@ -1191,7 +1327,10 @@
       "sizes": [
         "30 cm",
         "58 cm"
-      ]
+      ],
+      "discountPercent": 58,
+      "originalMinPrice": 79,
+      "originalMaxPrice": 79
     },
     {
       "id": "idel-dante",
@@ -1212,7 +1351,9 @@
           "price": 2,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 3.5
         },
         {
           "sku": "IDELDA-IDELDA-1007L-ORANGE",
@@ -1226,7 +1367,9 @@
           "price": 2,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 3.5
         },
         {
           "sku": "IDELDA-IDELDA-1007L-PISTAC",
@@ -1240,7 +1383,9 @@
           "price": 2,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 3.5
         },
         {
           "sku": "IDELDA-IDELDA-1007L-SABBIA",
@@ -1254,7 +1399,9 @@
           "price": 2,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 3.5
         },
         {
           "sku": "IDELDANTE-10-TRANSPARENTLIME",
@@ -1268,7 +1415,9 @@
           "price": 2,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 3.5
         },
         {
           "sku": "IDELDANTE-10-TRANSPARENTPINK",
@@ -1282,7 +1431,9 @@
           "price": 2,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 3.5
         },
         {
           "sku": "IDELDANTE-10-TRANSPARENTVIOLET",
@@ -1296,7 +1447,9 @@
           "price": 2,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 3.5
         },
         {
           "sku": "IDELDANTE-10-TRANSPARENTWHITE",
@@ -1310,7 +1463,9 @@
           "price": 2,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 3.5
         },
         {
           "sku": "IDELDA-IDELDA-1007L-WHITE",
@@ -1324,7 +1479,9 @@
           "price": 2,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 3.5
         },
         {
           "sku": "IDELDA-IDELDA-1725L-LILAC",
@@ -1338,7 +1495,9 @@
           "price": 7.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 13
         },
         {
           "sku": "IDELDA-IDELDA-1725L-PISTAC",
@@ -1352,7 +1511,9 @@
           "price": 7.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 13
         },
         {
           "sku": "IDELDA-IDELDA-1725L-SABBIA",
@@ -1366,7 +1527,9 @@
           "price": 7.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 13
         },
         {
           "sku": "IDELDANTE-17-TRANSPARENTLIME",
@@ -1380,7 +1543,9 @@
           "price": 7.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 13
         },
         {
           "sku": "IDELDANTE-17-TRANSPARENTPINK",
@@ -1394,7 +1559,9 @@
           "price": 7.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 13
         },
         {
           "sku": "IDELDANTE-17-TRANSPARENTVIOLET",
@@ -1408,7 +1575,9 @@
           "price": 7.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 13
         },
         {
           "sku": "IDELDANTE-17-TRANSPARENTWHITE",
@@ -1422,7 +1591,9 @@
           "price": 7.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 13
         },
         {
           "sku": "IDELDA-IDELDA-1725L-WHITE",
@@ -1436,7 +1607,9 @@
           "price": 7.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 41,
+          "originalPrice": 13
         }
       ],
       "minPrice": 2,
@@ -1457,7 +1630,10 @@
       "sizes": [
         "0.7L (10 cm)",
         "2.5L (17 cm)"
-      ]
+      ],
+      "discountPercent": 41,
+      "originalMinPrice": 3.5,
+      "originalMaxPrice": 13
     },
     {
       "id": "idel-ducale-lt60",
@@ -1478,7 +1654,9 @@
           "price": 60,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 43,
+          "originalPrice": 105
         },
         {
           "sku": "IDELDU-IDELDU-80X37X-PISTAC",
@@ -1492,7 +1670,9 @@
           "price": 60,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 43,
+          "originalPrice": 105
         },
         {
           "sku": "IDELDU-IDELDU-80X37X-POWDER",
@@ -1506,7 +1686,9 @@
           "price": 60,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 43,
+          "originalPrice": 105
         },
         {
           "sku": "IDELDU-IDELDU-80X37X-SABBIA",
@@ -1520,7 +1702,9 @@
           "price": 60,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 43,
+          "originalPrice": 105
         }
       ],
       "minPrice": 60,
@@ -1535,7 +1719,10 @@
       ],
       "sizes": [
         "60L (80X37X32 cm)"
-      ]
+      ],
+      "discountPercent": 43,
+      "originalMinPrice": 105,
+      "originalMaxPrice": 105
     },
     {
       "id": "idel-etrusco",
@@ -1556,7 +1743,9 @@
           "price": 10,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 19
         },
         {
           "sku": "IDELET-IDELET-30X271-TAUPE",
@@ -1570,7 +1759,9 @@
           "price": 10,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 19
         },
         {
           "sku": "IDELET-IDELET-30X271-TERRAC",
@@ -1584,7 +1775,9 @@
           "price": 10,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 19
         },
         {
           "sku": "IDELET-IDELET-4-ANTHRA",
@@ -1598,7 +1791,9 @@
           "price": 3.25,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 6
         },
         {
           "sku": "IDELET-IDELET-4-ASHSKY",
@@ -1612,7 +1807,9 @@
           "price": 3.25,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 6
         },
         {
           "sku": "IDELET-IDELET-4-LIME",
@@ -1626,7 +1823,9 @@
           "price": 3.25,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 6
         },
         {
           "sku": "IDELET-IDELET-4-PISTAC",
@@ -1640,7 +1839,9 @@
           "price": 3.25,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 6
         },
         {
           "sku": "IDELET-IDELET-4-POWDER",
@@ -1654,7 +1855,9 @@
           "price": 3.25,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 6
         },
         {
           "sku": "IDELET-IDELET-4-TERRAC",
@@ -1668,7 +1871,9 @@
           "price": 3.25,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 6
         },
         {
           "sku": "IDELET-IDELET-4-WHITE",
@@ -1682,7 +1887,9 @@
           "price": 3.25,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 6
         },
         {
           "sku": "IDELET-IDELET-75-ANTHRA",
@@ -1696,7 +1903,9 @@
           "price": 5.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 10
         },
         {
           "sku": "IDELET-IDELET-75-ASHSKY",
@@ -1710,7 +1919,9 @@
           "price": 5.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 10
         },
         {
           "sku": "IDELET-IDELET-75-LIME",
@@ -1724,7 +1935,9 @@
           "price": 5.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 10
         },
         {
           "sku": "IDELET-IDELET-75-PISTAC",
@@ -1738,7 +1951,9 @@
           "price": 5.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 10
         },
         {
           "sku": "IDELET-IDELET-75-POWDER",
@@ -1752,7 +1967,9 @@
           "price": 5.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 10
         },
         {
           "sku": "IDELET-IDELET-75-TERRAC",
@@ -1766,7 +1983,9 @@
           "price": 5.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 10
         },
         {
           "sku": "IDELET-IDELET-75-WHITE",
@@ -1780,7 +1999,9 @@
           "price": 5.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 10
         }
       ],
       "minPrice": 3.25,
@@ -1801,7 +2022,10 @@
         "15L (30X27 cm)",
         "4 L",
         "7.5 L"
-      ]
+      ],
+      "discountPercent": 47,
+      "originalMinPrice": 6,
+      "originalMaxPrice": 19
     },
     {
       "id": "idel-grow-with-italia",
@@ -1822,7 +2046,9 @@
           "price": 8,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 59,
+          "originalPrice": 20
         },
         {
           "sku": "IDELGR-IDELGR-28-LIME",
@@ -1836,7 +2062,9 @@
           "price": 8,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 59,
+          "originalPrice": 20
         },
         {
           "sku": "IDELGR-IDELGR-28-RED",
@@ -1850,7 +2078,9 @@
           "price": 8,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 59,
+          "originalPrice": 20
         }
       ],
       "minPrice": 8,
@@ -1864,7 +2094,10 @@
       ],
       "sizes": [
         "28 cm"
-      ]
+      ],
+      "discountPercent": 59,
+      "originalMinPrice": 20,
+      "originalMaxPrice": 20
     },
     {
       "id": "idel-hang-etrusco-3-2l",
@@ -1885,7 +2118,9 @@
           "price": 18,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 38
         },
         {
           "sku": "IDELHA-IDELHA-2032L-ASHSKY",
@@ -1899,7 +2134,9 @@
           "price": 18,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 38
         },
         {
           "sku": "IDELHA-IDELHA-2032L-FUCHSI",
@@ -1913,7 +2150,9 @@
           "price": 18,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 38
         },
         {
           "sku": "IDELHA-IDELHA-2032L-IVORY",
@@ -1927,7 +2166,9 @@
           "price": 18,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 38
         },
         {
           "sku": "IDELHA-IDELHA-2032L-LIME",
@@ -1941,7 +2182,9 @@
           "price": 18,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 38
         },
         {
           "sku": "IDELHA-IDELHA-2032L-PISTAC",
@@ -1955,7 +2198,9 @@
           "price": 18,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 38
         },
         {
           "sku": "IDELHA-IDELHA-2032L-POWDER",
@@ -1969,7 +2214,9 @@
           "price": 18,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 38
         },
         {
           "sku": "IDELHA-IDELHA-2032L-TAUPE",
@@ -1983,7 +2230,9 @@
           "price": 18,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 38
         },
         {
           "sku": "IDELHA-IDELHA-2032L-TERRAC",
@@ -1997,7 +2246,9 @@
           "price": 18,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 38
         }
       ],
       "minPrice": 18,
@@ -2017,7 +2268,10 @@
       ],
       "sizes": [
         "3.2L (20 cm)"
-      ]
+      ],
+      "discountPercent": 53,
+      "originalMinPrice": 38,
+      "originalMaxPrice": 38
     },
     {
       "id": "idel-high-square-living",
@@ -2038,7 +2292,9 @@
           "price": 10,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 55,
+          "originalPrice": 22
         },
         {
           "sku": "IDELHI-IDELHI-15X15-LIME",
@@ -2052,7 +2308,9 @@
           "price": 10,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 55,
+          "originalPrice": 22
         },
         {
           "sku": "IDELHI-IDELHI-15X15-PINK",
@@ -2066,7 +2324,9 @@
           "price": 10,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 55,
+          "originalPrice": 22
         },
         {
           "sku": "IDELHI-IDELHI-15X15-TRANSP",
@@ -2080,7 +2340,9 @@
           "price": 10,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 55,
+          "originalPrice": 22
         }
       ],
       "minPrice": 10,
@@ -2095,7 +2357,10 @@
       ],
       "sizes": [
         "15X15 cm"
-      ]
+      ],
+      "discountPercent": 55,
+      "originalMinPrice": 22,
+      "originalMaxPrice": 22
     },
     {
       "id": "idel-hs-living-sws",
@@ -2116,7 +2381,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         },
         {
           "sku": "IDELHI-IDELHS-15X15-BLACKL",
@@ -2130,7 +2397,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         },
         {
           "sku": "IDELHI-IDELHS-15X15-BLACKR",
@@ -2144,7 +2413,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         },
         {
           "sku": "IDELHI-IDELHS-15X15-BLACKW",
@@ -2158,7 +2429,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         },
         {
           "sku": "IDELHSLIVI-15X15-TRANSPARENTWHITETRANSPARENTLIME",
@@ -2172,7 +2445,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         },
         {
           "sku": "IDELHSLIVI-15X15-TRANSPARENTWHITETRANSPARENTPINK",
@@ -2186,7 +2461,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         },
         {
           "sku": "IDELHSLIVI-15X15-TRANSPARENTWHITETRANSPARENTVIOLET",
@@ -2200,7 +2477,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 31
         }
       ],
       "minPrice": 15,
@@ -2218,7 +2497,10 @@
       ],
       "sizes": [
         "15X15 cm"
-      ]
+      ],
+      "discountPercent": 51,
+      "originalMinPrice": 31,
+      "originalMaxPrice": 31
     },
     {
       "id": "idel-hydrus",
@@ -2239,7 +2521,9 @@
           "price": 80,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 48,
+          "originalPrice": 154
         },
         {
           "sku": "IDELHY-IDELHY-36X36X-DARKGR",
@@ -2253,7 +2537,9 @@
           "price": 80,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 48,
+          "originalPrice": 154
         },
         {
           "sku": "IDELHY-IDELHY-36X36X-IMPRUN",
@@ -2267,7 +2553,9 @@
           "price": 80,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 48,
+          "originalPrice": 154
         }
       ],
       "minPrice": 80,
@@ -2281,7 +2569,10 @@
       ],
       "sizes": [
         "36X36X50 cm"
-      ]
+      ],
+      "discountPercent": 48,
+      "originalMinPrice": 154,
+      "originalMaxPrice": 154
     },
     {
       "id": "idel-italia",
@@ -2302,7 +2593,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 49,
+          "originalPrice": 10
         },
         {
           "sku": "IDELIT-IDELIT-19-NOVACL",
@@ -2316,7 +2609,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 49,
+          "originalPrice": 10
         }
       ],
       "minPrice": 5,
@@ -2329,7 +2624,10 @@
       ],
       "sizes": [
         "19 cm"
-      ]
+      ],
+      "discountPercent": 49,
+      "originalMinPrice": 10,
+      "originalMaxPrice": 10
     },
     {
       "id": "idel-jenny-3lt",
@@ -2350,7 +2648,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 56,
+          "originalPrice": 11
         },
         {
           "sku": "IDELJE-IDELJE-22X113-ASHSKY",
@@ -2364,7 +2664,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 56,
+          "originalPrice": 11
         },
         {
           "sku": "IDELJE-IDELJE-22X113-FUCHSI",
@@ -2378,7 +2680,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 56,
+          "originalPrice": 11
         },
         {
           "sku": "IDELJE-IDELJE-22X113-LIME",
@@ -2392,7 +2696,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 56,
+          "originalPrice": 11
         },
         {
           "sku": "IDELJE-IDELJE-22X113-PISTAC",
@@ -2406,7 +2712,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 56,
+          "originalPrice": 11
         },
         {
           "sku": "IDELJE-IDELJE-22X113-POWDER",
@@ -2420,7 +2728,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 56,
+          "originalPrice": 11
         },
         {
           "sku": "IDELJE-IDELJE-22X113-PURPLE",
@@ -2434,7 +2744,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 56,
+          "originalPrice": 11
         },
         {
           "sku": "IDELJE-IDELJE-22X113-RED",
@@ -2448,7 +2760,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 56,
+          "originalPrice": 11
         },
         {
           "sku": "IDELJE-IDELJE-22X113-WHITE",
@@ -2462,7 +2776,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 56,
+          "originalPrice": 11
         },
         {
           "sku": "IDELJE-IDELJE-22X113-YELLOW",
@@ -2476,7 +2792,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 56,
+          "originalPrice": 11
         }
       ],
       "minPrice": 5,
@@ -2497,7 +2815,10 @@
       ],
       "sizes": [
         "3L (22X11 cm)"
-      ]
+      ],
+      "discountPercent": 56,
+      "originalMinPrice": 11,
+      "originalMaxPrice": 11
     },
     {
       "id": "idel-kit-elba",
@@ -2518,7 +2839,9 @@
           "price": 4.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELKI-IDELKI-2-TERRAC",
@@ -2532,7 +2855,9 @@
           "price": 4.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELKI-IDELKI-2-WHITE",
@@ -2546,7 +2871,9 @@
           "price": 4.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 9.5
         }
       ],
       "minPrice": 4.5,
@@ -2560,7 +2887,10 @@
       ],
       "sizes": [
         "2 L"
-      ]
+      ],
+      "discountPercent": 53,
+      "originalMinPrice": 9.5,
+      "originalMaxPrice": 9.5
     },
     {
       "id": "idel-kit-lipari",
@@ -2581,7 +2911,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELKI-IDELKI-3-GREEN",
@@ -2595,7 +2927,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELKI-IDELKI-3-LILAC",
@@ -2609,7 +2943,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELKI-IDELKI-3-LIME",
@@ -2623,7 +2959,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELKI-IDELKI-3-ORANGE",
@@ -2637,7 +2975,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELKI-IDELKI-3-TAUPE",
@@ -2651,7 +2991,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELKI-IDELKI-3-TERRAC",
@@ -2665,7 +3007,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELKI-IDELKI-3-WHITE",
@@ -2679,7 +3023,9 @@
           "price": 5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELKI-IDELKI-6-FUCHSI",
@@ -2693,7 +3039,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 13
         },
         {
           "sku": "IDELKI-IDELKI-6-GREEN",
@@ -2707,7 +3055,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 13
         },
         {
           "sku": "IDELKI-IDELKI-6-LILAC",
@@ -2721,7 +3071,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 13
         },
         {
           "sku": "IDELKI-IDELKI-6-LIME",
@@ -2735,7 +3087,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 13
         },
         {
           "sku": "IDELKI-IDELKI-6-ORANGE",
@@ -2749,7 +3103,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 13
         },
         {
           "sku": "IDELKI-IDELKI-6-TAUPE",
@@ -2763,7 +3119,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 13
         },
         {
           "sku": "IDELKI-IDELKI-6-TERRAC",
@@ -2777,7 +3135,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 13
         },
         {
           "sku": "IDELKI-IDELKI-6-WHITE",
@@ -2791,7 +3151,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 13
         }
       ],
       "minPrice": 5,
@@ -2811,7 +3173,10 @@
       "sizes": [
         "3 L",
         "6 L"
-      ]
+      ],
+      "discountPercent": 46,
+      "originalMinPrice": 9.5,
+      "originalMaxPrice": 13
     },
     {
       "id": "idel-kit-versilia",
@@ -2832,7 +3197,9 @@
           "price": 29,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": 67
         },
         {
           "sku": "IDELKI-IDELKI-50-WHITE",
@@ -2846,7 +3213,9 @@
           "price": 29,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": 67
         },
         {
           "sku": "IDELKI-IDELKI-40-FUCHSI",
@@ -2860,7 +3229,9 @@
           "price": 22,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": 51
         },
         {
           "sku": "IDELKI-IDELKI-50-FUCHSI",
@@ -2874,7 +3245,9 @@
           "price": 29,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": 67
         },
         {
           "sku": "IDELKI-IDELKI-50-LILAC",
@@ -2888,7 +3261,9 @@
           "price": 29,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": 67
         },
         {
           "sku": "IDELKI-IDELKI-40-LIME",
@@ -2902,7 +3277,9 @@
           "price": 22,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": 51
         },
         {
           "sku": "IDELKI-IDELKI-50-LIME",
@@ -2916,7 +3293,9 @@
           "price": 29,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": 67
         }
       ],
       "minPrice": 22,
@@ -2933,7 +3312,10 @@
       "sizes": [
         "50 cm",
         "40 cm"
-      ]
+      ],
+      "discountPercent": 57,
+      "originalMinPrice": 51,
+      "originalMaxPrice": 67
     },
     {
       "id": "idel-lipari-s",
@@ -2954,7 +3336,9 @@
           "price": 5.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 12
         },
         {
           "sku": "IDELLI-IDELLI-2756L-NOVACL",
@@ -2968,7 +3352,9 @@
           "price": 5.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 12
         },
         {
           "sku": "IDELLI-IDELLI-2756L-NOVARO",
@@ -2982,7 +3368,9 @@
           "price": 5.5,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 12
         },
         {
           "sku": "IDELLI-IDELLI-3085L-NOVACA",
@@ -2996,7 +3384,9 @@
           "price": 13,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 28
         },
         {
           "sku": "IDELLI-IDELLI-3085L-NOVACL",
@@ -3010,7 +3400,9 @@
           "price": 13,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 28
         },
         {
           "sku": "IDELLI-IDELLI-3085L-NOVARO",
@@ -3024,7 +3416,9 @@
           "price": 13,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 28
         }
       ],
       "minPrice": 5.5,
@@ -3039,7 +3433,10 @@
       "sizes": [
         "6L (27.5 cm)",
         "8.5L (30 cm)"
-      ]
+      ],
+      "discountPercent": 53,
+      "originalMinPrice": 12,
+      "originalMaxPrice": 28
     },
     {
       "id": "idel-living-high-round-inner",
@@ -3060,7 +3457,9 @@
           "price": 75,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": 174
         },
         {
           "sku": "IDELLI-IDELLI-55-RED",
@@ -3074,7 +3473,9 @@
           "price": 75,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": 174
         }
       ],
       "minPrice": 75,
@@ -3087,7 +3488,10 @@
       ],
       "sizes": [
         "55 cm"
-      ]
+      ],
+      "discountPercent": 57,
+      "originalMinPrice": 174,
+      "originalMaxPrice": 174
     },
     {
       "id": "idel-marinella",
@@ -3108,7 +3512,9 @@
           "price": 45,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 43,
+          "originalPrice": 79
         },
         {
           "sku": "IDELMA-IDELMA-50-NOVACL",
@@ -3122,7 +3528,9 @@
           "price": 45,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 43,
+          "originalPrice": 79
         },
         {
           "sku": "IDELMA-IDELMA-50-NOVARO",
@@ -3136,7 +3544,9 @@
           "price": 45,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 43,
+          "originalPrice": 79
         }
       ],
       "minPrice": 45,
@@ -3150,7 +3560,10 @@
       ],
       "sizes": [
         "50 cm"
-      ]
+      ],
+      "discountPercent": 43,
+      "originalMinPrice": 79,
+      "originalMaxPrice": 79
     },
     {
       "id": "idel-mosaic-curve-13",
@@ -3171,7 +3584,9 @@
           "price": 9,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 15
         },
         {
           "sku": "IDELMO-IDELMO-13-WHITEA",
@@ -3185,7 +3600,9 @@
           "price": 9,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 15
         },
         {
           "sku": "IDELMOSAIC-13-WHITEPISTACHIO",
@@ -3199,7 +3616,9 @@
           "price": 9,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 15
         },
         {
           "sku": "IDELMOSAIC-13-WHITEPOWDER",
@@ -3213,7 +3632,9 @@
           "price": 9,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 15
         },
         {
           "sku": "IDELMOSAIC-13-WHITEPURPLE",
@@ -3227,7 +3648,9 @@
           "price": 9,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 15
         },
         {
           "sku": "IDELMO-IDELMO-13-WHITES",
@@ -3241,7 +3664,9 @@
           "price": 9,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 15
         },
         {
           "sku": "IDELMO-IDELMO-13-WHITET",
@@ -3255,7 +3680,9 @@
           "price": 9,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 15
         },
         {
           "sku": "IDELMO-IDELMO-13-WHITEW",
@@ -3269,7 +3696,9 @@
           "price": 9,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 15
         }
       ],
       "minPrice": 9,
@@ -3288,7 +3717,10 @@
       ],
       "sizes": [
         "13 cm"
-      ]
+      ],
+      "discountPercent": 40,
+      "originalMinPrice": 15,
+      "originalMaxPrice": 15
     },
     {
       "id": "idel-mosaic-curve-40",
@@ -3309,7 +3741,9 @@
           "price": 39,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 55,
+          "originalPrice": 87
         },
         {
           "sku": "IDELMOSAIC-40-WHITEPISTACHIO",
@@ -3323,7 +3757,9 @@
           "price": 39,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 55,
+          "originalPrice": 87
         },
         {
           "sku": "IDELMOSAIC-40-WHITETAUPE",
@@ -3337,7 +3773,9 @@
           "price": 39,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 55,
+          "originalPrice": 87
         }
       ],
       "minPrice": 39,
@@ -3351,7 +3789,10 @@
       ],
       "sizes": [
         "40 cm"
-      ]
+      ],
+      "discountPercent": 55,
+      "originalMinPrice": 87,
+      "originalMaxPrice": 87
     },
     {
       "id": "idel-mosaic-curve-55",
@@ -3372,7 +3813,9 @@
           "price": 95,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 158
         },
         {
           "sku": "IDELMO-IDELMO-55-TOTALG",
@@ -3386,7 +3829,9 @@
           "price": 95,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 158
         },
         {
           "sku": "IDELMO-IDELMO-55-TOTALR",
@@ -3400,7 +3845,9 @@
           "price": 95,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 158
         },
         {
           "sku": "IDELMO-IDELMO-55-WHITEA",
@@ -3414,7 +3861,9 @@
           "price": 95,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 158
         },
         {
           "sku": "IDELMO-IDELMO-55-WHITEP",
@@ -3428,7 +3877,9 @@
           "price": 95,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 158
         },
         {
           "sku": "IDELMO-IDELMO-55-WHITET",
@@ -3442,7 +3893,9 @@
           "price": 95,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 158
         },
         {
           "sku": "IDELMO-IDELMO-55-WHITEW",
@@ -3456,7 +3909,9 @@
           "price": 95,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 158
         }
       ],
       "minPrice": 95,
@@ -3474,7 +3929,10 @@
       ],
       "sizes": [
         "55 cm"
-      ]
+      ],
+      "discountPercent": 40,
+      "originalMinPrice": 158,
+      "originalMaxPrice": 158
     },
     {
       "id": "idel-mosaic-curve-90",
@@ -3495,7 +3953,9 @@
           "price": 300,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 566
         }
       ],
       "minPrice": 300,
@@ -3507,7 +3967,10 @@
       ],
       "sizes": [
         "90 cm"
-      ]
+      ],
+      "discountPercent": 47,
+      "originalMinPrice": 566,
+      "originalMaxPrice": 566
     },
     {
       "id": "idel-mosaic-flowerbox",
@@ -3528,7 +3991,9 @@
           "price": 32,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 59
         },
         {
           "sku": "IDELMOSAIC-40-WHITEPISTACHIO-2",
@@ -3542,7 +4007,9 @@
           "price": 32,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 59
         },
         {
           "sku": "IDELMOSAIC-40-WHITEPOWDER",
@@ -3556,7 +4023,9 @@
           "price": 32,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 59
         },
         {
           "sku": "IDELMOSAIC-40-WHITEPURPLE",
@@ -3570,7 +4039,9 @@
           "price": 32,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 59
         },
         {
           "sku": "IDELMO-IDELMO-40-WHITES",
@@ -3584,7 +4055,9 @@
           "price": 32,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 59
         },
         {
           "sku": "IDELMOSAIC-40-WHITETAUPE-2",
@@ -3598,7 +4071,9 @@
           "price": 32,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 46,
+          "originalPrice": 59
         }
       ],
       "minPrice": 32,
@@ -3615,7 +4090,10 @@
       ],
       "sizes": [
         "40 cm"
-      ]
+      ],
+      "discountPercent": 46,
+      "originalMinPrice": 59,
+      "originalMaxPrice": 59
     },
     {
       "id": "idel-mosaic-quadro",
@@ -3636,7 +4114,9 @@
           "price": 17,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 28
         },
         {
           "sku": "IDELMOSAIC-17-WHITEPISTACHIO",
@@ -3650,7 +4130,9 @@
           "price": 17,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 28
         },
         {
           "sku": "IDELMOSAIC-17-WHITEPOWDER",
@@ -3664,7 +4146,9 @@
           "price": 17,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 28
         },
         {
           "sku": "IDELMOSAIC-17-WHITEPURPLE",
@@ -3678,7 +4162,9 @@
           "price": 17,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 28
         },
         {
           "sku": "IDELMO-IDELMO-17-WHITES",
@@ -3692,7 +4178,9 @@
           "price": 17,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 28
         },
         {
           "sku": "IDELMOSAIC-17-WHITETAUPE",
@@ -3706,7 +4194,9 @@
           "price": 17,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 28
         },
         {
           "sku": "IDELMOSAIC-17-WHITETERRACOTTA",
@@ -3720,7 +4210,9 @@
           "price": 17,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 40,
+          "originalPrice": 28
         }
       ],
       "minPrice": 17,
@@ -3738,7 +4230,10 @@
       ],
       "sizes": [
         "17 cm"
-      ]
+      ],
+      "discountPercent": 40,
+      "originalMinPrice": 28,
+      "originalMaxPrice": 28
     },
     {
       "id": "idel-quadro-lt20",
@@ -3759,7 +4254,9 @@
           "price": 21,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 59,
+          "originalPrice": 51
         }
       ],
       "minPrice": 21,
@@ -3771,7 +4268,10 @@
       ],
       "sizes": [
         "20L (37X37X32 cm)"
-      ]
+      ],
+      "discountPercent": 59,
+      "originalMinPrice": 51,
+      "originalMaxPrice": 51
     },
     {
       "id": "idel-quadro-saucer",
@@ -3792,7 +4292,9 @@
           "price": 8,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 50,
+          "originalPrice": 16
         }
       ],
       "minPrice": 8,
@@ -3804,7 +4306,10 @@
       ],
       "sizes": [
         "37X37 cm"
-      ]
+      ],
+      "discountPercent": 50,
+      "originalMinPrice": 16,
+      "originalMaxPrice": 16
     },
     {
       "id": "idel-round-living",
@@ -3825,7 +4330,9 @@
           "price": 4,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELRO-IDELRO-2-FUCHSI",
@@ -3839,7 +4346,9 @@
           "price": 4,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELRO-IDELRO-2-LILAC",
@@ -3853,7 +4362,9 @@
           "price": 4,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELRO-IDELRO-2-LIME",
@@ -3867,7 +4378,9 @@
           "price": 4,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELRO-IDELRO-2-PISTAC",
@@ -3881,7 +4394,9 @@
           "price": 4,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELRO-IDELRO-2-POWDER",
@@ -3895,7 +4410,9 @@
           "price": 4,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELRO-IDELRO-2-PURPLE",
@@ -3909,7 +4426,9 @@
           "price": 4,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELRO-IDELRO-2-RED",
@@ -3923,7 +4442,9 @@
           "price": 4,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELRO-IDELRO-2-WHITE",
@@ -3937,7 +4458,9 @@
           "price": 4,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 9.5
         },
         {
           "sku": "IDELRO-IDELRO-45-ANTHRA",
@@ -3951,7 +4474,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 17
         },
         {
           "sku": "IDELRO-IDELRO-45-FUCHSI",
@@ -3965,7 +4490,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 17
         },
         {
           "sku": "IDELRO-IDELRO-45-LILAC",
@@ -3979,7 +4506,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 17
         },
         {
           "sku": "IDELRO-IDELRO-45-LIME",
@@ -3993,7 +4522,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 17
         },
         {
           "sku": "IDELRO-IDELRO-45-PISTAC",
@@ -4007,7 +4538,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 17
         },
         {
           "sku": "IDELRO-IDELRO-45-PURPLE",
@@ -4021,7 +4554,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 17
         },
         {
           "sku": "IDELRO-IDELRO-45-RED",
@@ -4035,7 +4570,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 17
         },
         {
           "sku": "IDELRO-IDELRO-45-WHITE",
@@ -4049,7 +4586,9 @@
           "price": 7,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 17
         }
       ],
       "minPrice": 4,
@@ -4070,7 +4609,10 @@
       "sizes": [
         "2 L",
         "4.5 L"
-      ]
+      ],
+      "discountPercent": 58,
+      "originalMinPrice": 9.5,
+      "originalMaxPrice": 17
     },
     {
       "id": "idel-smart-flowerbox-w-sws",
@@ -4091,7 +4633,9 @@
           "price": 99,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 187
         },
         {
           "sku": "IDELSM-IDELSM-85-SABBIA",
@@ -4105,7 +4649,9 @@
           "price": 99,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 187
         },
         {
           "sku": "IDELSM-IDELSM-85-WHITE",
@@ -4119,7 +4665,9 @@
           "price": 99,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 47,
+          "originalPrice": 187
         }
       ],
       "minPrice": 99,
@@ -4133,7 +4681,10 @@
       ],
       "sizes": [
         "85 cm"
-      ]
+      ],
+      "discountPercent": 47,
+      "originalMinPrice": 187,
+      "originalMaxPrice": 187
     },
     {
       "id": "idel-square-living",
@@ -4154,7 +4705,9 @@
           "price": 6,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 42,
+          "originalPrice": 10
         },
         {
           "sku": "IDELSQ-IDELSQ-18X18-RED",
@@ -4168,7 +4721,9 @@
           "price": 6,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 42,
+          "originalPrice": 10
         },
         {
           "sku": "IDELSQ-IDELSQ-18X18-WHITE",
@@ -4182,7 +4737,9 @@
           "price": 6,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 42,
+          "originalPrice": 10
         }
       ],
       "minPrice": 6,
@@ -4196,7 +4753,10 @@
       ],
       "sizes": [
         "18X18 cm"
-      ]
+      ],
+      "discountPercent": 42,
+      "originalMinPrice": 10,
+      "originalMaxPrice": 10
     },
     {
       "id": "idel-terme",
@@ -4217,7 +4777,9 @@
           "price": null,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": null
         },
         {
           "sku": "IDELTE-IDELTE-27-TERRAC",
@@ -4231,7 +4793,9 @@
           "price": 6,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": 14
         }
       ],
       "minPrice": 6,
@@ -4244,7 +4808,10 @@
       "sizes": [
         "24 cm",
         "27 cm"
-      ]
+      ],
+      "discountPercent": 57,
+      "originalMinPrice": 14,
+      "originalMaxPrice": 14
     },
     {
       "id": "idel-twin-set-classic-pot",
@@ -4265,7 +4832,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 59,
+          "originalPrice": 37
         },
         {
           "sku": "IDELTW-IDELTW-14-RED",
@@ -4279,7 +4848,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 59,
+          "originalPrice": 37
         },
         {
           "sku": "IDELTW-IDELTW-14-WHITE",
@@ -4293,7 +4864,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 59,
+          "originalPrice": 37
         }
       ],
       "minPrice": 15,
@@ -4307,7 +4880,10 @@
       ],
       "sizes": [
         "14 cm"
-      ]
+      ],
+      "discountPercent": 59,
+      "originalMinPrice": 37,
+      "originalMaxPrice": 37
     },
     {
       "id": "idel-twin-set-round-living",
@@ -4328,7 +4904,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 54,
+          "originalPrice": 33
         },
         {
           "sku": "IDELTW-IDELTW-14X2-FUCHSI",
@@ -4342,7 +4920,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 54,
+          "originalPrice": 33
         },
         {
           "sku": "IDELTW-IDELTW-14X2-LIME",
@@ -4356,7 +4936,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 54,
+          "originalPrice": 33
         },
         {
           "sku": "IDELTW-IDELTW-14X2-RED",
@@ -4370,7 +4952,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 54,
+          "originalPrice": 33
         },
         {
           "sku": "IDELTW-IDELTW-14X2-WHITE",
@@ -4384,7 +4968,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 54,
+          "originalPrice": 33
         }
       ],
       "minPrice": 15,
@@ -4400,7 +4986,10 @@
       ],
       "sizes": [
         "14X2 cm"
-      ]
+      ],
+      "discountPercent": 54,
+      "originalMinPrice": 33,
+      "originalMaxPrice": 33
     },
     {
       "id": "idel-versilia",
@@ -4421,7 +5010,9 @@
           "price": 13,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 28
         },
         {
           "sku": "IDELVE-IDELVE-60-LILAC",
@@ -4435,7 +5026,9 @@
           "price": 13,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 28
         },
         {
           "sku": "IDELVE-IDELVE-60-LIME",
@@ -4449,7 +5042,9 @@
           "price": 13,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 28
         },
         {
           "sku": "IDELVE-IDELVE-60-TAUPE",
@@ -4463,7 +5058,9 @@
           "price": 13,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 28
         },
         {
           "sku": "IDELVE-IDELVE-60-TERRAC",
@@ -4477,7 +5074,9 @@
           "price": 13,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 53,
+          "originalPrice": 28
         }
       ],
       "minPrice": 13,
@@ -4493,7 +5092,10 @@
       ],
       "sizes": [
         "60 cm"
-      ]
+      ],
+      "discountPercent": 53,
+      "originalMinPrice": 28,
+      "originalMaxPrice": 28
     },
     {
       "id": "idel-volterra",
@@ -4514,7 +5116,9 @@
           "price": 12,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 29
         },
         {
           "sku": "IDELVO-IDELVO-45X25X-GREEN",
@@ -4528,7 +5132,9 @@
           "price": 12,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 29
         },
         {
           "sku": "IDELVO-IDELVO-45X25X-LILAC",
@@ -4542,7 +5148,9 @@
           "price": 12,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 29
         },
         {
           "sku": "IDELVO-IDELVO-45X25X-LIME",
@@ -4556,7 +5164,9 @@
           "price": 12,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 29
         },
         {
           "sku": "IDELVO-IDELVO-45X25X-ORANGE",
@@ -4570,7 +5180,9 @@
           "price": 12,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 29
         },
         {
           "sku": "IDELVO-IDELVO-45X25X-WHITE",
@@ -4584,7 +5196,9 @@
           "price": 12,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 29
         },
         {
           "sku": "IDELVO-IDELVO-55X25X-FUCHSI",
@@ -4598,7 +5212,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 36
         },
         {
           "sku": "IDELVO-IDELVO-55X25X-LILAC",
@@ -4612,7 +5228,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 36
         },
         {
           "sku": "IDELVO-IDELVO-55X25X-LIME",
@@ -4626,7 +5244,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 36
         },
         {
           "sku": "IDELVO-IDELVO-55X25X-ORANGE",
@@ -4640,7 +5260,9 @@
           "price": 15,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 36
         },
         {
           "sku": "IDELVO-IDELVO-65X25X-FUCHSI",
@@ -4654,7 +5276,9 @@
           "price": 17,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 40
         },
         {
           "sku": "IDELVO-IDELVO-65X25X-ORANGE",
@@ -4668,7 +5292,9 @@
           "price": 17,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 58,
+          "originalPrice": 40
         }
       ],
       "minPrice": 12,
@@ -4687,7 +5313,10 @@
         "14L (45X25X21 cm)",
         "17L (55X25X21 cm)",
         "21L (65X25X21 cm)"
-      ]
+      ],
+      "discountPercent": 58,
+      "originalMinPrice": 29,
+      "originalMaxPrice": 40
     },
     {
       "id": "pb-cassetta-luna",
@@ -4708,7 +5337,9 @@
           "price": 14,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 49,
+          "originalPrice": 27
         },
         {
           "sku": "PBCASS-PBCASS-50X20X-BIANCO",
@@ -4722,7 +5353,9 @@
           "price": 16,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 49,
+          "originalPrice": 31
         },
         {
           "sku": "PBCASS-PBCASS-40X20X-BLUE",
@@ -4736,7 +5369,9 @@
           "price": 14,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 49,
+          "originalPrice": 27
         },
         {
           "sku": "PBCASS-PBCASS-50X20X-BLUE",
@@ -4750,7 +5385,9 @@
           "price": 16,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 49,
+          "originalPrice": 31
         },
         {
           "sku": "PBCASS-PBCASS-40X20X-FUCHSI",
@@ -4764,7 +5401,9 @@
           "price": 14,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 49,
+          "originalPrice": 27
         },
         {
           "sku": "PBCASS-PBCASS-50X20X-FUCHSI",
@@ -4778,7 +5417,9 @@
           "price": 16,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 49,
+          "originalPrice": 31
         },
         {
           "sku": "PBCASS-PBCASS-40X20X-LIME",
@@ -4792,7 +5433,9 @@
           "price": 14,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 49,
+          "originalPrice": 27
         },
         {
           "sku": "PBCASS-PBCASS-50X20X-LIME",
@@ -4806,7 +5449,9 @@
           "price": 16,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 49,
+          "originalPrice": 31
         }
       ],
       "minPrice": 14,
@@ -4822,7 +5467,10 @@
       "sizes": [
         "40X20X20 cm",
         "50X20X20 cm"
-      ]
+      ],
+      "discountPercent": 49,
+      "originalMinPrice": 27,
+      "originalMaxPrice": 31
     },
     {
       "id": "pb-maxiflowerbox-saucer-wheel",
@@ -4843,7 +5491,9 @@
           "price": 39,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": 91
         },
         {
           "sku": "PBMAXI-PBMAXI-50MD80-TERRAC",
@@ -4857,7 +5507,9 @@
           "price": 79,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 57,
+          "originalPrice": 184
         }
       ],
       "minPrice": 39,
@@ -4870,7 +5522,10 @@
       "sizes": [
         "MD60 (30 L)",
         "MD80 (50 L)"
-      ]
+      ],
+      "discountPercent": 57,
+      "originalMinPrice": 91,
+      "originalMaxPrice": 184
     },
     {
       "id": "pp-beth",
@@ -4891,7 +5546,9 @@
           "price": 670,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 1367
         },
         {
           "sku": "POTTER-PPBETH-50X50-SILVER",
@@ -4905,7 +5562,9 @@
           "price": 670,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 51,
+          "originalPrice": 1367
         }
       ],
       "minPrice": 670,
@@ -4918,7 +5577,10 @@
       ],
       "sizes": [
         "50X50 cm"
-      ]
+      ],
+      "discountPercent": 51,
+      "originalMinPrice": 1367,
+      "originalMaxPrice": 1367
     },
     {
       "id": "pp-block",
@@ -4939,7 +5601,9 @@
           "price": 995,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 49,
+          "originalPrice": 1951
         },
         {
           "sku": "POTTER-PPBLOC-50X50X-SILVER",
@@ -4953,7 +5617,9 @@
           "price": 995,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 49,
+          "originalPrice": 1951
         }
       ],
       "minPrice": 995,
@@ -4966,7 +5632,10 @@
       ],
       "sizes": [
         "50X50X50 cm"
-      ]
+      ],
+      "discountPercent": 49,
+      "originalMinPrice": 1951,
+      "originalMaxPrice": 1951
     },
     {
       "id": "pp-orb",
@@ -4987,7 +5656,9 @@
           "price": 247,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 43,
+          "originalPrice": 433
         }
       ],
       "minPrice": 247,
@@ -4999,7 +5670,10 @@
       ],
       "sizes": [
         "48X43 cm"
-      ]
+      ],
+      "discountPercent": 43,
+      "originalMinPrice": 433,
+      "originalMaxPrice": 433
     },
     {
       "id": "pp-sunny",
@@ -5020,7 +5694,9 @@
           "price": 463,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 50,
+          "originalPrice": 926
         },
         {
           "sku": "POTTER-PPSUNN-45X27-ROSE",
@@ -5034,7 +5710,9 @@
           "price": 463,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 50,
+          "originalPrice": 926
         }
       ],
       "minPrice": 463,
@@ -5047,7 +5725,10 @@
       ],
       "sizes": [
         "45X27 cm"
-      ]
+      ],
+      "discountPercent": 50,
+      "originalMinPrice": 926,
+      "originalMaxPrice": 926
     },
     {
       "id": "pp-yang",
@@ -5068,7 +5749,9 @@
           "price": 1525,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 45,
+          "originalPrice": 2773
         },
         {
           "sku": "POTTER-PPYANG-35X35X-SILVER",
@@ -5082,7 +5765,9 @@
           "price": 1525,
           "currency": "AED",
           "inStock": true,
-          "soldOut": false
+          "soldOut": false,
+          "discountPercent": 45,
+          "originalPrice": 2773
         }
       ],
       "minPrice": 1525,
@@ -5095,7 +5780,10 @@
       ],
       "sizes": [
         "35X35X100 cm"
-      ]
+      ],
+      "discountPercent": 45,
+      "originalMinPrice": 2773,
+      "originalMaxPrice": 2773
     }
   ]
 }

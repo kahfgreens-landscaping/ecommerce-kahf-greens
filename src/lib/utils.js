@@ -21,6 +21,26 @@ export function formatPriceRange(min, max, currency = 'AED') {
   return `${currency} ${Number(min).toLocaleString('en-AE', { minimumFractionDigits: 2 })} – ${Number(max).toLocaleString('en-AE', { minimumFractionDigits: 2 })}`;
 }
 
+/** Get deterministic discount percentage between 40% and 60% */
+export function getDiscountPercent(idOrSku = '') {
+  let hash = 0;
+  const str = String(idOrSku);
+  for (let i = 0; i < str.length; i++) {
+    hash = (hash * 31 + str.charCodeAt(i)) & 0xffffffff;
+  }
+  return 40 + (Math.abs(hash) % 21);
+}
+
+/** Calculate actual pre-discount price given sale price and discount percentage */
+export function calculateOriginalPrice(salePrice, discountPercent = 50) {
+  if (typeof salePrice !== 'number' || salePrice === null) return null;
+  const raw = salePrice / (1 - discountPercent / 100);
+  if (raw >= 10) {
+    return Math.round(raw);
+  }
+  return Math.round(raw * 2) / 2;
+}
+
 /** Slugify a string */
 export function slug(str) {
   return String(str).toLowerCase().trim()

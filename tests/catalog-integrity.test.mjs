@@ -113,3 +113,36 @@ test('Product minPrice and maxPrice accurately reflect variant prices', () => {
     }
   }
 });
+
+test('All products and variants have original prices with 40-60% discount', () => {
+  for (const product of catalog.products) {
+    assert.ok(
+      typeof product.discountPercent === 'number' && product.discountPercent >= 40 && product.discountPercent <= 60,
+      `Product ${product.id} discountPercent (${product.discountPercent}) must be between 40 and 60`
+    );
+
+    const pricedVariants = product.variants.filter(v => typeof v.price === 'number' && v.price !== null);
+    if (pricedVariants.length > 0) {
+      assert.ok(
+        product.originalMinPrice >= product.minPrice,
+        `Product ${product.id} originalMinPrice (${product.originalMinPrice}) must be >= minPrice (${product.minPrice})`
+      );
+      assert.ok(
+        product.originalMaxPrice >= product.maxPrice,
+        `Product ${product.id} originalMaxPrice (${product.originalMaxPrice}) must be >= maxPrice (${product.maxPrice})`
+      );
+
+      for (const v of pricedVariants) {
+        assert.ok(
+          typeof v.originalPrice === 'number' && v.originalPrice > v.price,
+          `Variant ${v.sku} originalPrice (${v.originalPrice}) must be greater than sale price (${v.price})`
+        );
+        const actualDiscount = ((v.originalPrice - v.price) / v.originalPrice) * 100;
+        assert.ok(
+          actualDiscount >= 38 && actualDiscount <= 62,
+          `Variant ${v.sku} actual discount (${actualDiscount.toFixed(1)}%) must be around 40-60%`
+        );
+      }
+    }
+  }
+});

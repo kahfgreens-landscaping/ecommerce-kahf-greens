@@ -4,7 +4,7 @@ import { ShoppingCart, Heart, Share2, Check, ChevronLeft, ChevronRight, MessageC
 import catalogData from '../data/catalog.json';
 import { useCartStore } from '../store/cartStore';
 import { useWishlistStore } from '../store/wishlistStore';
-import { formatPrice, getColorStyle, cn } from '../lib/utils';
+import { formatPrice, getColorStyle, cn, getDiscountPercent, calculateOriginalPrice } from '../lib/utils';
 import { getProductImagesForProduct, getProductImageForProductColor } from '../data/imageMap';
 import ProductCard from '../components/ui/ProductCard';
 
@@ -15,6 +15,8 @@ export default function ProductDetailPage() {
     || (slug === 'idel-mosaic-curve-high' || slug === 'idel-mosaic-curve-high-90' ? catalogData.products.find(p => p.slug === 'idel-mosaic-curve-90') : null);
   const { addItem, openCart } = useCartStore();
   const { toggle, isWishlisted } = useWishlistStore();
+
+  const discountPct = product?.discountPercent || (product ? getDiscountPercent(product.id) : 50);
 
   const [selectedColor, setSelectedColor] = useState(null);
   const [selectedSize, setSelectedSize]   = useState(null);
@@ -255,8 +257,18 @@ export default function ProductDetailPage() {
           <h1 className="font-serif font-bold text-3xl text-brand-dark mb-2">{product.name}</h1>
 
           {/* Price */}
-          <div className="flex items-baseline gap-3 mb-4">
-            <p className="text-3xl font-bold text-brand-dark">{formatPrice(selectedVariant?.price || product.minPrice)}</p>
+          <div className="flex items-baseline gap-3 mb-4 flex-wrap">
+            <p className="text-3xl font-bold text-brand-dark">
+              {formatPrice(selectedVariant?.price || product.minPrice)}
+            </p>
+            {(selectedVariant?.originalPrice || calculateOriginalPrice(selectedVariant?.price || product.minPrice, discountPct)) && (
+              <span className="text-xl text-muted-foreground line-through decoration-muted-foreground/80 font-normal">
+                {formatPrice(selectedVariant?.originalPrice || calculateOriginalPrice(selectedVariant?.price || product.minPrice, discountPct))}
+              </span>
+            )}
+            <span className="text-xs font-bold uppercase tracking-wider px-2.5 py-1 bg-red-600 text-white rounded shadow-xs">
+              {discountPct}% OFF
+            </span>
             <span className="text-sm text-muted-foreground">incl. 5% VAT</span>
           </div>
 

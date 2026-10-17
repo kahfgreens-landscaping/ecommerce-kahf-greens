@@ -7,7 +7,25 @@ const {
   getColorStyle,
   getColorHex,
   slug,
+  getDiscountPercent,
+  calculateOriginalPrice,
 } = await import('../src/lib/utils.js');
+
+test('getDiscountPercent returns deterministic values between 40 and 60', () => {
+  const ids = ['idel-mosaic-curve-13', 'desch-emma', 'pp-block', 'idel-ducale-lt60', 'custom-pot'];
+  for (const id of ids) {
+    const pct = getDiscountPercent(id);
+    assert.ok(pct >= 40 && pct <= 60, `Discount percent ${pct} must be between 40 and 60`);
+    assert.equal(pct, getDiscountPercent(id), 'Discount percent must be deterministic');
+  }
+});
+
+test('calculateOriginalPrice calculates realistic pre-discount price', () => {
+  assert.equal(calculateOriginalPrice(50, 50), 100);
+  assert.equal(calculateOriginalPrice(60, 40), 100);
+  assert.equal(calculateOriginalPrice(null, 50), null);
+  assert.equal(calculateOriginalPrice(undefined, 50), null);
+});
 
 test('formatPrice correctly formats currency and handles nulls', () => {
   assert.equal(formatPrice(200), 'AED 200.00');
