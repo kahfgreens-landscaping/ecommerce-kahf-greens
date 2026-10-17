@@ -144,7 +144,7 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Interactive Category Tabs: Mosaic, Rectangular, Square, Balcony */}
+          {/* Interactive Category Tabs: Mosaic, Rectangular, Square, Balcony, More styles */}
           <div className="flex items-center gap-2 mb-8 overflow-x-auto pb-2 scrollbar-none">
             {FEATURED_TABS.map(tab => {
               const isActive = activeTabId === tab.id;
@@ -164,6 +164,13 @@ export default function HomePage() {
                 </button>
               );
             })}
+            <Link
+              to="/products"
+              className="px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-[0.12em] transition-all cursor-pointer shrink-0 border bg-white/80 text-brand-dark border-[#e4dfd3] hover:bg-brand-dark hover:text-white hover:border-brand-dark flex items-center gap-1.5"
+            >
+              <span>More styles</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
           </div>
 
           {/* Tab products grid */}
