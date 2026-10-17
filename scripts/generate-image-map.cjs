@@ -160,6 +160,9 @@ if (map['idel-mosaic-curve-90']) {
   map['idel-mosaic-curve-high'] = map['idel-mosaic-curve-90'];
   map['idel-mosaic-curve-high-90'] = map['idel-mosaic-curve-90'];
 }
+if (map['idel-mosaic-quadro-17cm']) {
+  map['idel-mosaic-quadro'] = map['idel-mosaic-quadro-17cm'];
+}
 if (map['quadro-37']) {
   map['idel-quadro-lt20'] = map['quadro-37'];
   map['idel-quadro-saucer'] = map['quadro-37'];

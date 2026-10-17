@@ -10,7 +10,16 @@ const __dirname = dirname(__filename);
 const catalogPath = join(__dirname, '../src/data/catalog.json');
 const catalog = JSON.parse(readFileSync(catalogPath, 'utf8'));
 
-const { POT_CATEGORIES, FEATURED_TABS, getCategoryBySlug } = await import('../src/data/categories.js');
+const {
+  POT_CATEGORIES,
+  FEATURED_TABS,
+  ROUND_IDS,
+  RECTANGULAR_IDS,
+  SQUARE_IDS,
+  HANGING_IDS,
+  KITS_IDS,
+  getCategoryBySlug,
+} = await import('../src/data/categories.js');
 
 test('Mosaic Collection contains strictly Mosaic planters and nothing else', () => {
   const mosaicCat = POT_CATEGORIES.find(c => c.slug === 'mosaic');
@@ -37,20 +46,39 @@ test('Pottery Pots collection contains strictly Pottery Pots models', () => {
   }
 });
 
-test('Shape categories (Round, Rectangular, Square, Balcony, Hanging, Kits) match valid products', () => {
-  const round = POT_CATEGORIES.find(c => c.slug === 'round');
-  const rectangular = POT_CATEGORIES.find(c => c.slug === 'rectangular');
-  const square = POT_CATEGORIES.find(c => c.slug === 'square');
-  const balcony = POT_CATEGORIES.find(c => c.slug === 'balcony');
-  const hanging = POT_CATEGORIES.find(c => c.slug === 'hanging');
-  const kits = POT_CATEGORIES.find(c => c.slug === 'kits');
+test('Idel MARINELLA is in Round and NOT in Rectangular', () => {
+  assert.ok(ROUND_IDS.has('idel-marinella'), 'Idel MARINELLA must be in Round');
+  assert.ok(!RECTANGULAR_IDS.has('idel-marinella'), 'Idel MARINELLA must NOT be in Rectangular');
+});
 
-  assert.ok(catalog.products.filter(round.filter).length >= 25, 'Round category should have >= 25 items');
-  assert.ok(catalog.products.filter(rectangular.filter).length >= 8, 'Rectangular category should have >= 8 items');
-  assert.ok(catalog.products.filter(square.filter).length >= 6, 'Square category should have >= 6 items');
-  assert.ok(catalog.products.filter(balcony.filter).length >= 8, 'Balcony category should have >= 8 items');
-  assert.ok(catalog.products.filter(hanging.filter).length >= 2, 'Hanging category should have >= 2 items');
-  assert.ok(catalog.products.filter(kits.filter).length >= 4, 'Kits category should have >= 4 items');
+test('Tirreno, Ducale, Terme, and Volterra are in Rectangular and NOT in Round', () => {
+  const rectangularCheck = [
+    'idel-bio-compost-tirreno-mini-saucer-2-5l',
+    'idel-ducale-lt60',
+    'idel-terme',
+    'idel-volterra',
+  ];
+
+  for (const id of rectangularCheck) {
+    assert.ok(RECTANGULAR_IDS.has(id), `Product ${id} must be in Rectangular`);
+    assert.ok(!ROUND_IDS.has(id), `Product ${id} must NOT be in Round`);
+  }
+});
+
+test('PP YANG and Idel HYDRUS are in Square', () => {
+  assert.ok(SQUARE_IDS.has('pp-yang'), 'PP YANG must be in Square');
+  assert.ok(SQUARE_IDS.has('idel-hydrus'), 'Idel HYDRUS must be in Square');
+  assert.ok(!ROUND_IDS.has('pp-yang'), 'PP YANG must NOT be in Round');
+  assert.ok(!HANGING_IDS.has('idel-hydrus'), 'Idel HYDRUS must NOT be in Hanging');
+});
+
+test('Idel Kit Lipari is in Hanging', () => {
+  assert.ok(HANGING_IDS.has('idel-kit-lipari'), 'idel-kit-lipari must be in Hanging');
+});
+
+test('Idel HANG ETRUSCO is in Pot Kits and sets and NOT in Hanging', () => {
+  assert.ok(KITS_IDS.has('idel-hang-etrusco-3-2l'), 'idel-hang-etrusco-3-2l must be in Kits');
+  assert.ok(!HANGING_IDS.has('idel-hang-etrusco-3-2l'), 'idel-hang-etrusco-3-2l must NOT be in Hanging');
 });
 
 test('Featured tabs (Mosaic, Rectangular, Square, Balcony) match requested categories', () => {
