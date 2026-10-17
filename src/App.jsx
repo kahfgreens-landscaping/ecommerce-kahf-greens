@@ -66,6 +66,9 @@ export default function App() {
       <ScrollToTop />
       <Routes>
       {/* Admin — no store header */}
+      <Route path="/admin" element={
+        <Suspense fallback={<PageLoader />}><AdminPage /></Suspense>
+      } />
       <Route path="/admin/*" element={
         <Suspense fallback={<PageLoader />}><AdminPage /></Suspense>
       } />
