@@ -1257,7 +1257,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELDA-IDELDA-1007L-TRANSP",
+          "sku": "IDELDANTE-10-TRANSPARENTLIME",
           "originalName": "Idel DANTE 0.7L",
           "size": "10",
           "sizeUnit": "cm",
@@ -1271,7 +1271,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELDA-IDELDA-1007L-TRANSP",
+          "sku": "IDELDANTE-10-TRANSPARENTPINK",
           "originalName": "Idel DANTE 0.7L",
           "size": "10",
           "sizeUnit": "cm",
@@ -1285,7 +1285,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELDA-IDELDA-1007L-TRANSP",
+          "sku": "IDELDANTE-10-TRANSPARENTVIOLET",
           "originalName": "Idel DANTE 0.7L",
           "size": "10",
           "sizeUnit": "cm",
@@ -1299,7 +1299,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELDA-IDELDA-1007L-TRANSP",
+          "sku": "IDELDANTE-10-TRANSPARENTWHITE",
           "originalName": "Idel DANTE 0.7L",
           "size": "10",
           "sizeUnit": "cm",
@@ -1369,7 +1369,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELDA-IDELDA-1725L-TRANSP",
+          "sku": "IDELDANTE-17-TRANSPARENTLIME",
           "originalName": "Idel DANTE 2.5L",
           "size": "17",
           "sizeUnit": "cm",
@@ -1383,7 +1383,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELDA-IDELDA-1725L-TRANSP",
+          "sku": "IDELDANTE-17-TRANSPARENTPINK",
           "originalName": "Idel DANTE 2.5L",
           "size": "17",
           "sizeUnit": "cm",
@@ -1397,7 +1397,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELDA-IDELDA-1725L-TRANSP",
+          "sku": "IDELDANTE-17-TRANSPARENTVIOLET",
           "originalName": "Idel DANTE 2.5L",
           "size": "17",
           "sizeUnit": "cm",
@@ -1411,7 +1411,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELDA-IDELDA-1725L-TRANSP",
+          "sku": "IDELDANTE-17-TRANSPARENTWHITE",
           "originalName": "Idel DANTE 2.5L",
           "size": "17",
           "sizeUnit": "cm",
@@ -2161,7 +2161,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELHI-IDELHS-15X15-TRANSP",
+          "sku": "IDELHSLIVI-15X15-TRANSPARENTWHITETRANSPARENTLIME",
           "originalName": "Idel HS LIVING SWS",
           "size": "15X15",
           "sizeUnit": "cm",
@@ -2175,7 +2175,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELHI-IDELHS-15X15-TRANSP",
+          "sku": "IDELHSLIVI-15X15-TRANSPARENTWHITETRANSPARENTPINK",
           "originalName": "Idel HS LIVING SWS",
           "size": "15X15",
           "sizeUnit": "cm",
@@ -2189,7 +2189,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELHI-IDELHS-15X15-TRANSP",
+          "sku": "IDELHSLIVI-15X15-TRANSPARENTWHITETRANSPARENTVIOLET",
           "originalName": "Idel HS LIVING SWS",
           "size": "15X15",
           "sizeUnit": "cm",
@@ -3153,9 +3153,9 @@
       ]
     },
     {
-      "id": "idel-mosaic-curve",
-      "name": "Idel MOSAIC CURVE",
-      "slug": "idel-mosaic-curve",
+      "id": "idel-mosaic-curve-13",
+      "name": "Idel MOSAIC CURVE 13",
+      "slug": "idel-mosaic-curve-13",
       "category": "Idel Mosaic Curve 13",
       "categorySlug": "idel-mosaic-curve-13",
       "variants": [
@@ -3188,7 +3188,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-13-WHITEP",
+          "sku": "IDELMOSAIC-13-WHITEPISTACHIO",
           "originalName": "Idel MOSAIC CURVE",
           "size": "13",
           "sizeUnit": "cm",
@@ -3202,7 +3202,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-13-WHITEP",
+          "sku": "IDELMOSAIC-13-WHITEPOWDER",
           "originalName": "Idel MOSAIC CURVE",
           "size": "13",
           "sizeUnit": "cm",
@@ -3216,7 +3216,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-13-WHITEP",
+          "sku": "IDELMOSAIC-13-WHITEPURPLE",
           "originalName": "Idel MOSAIC CURVE",
           "size": "13",
           "sizeUnit": "cm",
@@ -3291,14 +3291,14 @@
       ]
     },
     {
-      "id": "idel-mosaic-curve",
-      "name": "Idel MOSAIC CURVE",
-      "slug": "idel-mosaic-curve",
+      "id": "idel-mosaic-curve-40",
+      "name": "Idel MOSAIC CURVE 40",
+      "slug": "idel-mosaic-curve-40",
       "category": "Idel Mosaic Curve 40",
       "categorySlug": "idel-mosaic-curve-40",
       "variants": [
         {
-          "sku": "IDELMO-IDELMO-40-WHITEA",
+          "sku": "IDELMOSAIC-40-WHITEASH",
           "originalName": "Idel MOSAIC CURVE",
           "size": "40",
           "sizeUnit": "cm",
@@ -3312,7 +3312,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-40-WHITEP",
+          "sku": "IDELMOSAIC-40-WHITEPISTACHIO",
           "originalName": "Idel MOSAIC CURVE",
           "size": "40",
           "sizeUnit": "cm",
@@ -3326,7 +3326,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-40-WHITET",
+          "sku": "IDELMOSAIC-40-WHITETAUPE",
           "originalName": "Idel MOSAIC CURVE",
           "size": "40",
           "sizeUnit": "cm",
@@ -3354,9 +3354,9 @@
       ]
     },
     {
-      "id": "idel-mosaic-curve",
-      "name": "Idel MOSAIC CURVE",
-      "slug": "idel-mosaic-curve",
+      "id": "idel-mosaic-curve-55",
+      "name": "Idel MOSAIC CURVE 55",
+      "slug": "idel-mosaic-curve-55",
       "category": "Idel Mosaic Curve 55",
       "categorySlug": "idel-mosaic-curve-55",
       "variants": [
@@ -3477,9 +3477,9 @@
       ]
     },
     {
-      "id": "idel-mosaic-curve-high",
-      "name": "Idel MOSAIC CURVE HIGH",
-      "slug": "idel-mosaic-curve-high",
+      "id": "idel-mosaic-curve-90",
+      "name": "Idel MOSAIC CURVE HIGH 90",
+      "slug": "idel-mosaic-curve-90",
       "category": "Idel Mosaic Curve High 90",
       "categorySlug": "idel-mosaic-curve-high-90",
       "variants": [
@@ -3517,7 +3517,7 @@
       "categorySlug": "idel-mosaic-flowerbox",
       "variants": [
         {
-          "sku": "IDELMO-IDELMO-40-WHITEA",
+          "sku": "IDELMOSAIC-40-WHITEASHSKYBLUE",
           "originalName": "Idel MOSAIC FLOWERBOX",
           "size": "40",
           "sizeUnit": "cm",
@@ -3531,7 +3531,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-40-WHITEP",
+          "sku": "IDELMOSAIC-40-WHITEPISTACHIO-2",
           "originalName": "Idel MOSAIC FLOWERBOX",
           "size": "40",
           "sizeUnit": "cm",
@@ -3545,7 +3545,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-40-WHITEP",
+          "sku": "IDELMOSAIC-40-WHITEPOWDER",
           "originalName": "Idel MOSAIC FLOWERBOX",
           "size": "40",
           "sizeUnit": "cm",
@@ -3559,7 +3559,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-40-WHITEP",
+          "sku": "IDELMOSAIC-40-WHITEPURPLE",
           "originalName": "Idel MOSAIC FLOWERBOX",
           "size": "40",
           "sizeUnit": "cm",
@@ -3587,7 +3587,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-40-WHITET",
+          "sku": "IDELMOSAIC-40-WHITETAUPE-2",
           "originalName": "Idel MOSAIC FLOWERBOX",
           "size": "40",
           "sizeUnit": "cm",
@@ -3639,7 +3639,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-17-WHITEP",
+          "sku": "IDELMOSAIC-17-WHITEPISTACHIO",
           "originalName": "Idel MOSAIC QUADRO",
           "size": "17",
           "sizeUnit": "cm",
@@ -3653,7 +3653,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-17-WHITEP",
+          "sku": "IDELMOSAIC-17-WHITEPOWDER",
           "originalName": "Idel MOSAIC QUADRO",
           "size": "17",
           "sizeUnit": "cm",
@@ -3667,7 +3667,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-17-WHITEP",
+          "sku": "IDELMOSAIC-17-WHITEPURPLE",
           "originalName": "Idel MOSAIC QUADRO",
           "size": "17",
           "sizeUnit": "cm",
@@ -3695,7 +3695,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-17-WHITET",
+          "sku": "IDELMOSAIC-17-WHITETAUPE",
           "originalName": "Idel MOSAIC QUADRO",
           "size": "17",
           "sizeUnit": "cm",
@@ -3709,7 +3709,7 @@
           "soldOut": false
         },
         {
-          "sku": "IDELMO-IDELMO-17-WHITET",
+          "sku": "IDELMOSAIC-17-WHITETERRACOTTA",
           "originalName": "Idel MOSAIC QUADRO",
           "size": "17",
           "sizeUnit": "cm",

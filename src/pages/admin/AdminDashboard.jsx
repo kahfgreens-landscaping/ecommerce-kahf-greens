@@ -7,11 +7,12 @@ import {
   Package, TrendingUp, AlertTriangle, XCircle, 
   LogOut, Edit2, Trash2, Eye, EyeOff, Search,
   Upload, Download, Plus, Check, X, DollarSign,
-  Image as ImageIcon
+  MessageCircle
 } from 'lucide-react';
 import { useAdminStore } from '../../store/adminStore';
-import { formatPrice, getColorHex, cn } from '../../lib/utils';
+import { getColorHex, cn } from '../../lib/utils';
 import { Link } from 'react-router-dom';
+import { getStoreWhatsAppNumber, setStoreWhatsAppNumber, DEFAULT_WHATSAPP_NUMBER, formatWhatsAppCartMessage } from '../../lib/whatsapp';
 
 export default function AdminDashboard() {
   const { products, categories, logout, updateVariant, updateProduct, toggleSoldOut, bulkUpdatePrice, deleteProduct, getStats } = useAdminStore();
@@ -20,6 +21,8 @@ export default function AdminDashboard() {
   const [editingId, setEditingId] = useState(null);
   const [editValues, setEditValues]= useState({});
   const [expandedProduct, setExpandedProduct] = useState(null);
+  const [storePhone, setStorePhone] = useState(getStoreWhatsAppNumber());
+  const [phoneSaved, setPhoneSaved] = useState(false);
 
   const stats = getStats();
 
@@ -51,6 +54,7 @@ export default function AdminDashboard() {
     { id: 'categories', label: 'Categories', count: categories.length },
     { id: 'lowstock', label: 'Low Stock', count: stats.lowStockCount },
     { id: 'soldout', label: 'Sold Out', count: stats.soldOutCount },
+    { id: 'whatsapp', label: 'WhatsApp Checkout', count: 'Config' },
   ];
 
   return (
@@ -359,13 +363,116 @@ export default function AdminDashboard() {
             </table>
           </div>
         )}
+
+        {/* WhatsApp Checkout Settings Tab */}
+        {activeTab === 'whatsapp' && (
+          <div className="admin-card space-y-6">
+            <div className="flex items-center justify-between pb-4 border-b border-border">
+              <div>
+                <h2 className="font-semibold text-lg flex items-center gap-2 text-foreground">
+                  <MessageCircle className="w-5 h-5 text-[#25D366]" />
+                  WhatsApp Checkout Configuration
+                </h2>
+                <p className="text-xs text-muted-foreground mt-0.5">
+                  Orders placed by customers on checkout or cart drawer are sent directly to this WhatsApp number.
+                </p>
+              </div>
+              <span className="badge-green">Active</span>
+            </div>
+
+            <div className="max-w-xl space-y-4">
+              <div>
+                <label className="admin-label">
+                  Store Owner WhatsApp Number (with country code, digits only)
+                </label>
+                <div className="flex gap-2">
+                  <input
+                    type="text"
+                    value={storePhone}
+                    onChange={e => {
+                      setStorePhone(e.target.value);
+                      setPhoneSaved(false);
+                    }}
+                    placeholder="971565096880"
+                    className="admin-input font-mono"
+                  />
+                  <button
+                    onClick={() => {
+                      setStoreWhatsAppNumber(storePhone);
+                      setPhoneSaved(true);
+                      setTimeout(() => setPhoneSaved(false), 3000);
+                    }}
+                    className="px-4 py-2 bg-brand-dark hover:bg-brand-mid text-white rounded-lg text-sm font-medium transition-colors shrink-0"
+                  >
+                    Save Number
+                  </button>
+                  <button
+                    onClick={() => {
+                      setStorePhone(DEFAULT_WHATSAPP_NUMBER);
+                      setStoreWhatsAppNumber(DEFAULT_WHATSAPP_NUMBER);
+                      setPhoneSaved(true);
+                      setTimeout(() => setPhoneSaved(false), 3000);
+                    }}
+                    className="px-3 py-2 border border-border hover:bg-muted text-muted-foreground rounded-lg text-xs shrink-0"
+                  >
+                    Reset Default
+                  </button>
+                </div>
+                {phoneSaved && (
+                  <p className="text-xs text-green-600 mt-1.5 flex items-center gap-1">
+                    <Check className="w-3.5 h-3.5" /> WhatsApp number saved successfully!
+                  </p>
+                )}
+                <p className="text-xs text-muted-foreground mt-1.5">
+                  Default: <code>971565096880</code> (+971 56 509 6880). Enter numbers only (e.g. 971501234567).
+                </p>
+              </div>
+
+              {/* Sample Order Preview */}
+              <div className="pt-4 border-t border-border">
+                <h3 className="font-medium text-sm text-foreground mb-2">Sample Order Message Format</h3>
+                <p className="text-xs text-muted-foreground mb-3">
+                  This illustrates how customer orders with exact colors (e.g., Taupe color 2 Pcs, Blue color 1 pc) will be sent to your WhatsApp:
+                </p>
+                <div className="p-4 bg-muted/60 border border-border rounded-xl text-xs font-mono whitespace-pre-wrap max-h-72 overflow-y-auto">
+                  {formatWhatsAppCartMessage({
+                    items: [
+                      {
+                        product: { name: 'Desch EMMA' },
+                        variant: { color: 'Taupe', sizeLabel: '27 cm', sku: 'DESCHP-DESCHE-27-TAUPE', price: 3.45 },
+                        quantity: 2,
+                      },
+                      {
+                        product: { name: 'Idel Cilindro' },
+                        variant: { color: 'Blue', sizeLabel: '30 cm', sku: 'IDELCI-30-BLUE', price: 5.00 },
+                        quantity: 1,
+                      },
+                    ],
+                    customer: {
+                      name: 'Sample Customer',
+                      phone: '+971 50 123 4567',
+                      emirate: 'Dubai',
+                      address: 'Villa 24, Street 10, Al Barsha 2',
+                      notes: 'Please call 30 mins before arrival',
+                    },
+                    subtotal: 11.90,
+                    deliveryFee: 20.00,
+                    total: 31.90,
+                    orderRef: 'KG-849201',
+                    paymentMethod: 'WhatsApp Order',
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
 }
 
 /** Inline-editable variant row */
-function VariantRow({ variant: v, productId, onUpdate, onToggleSoldOut }) {
+function VariantRow({ variant: v, _productId, onUpdate, onToggleSoldOut }) {
   const [editing, setEditing] = useState(false);
   const [val, setVal] = useState({ price: v.price, quantity: v.quantity });
 

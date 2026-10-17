@@ -29,7 +29,7 @@ const CURATED_MAIN_PHOTOS = {
   'idel-jenny': 'idel-jenny__anthracite__01.jpg',
   'idel-kit-campana': 'idel-kit-campana__gray__01.png',
   'idel-kit-elba': 'idel-kit-elba__yellow__01.png',
-  'idel-kit-lipari': 'idel-kit-lipari__white__01.jpg',
+  'idel-kit-lipari': 'idel-kit-lipari__orange__01.jpg',
   'idel-kit-tirreno': 'idel-kit-tirreno__gray__01.png',
   'idel-kit-versilia': 'idel-kit-versilia__white__01.png',
   'idel-liparis': 'idel-liparis__green__01.png',
@@ -53,8 +53,12 @@ const CURATED_MAIN_PHOTOS = {
   'coir-pot': 'coir-pot__green__01.png',
   'coir-hanging-basket': 'coir-hanging-basket__black-white__01.png',
   'coir-hanging-pot': 'coir-hanging-pot__accessory-black-white__01.png',
-  'coir-wall-basket': 'coir-wall-basket__brown__04.png',
   'quadro-37': 'quadro-37__terracotta__01.png',
+  'idel-bio-compost': 'idel-bio-compost__gray__02.jpg',
+  'idel-bio-compost-liparis': 'idel-bio-compost-liparis__lifestyle__01.png',
+  'idel-bio-compost-living-flowerboxs': 'idel-bio-compost-living-flowerboxs__lifestyle__01.png',
+  'idel-bio-compost-tirreno-mini--saucer': 'idel-bio-compost-tirreno-mini--saucer__lifestyle__02.png',
+  'desch-emma': 'desch-emma__terracotta__01.jpg',
 };
 
 // Visual quality / suitability score
@@ -64,7 +68,7 @@ function scoreFile(f) {
   
   if (lower.includes('look') || lower.includes('ambient') || lower.includes('isola') || lower.includes('con_pianta') || lower.includes('with_plants')) score += 80;
   if (lower.includes('main') || lower.includes('intro') || lower.includes('slide')) score += 70;
-  if (/^[a-z0-9\-]+-[12]\.png$/i.test(f) || /^[a-z0-9\-]+-solid/i.test(f)) score += 60;
+  if (/^[a-z0-9-]+-[12]\.png$/i.test(f) || /^[a-z0-9-]+-solid/i.test(f)) score += 60;
   if (lower.endsWith('_1.jpg') || lower.endsWith('_1.png') || lower.endsWith('_1.jpeg')) score += 50;
   if (lower.includes('white_1') || lower.includes('anthracite_1') || lower.includes('gold_1')) score += 40;
   
@@ -119,17 +123,29 @@ const sunnyGold = ppImages.filter(i => i.includes('__sunny-gold__'));
 const sunnyRose = ppImages.filter(i => i.includes('__sunny-rose__'));
 const yangGold = ppImages.filter(i => i.includes('__yang-gold__'));
 const yangSilver = ppImages.filter(i => i.includes('__yang-silver__'));
+const pukSilver = ppImages.filter(i => i.includes('__puk-silver__') || i.includes('__puk-'));
+const ethanBlack = ppImages.filter(i => i.includes('__ethan-black__'));
+const ethanCopper = ppImages.filter(i => i.includes('__ethan-metallic-copper__'));
 
 if (ppImages.length > 0) {
-  map['pp-beth'] = [...bethGold, ...bethSilver, ...ppImages];
-  map['pp-block'] = [...blockGold, ...blockSilver, ...ppImages];
-  map['pp-orb'] = [...orbBlack, ...orbChoc, ...ppImages];
-  map['pp-sunny'] = [...sunnyGold, ...sunnyRose, ...ppImages];
-  map['pp-yang'] = [...yangGold, ...yangSilver, ...ppImages];
+  map['pp-beth'] = [...bethGold, ...bethSilver];
+  map['pp-block'] = [...blockGold, ...blockSilver];
+  map['pp-orb'] = [...orbBlack, ...orbChoc];
+  map['pp-sunny'] = [...sunnyGold, ...sunnyRose];
+  map['pp-yang'] = [...yangGold, ...yangSilver];
+  map['pp-puk'] = [...pukSilver];
+  map['pp-ethan'] = [...ethanBlack, ...ethanCopper];
+
+  map['beth'] = map['pp-beth'];
+  map['block'] = map['pp-block'];
+  map['orb'] = map['pp-orb'];
+  map['sunny'] = map['pp-sunny'];
+  map['yang'] = map['pp-yang'];
+  map['puk'] = map['pp-puk'];
+  map['ethan'] = map['pp-ethan'];
 }
 
 // Direct aliases for grouped catalog IDs
-if (map['idel-dante']) map['idel-dante'] = map['idel-dante'];
 if (map['idel-classic-windowbox-sws-50cm']) map['idel-classic-windowbox-sws'] = map['idel-classic-windowbox-sws-50cm'];
 if (map['idel-pback']) map['idel-cl-matte-pback-box-sws'] = map['idel-pback'];
 if (map['idel-square-high-sws']) map['idel-classic-square-high-sws'] = map['idel-square-high-sws'];
@@ -137,7 +153,13 @@ if (map['idel-high-square-living-sws']) map['idel-hs-living-sws'] = map['idel-hi
 if (map['idel-living-high-round-55']) map['idel-living-high-round-inner'] = map['idel-living-high-round-55'];
 if (map['idel-liparis']) map['idel-lipari-s'] = map['idel-liparis'];
 if (map['idel-twin-set-round-living']) map['idel-twin-set-classic-pot'] = map['idel-twin-set-round-living'];
-if (map['idel-mosaic-curve-90']) map['idel-mosaic-curve-high'] = map['idel-mosaic-curve-90'];
+if (map['idel-mosaic-curve-13']) {
+  map['idel-mosaic-curve'] = map['idel-mosaic-curve-13'];
+}
+if (map['idel-mosaic-curve-90']) {
+  map['idel-mosaic-curve-high'] = map['idel-mosaic-curve-90'];
+  map['idel-mosaic-curve-high-90'] = map['idel-mosaic-curve-90'];
+}
 if (map['quadro-37']) {
   map['idel-quadro-lt20'] = map['quadro-37'];
   map['idel-quadro-saucer'] = map['quadro-37'];
@@ -147,13 +169,36 @@ if (map['idel-versilia']) {
   map['pb-maxiflowerbox-saucer-wheel'] = map['idel-versilia'];
 }
 
+// Bio-Compost aliases
+if (map['idel-bio-compost']) {
+  map['idel-bio-compost-italia-saucer-4-5l'] = map['idel-bio-compost'];
+  map['idel-bio-compost-italia'] = map['idel-bio-compost'];
+}
+if (map['idel-bio-compost-liparis']) {
+  map['idel-bio-compost-lipari-s'] = map['idel-bio-compost-liparis'];
+  map['idel-bio-compost-lipari'] = map['idel-bio-compost-liparis'];
+}
+if (map['idel-bio-compost-living-flowerboxs']) {
+  map['idel-bio-compost-living-flowerbox-s'] = map['idel-bio-compost-living-flowerboxs'];
+  map['idel-bio-compost-living-flowerbox'] = map['idel-bio-compost-living-flowerboxs'];
+}
+if (map['idel-bio-compost-tirreno-mini--saucer']) {
+  map['idel-bio-compost-tirreno-mini-saucer-2-5l'] = map['idel-bio-compost-tirreno-mini--saucer'];
+  map['idel-bio-compost-tirreno-mini-saucer'] = map['idel-bio-compost-tirreno-mini--saucer'];
+  map['idel-bio-compost-tirreno-mini'] = map['idel-bio-compost-tirreno-mini--saucer'];
+}
+if (map['idel-ducale']) map['idel-ducale-lt60'] = map['idel-ducale'];
+if (map['idel-hang-etrusco']) map['idel-hang-etrusco-3-2l'] = map['idel-hang-etrusco'];
+if (map['idel-jenny']) map['idel-jenny-3lt'] = map['idel-jenny'];
+if (map['idel-smart-flowerbox']) map['idel-smart-flowerbox-w-sws'] = map['idel-smart-flowerbox'];
+if (map['desch-emma']) map['desch-pots'] = map['desch-emma'];
+if (map['idel-volterra']) map['idel-terme'] = map['idel-volterra'];
+
 const lines = [
   '// AUTO-GENERATED by scripts/generate-image-map.cjs — do not edit manually',
   '// Run: node scripts/generate-image-map.cjs',
   '',
   "import { resolveProductImageForColor } from './colorImageResolver.js';",
-  '',
-  'const BASE = \'/images/products\';',
   '',
   'export const productImageMap = {',
   ...Object.entries(map).map(([slug, imgs]) => {
@@ -167,15 +212,15 @@ const lines = [
   '  if (!slug) return [\'/images/placeholder-pot.jpg\'];',
   '  const clean = String(slug).toLowerCase().trim();',
   '  if (productImageMap[clean] && productImageMap[clean].length > 0) return productImageMap[clean];',
-  '  const key = Object.keys(productImageMap).find(k => clean.includes(k) || k.includes(clean));',
+  '  const key = Object.keys(productImageMap).filter(k => k.length > 2).sort((a, b) => b.length - a.length).find(k => clean.includes(k) || k.includes(clean));',
   '  if (key && productImageMap[key].length > 0) return productImageMap[key];',
   '  return [\'/images/placeholder-pot.jpg\'];',
   '}',
   '',
-  '/** Get images for a catalog product, preferring its exact category folder. */',
+  '/** Get images for a catalog product, preferring its exact slug / ID before category folder. */',
   'export function getProductImagesForProduct(product) {',
   '  if (!product) return [\'/images/placeholder-pot.jpg\'];',
-  '  const candidates = [product.categorySlug, product.slug, product.id]',
+  '  const candidates = [product.slug, product.id, product.categorySlug]',
   '    .filter(Boolean)',
   '    .map(value => String(value).toLowerCase().trim());',
   '  const key = candidates.find(candidate => productImageMap[candidate]?.length > 0);',

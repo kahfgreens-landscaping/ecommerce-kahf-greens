@@ -4,7 +4,7 @@
  */
 import { useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { SlidersHorizontal, X, ChevronDown } from 'lucide-react';
+import { SlidersHorizontal, X } from 'lucide-react';
 import ProductCard from '../components/ui/ProductCard';
 import catalogData from '../data/catalog.json';
 import { getColorHex } from '../lib/utils';

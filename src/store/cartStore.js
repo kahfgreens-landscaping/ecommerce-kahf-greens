@@ -47,6 +47,8 @@ export const useCartStore = create(
 
       clearCart: () => set({ items: [] }),
 
+      getTotalItems: () => get().items.reduce((s, i) => s + i.quantity, 0),
+      getSubtotal: () => get().items.reduce((s, i) => s + (i.variant.price || 0) * i.quantity, 0),
       get totalItems() { return get().items.reduce((s, i) => s + i.quantity, 0); },
       get subtotal() {
         return get().items.reduce((s, i) => s + (i.variant.price || 0) * i.quantity, 0);

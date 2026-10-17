@@ -3,14 +3,14 @@
  * Main storefront landing page
  */
 import { Link } from 'react-router-dom';
-import { ArrowRight, Star, Truck, Shield, RotateCcw, Leaf } from 'lucide-react';
+import { ArrowRight, Star, Truck, Shield, Leaf } from 'lucide-react';
 import ProductCard from '../components/ui/ProductCard';
 import catalogData from '../data/catalog.json';
 
 const HERO_COLLECTIONS = [
-  { name: 'Idel Collection', slug: 'idel', desc: 'Italian-crafted premium planters', img: '/images/products/idel-classic-matte-round/idel-classic-matte-round__yellow__02.png' },
-  { name: 'Pottery Pots', slug: 'pottery-pots', desc: 'Handfinished luxury finishes', img: '/images/products/pottery-pots/pottery-pots__beth-gold__01.jpg' },
-  { name: 'Desch Pots', slug: 'desch-pots', desc: 'Commercial growing & nursery containers', img: '/images/products/idel-bio-compost/idel-bio-compost__lifestyle__01.png' },
+  { name: 'Idel Collection', slug: 'idel', desc: 'Italian-crafted premium planters', img: '/images/products/idel-mosaic-curve-55/idel-mosaic-curve-55__gray__01.jpg' },
+  { name: 'Pottery Pots', slug: 'pottery-pots', desc: 'Handfinished luxury finishes', img: '/images/products/pottery-pots/pottery-pots__beth-gold__04.png' },
+  { name: 'Desch Pots', slug: 'desch-pots', desc: 'Commercial growing & nursery containers', img: '/images/products/desch-emma/desch-emma__terracotta__01.jpg' },
 ];
 
 const TRUST_ITEMS = [
@@ -24,7 +24,7 @@ const TRUST_ITEMS = [
 const FEATURED = catalogData.products
   .filter(p => p.inStock && p.minPrice)
   .sort((a, b) => b.totalQuantity - a.totalQuantity)
-  .slice(0, 8);
+  .slice(0, 12);
 
 export default function HomePage() {
   return (
@@ -62,9 +62,9 @@ export default function HomePage() {
             </div>
             <div className="relative min-h-[300px] md:min-h-full overflow-hidden bg-[#ebe6da]">
               <img
-                src="/images/products/idel-living-high-round-55/idel-living-high-round-55__lifestyle__01.jpg"
+                src="/images/products/idel-mosaic-curve-55/idel-mosaic-curve-55__yellow__01.jpg"
                 alt="A sculptural planter with evergreen foliage"
-                className="absolute inset-0 w-full h-full object-contain object-center mix-blend-multiply p-4 md:p-7"
+                className="absolute inset-0 w-full h-full object-cover object-center mix-blend-multiply"
                 onError={e => { e.currentTarget.src = '/images/placeholder-pot.jpg'; }}
               />
               <div className="absolute bottom-5 right-5 md:bottom-8 md:right-8 bg-[#faf9f5]/90 backdrop-blur px-4 py-3">

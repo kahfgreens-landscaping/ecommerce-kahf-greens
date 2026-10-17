@@ -1,11 +1,29 @@
 /**
  * App.jsx — Main router
  */
-import { lazy, Suspense } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { lazy, Suspense, useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import WhatsAppFloat from './components/ui/WhatsAppFloat';
+
+// Scroll restoration to top on any route navigation
+function ScrollToTop() {
+  const { pathname, search, hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const el = document.getElementById(hash.slice(1));
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+        return;
+      }
+    }
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, [pathname, search, hash]);
+
+  return null;
+}
 
 // Lazy load pages
 const HomePage         = lazy(() => import('./pages/HomePage'));
@@ -16,6 +34,7 @@ const WishlistPage     = lazy(() => import('./pages/WishlistPage'));
 const ContactPage      = lazy(() => import('./pages/ContactPage'));
 const BlogsPage        = lazy(() => import('./pages/BlogsPage'));
 const AdminPage        = lazy(() => import('./pages/admin/AdminPage'));
+const CheckoutPage     = lazy(() => import('./pages/CheckoutPage'));
 
 function PageLoader() {
   return (
@@ -43,7 +62,9 @@ function StoreLayout({ children }) {
 
 export default function App() {
   return (
-    <Routes>
+    <>
+      <ScrollToTop />
+      <Routes>
       {/* Admin — no store header */}
       <Route path="/admin/*" element={
         <Suspense fallback={<PageLoader />}><AdminPage /></Suspense>
@@ -65,11 +86,12 @@ export default function App() {
       <Route path="/b2b" element={<StoreLayout><PlaceholderPage title="B2B & Wholesale" /></StoreLayout>} />
       <Route path="/privacy" element={<StoreLayout><PlaceholderPage title="Privacy Policy" /></StoreLayout>} />
       <Route path="/terms" element={<StoreLayout><PlaceholderPage title="Terms & Conditions" /></StoreLayout>} />
-      <Route path="/checkout" element={<StoreLayout><PlaceholderPage title="Checkout (Coming Soon)" /></StoreLayout>} />
+      <Route path="/checkout" element={<StoreLayout><CheckoutPage /></StoreLayout>} />
 
       {/* 404 */}
       <Route path="*" element={<StoreLayout><PlaceholderPage title="Page Not Found" /></StoreLayout>} />
     </Routes>
+    </>
   );
 }
 

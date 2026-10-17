@@ -10,7 +10,9 @@ import ProductCard from '../components/ui/ProductCard';
 
 export default function ProductDetailPage() {
   const { slug } = useParams();
-  const product = catalogData.products.find(p => p.slug === slug);
+  const product = catalogData.products.find(p => p.slug === slug)
+    || (slug === 'idel-mosaic-curve' ? catalogData.products.find(p => p.slug === 'idel-mosaic-curve-13') : null)
+    || (slug === 'idel-mosaic-curve-high' || slug === 'idel-mosaic-curve-high-90' ? catalogData.products.find(p => p.slug === 'idel-mosaic-curve-90') : null);
   const { addItem, openCart } = useCartStore();
   const { toggle, isWishlisted } = useWishlistStore();
 
@@ -19,6 +21,13 @@ export default function ProductDetailPage() {
   const [imgIdx, setImgIdx] = useState(0);
   const [added, setAdded]   = useState(false);
   const [isFullScreen, setIsFullScreen] = useState(false);
+
+  // Reset state when navigating between products
+  useEffect(() => {
+    setSelectedColor(null);
+    setSelectedSize(null);
+    setImgIdx(0);
+  }, [slug]);
 
   const images = getProductImagesForProduct(product);
 
@@ -350,14 +359,34 @@ export default function ProductDetailPage() {
           </div>
 
           {/* WhatsApp order */}
-          <a
-            href={`https://wa.me/971565096880?text=Hi%20Kahf%20Greens!%20I'm%20interested%20in%20${encodeURIComponent(product.name)}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 w-full py-3 rounded-xl border-2 border-green-200 bg-green-50 text-green-700 font-semibold text-sm hover:bg-green-100 transition-colors mb-6"
-          >
-            <MessageCircle className="w-4 h-4" /> Order via WhatsApp
-          </a>
+          {(() => {
+            const variantColor = selectedVariant?.color || 'Standard';
+            const variantSize = selectedVariant?.sizeLabel || (selectedVariant?.size ? `${selectedVariant.size} ${selectedVariant.sizeUnit || 'cm'}` : '');
+            const msg = [
+              '🌿 *KAHF GREENS* | *PRODUCT INQUIRY*',
+              '━━━━━━━━━━━━━━━━━━━━━━━━',
+              '📦 *PRODUCT SPECIFICATIONS*',
+              '────────────────────────',
+              `▫ *Product:* ${product.name}`,
+              `▫ *Color:* ${variantColor} color`,
+              variantSize ? `▫ *Size / Spec:* ${variantSize}` : null,
+              selectedVariant?.sku ? `▫ *SKU:* \`${selectedVariant.sku}\`` : null,
+              `▫ *Price:* ${formatPrice(selectedVariant?.price)}`,
+              '━━━━━━━━━━━━━━━━━━━━━━━━',
+              '💬 *Please confirm item availability and delivery options. Thank you!*',
+            ].filter(Boolean).join('\n');
+
+            return (
+              <a
+                href={`https://wa.me/971565096880?text=${encodeURIComponent(msg)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 w-full py-3 rounded-xl border-2 border-green-200 bg-green-50 text-green-700 font-semibold text-sm hover:bg-green-100 transition-colors mb-6"
+              >
+                <MessageCircle className="w-4 h-4" /> Order via WhatsApp ({variantColor} color)
+              </a>
+            );
+          })()}
 
           {/* Delivery info */}
           <div className="space-y-3 border-t border-border pt-5">

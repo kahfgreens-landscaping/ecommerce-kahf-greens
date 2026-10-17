@@ -6,8 +6,8 @@ import { useState, useEffect, useMemo } from 'react';
 import { Search, X, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import catalogData from '../../data/catalog.json';
-import { formatPriceRange, getColorHex } from '../../lib/utils';
-import { getProductImage } from '../../data/imageMap';
+import { formatPriceRange } from '../../lib/utils';
+import { getProductImageForProduct } from '../../data/imageMap';
 
 export default function SearchModal({ open, onClose }) {
   const [query, setQuery] = useState('');
@@ -68,7 +68,7 @@ export default function SearchModal({ open, onClose }) {
                 >
                   <div className="w-14 h-14 rounded-lg overflow-hidden bg-muted shrink-0">
                     <img
-                      src={getProductImage(product.id)}
+                      src={getProductImageForProduct(product)}
                       alt={product.name}
                       className="w-full h-full object-cover"
                       onError={e => { e.target.src = '/images/placeholder-pot.jpg'; }}

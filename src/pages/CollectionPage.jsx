@@ -15,7 +15,16 @@ const COLLECTION_MAP = {
 
 export default function CollectionPage() {
   const { slug } = useParams();
-  const collection = COLLECTION_MAP[slug];
+  let collection = COLLECTION_MAP[slug];
+  if (!collection && slug) {
+    const matchedCategory = catalogData.categories.find(c => c.slug === slug);
+    if (matchedCategory) {
+      collection = {
+        label: matchedCategory.name,
+        filter: p => p.categorySlug === matchedCategory.slug || p.category === matchedCategory.name,
+      };
+    }
+  }
 
   if (!collection) return (
     <div className="container py-20 text-center">
